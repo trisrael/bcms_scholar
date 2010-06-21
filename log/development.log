@@ -1,0 +1,1125 @@
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::HomeController#index (for 127.0.0.1 at 2010-06-21 01:13:15) [GET]
+  [4;36;1mGuestUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'ddc_bcms_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+Handling Exception: Mysql::Error: Table 'ddc_bcms_development.users' doesn't exist: SHOW FIELDS FROM `users`
+Rendering template within layouts/cms/application
+Rendering cms/shared/error (internal_server_error)
+Rendered layouts/cms/_head (5.1ms)
+  [4;35;1mGuestUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'ddc_bcms_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-21 01:13:15) [GET]
+
+ActionView::TemplateError (Mysql::Error: Table 'ddc_bcms_development.users' doesn't exist: SHOW FIELDS FROM `users`) on line #1 of /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/app/views/layouts/_cms_toolbar.html.erb:
+1: <% able_to? :edit_content, :publish_content, :administrate do -%>
+2:   <div id="nav">
+3:   	<h1><%= link_to image_tag("cms/browsercms_logo.png"), "/", :target => "_top" %></h1>
+4:     	<ul id="section">
+
+    browsercms (3.1.0) app/models/guest_user.rb:10:in `initialize'
+    browsercms (3.1.0) app/models/user.rb:34:in `new'
+    browsercms (3.1.0) app/models/user.rb:34:in `guest'
+    browsercms (3.1.0) lib/cms/authentication/controller.rb:41:in `current_user'
+    (eval):2:in `send'
+    (eval):2:in `current_user'
+    browsercms (3.1.0) app/helpers/cms/page_helper.rb:88:in `able_to?'
+    browsercms (3.1.0) app/views/layouts/_cms_toolbar.html.erb:1
+    browsercms (3.1.0) app/helpers/cms/rendering_helper.rb:39:in `render_cms_toolbar'
+    browsercms (3.1.0) app/views/layouts/cms/application.html.erb:5
+    browsercms (3.1.0) app/controllers/cms/error_handling.rb:15:in `handle_server_error'
+
+Rendered rescues/_trace (72.4ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to Browsercms300 (20080815014337)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (158.0ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `login` varchar(40), `first_name` varchar(40), `last_name` varchar(40), `email` varchar(40), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `expires_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `users`[0m
+  [4;35;1mSQL (278.6ms)[0m   [0mCREATE UNIQUE INDEX `index_users_on_login` ON `users` (`login`)[0m
+  [4;36;1mSQL (122.0ms)[0m   [0;1mCREATE TABLE `dynamic_views` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `type` varchar(255), `name` varchar(255), `format` varchar(255), `handler` varchar(255), `body` text, `created_at` datetime, `updated_at` datetime, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;35;1mSQL (175.2ms)[0m   [0mCREATE TABLE `dynamic_view_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `dynamic_view_id` int(11), `version` int(11), `type` varchar(255), `name` varchar(255), `format` varchar(255), `handler` varchar(255), `body` text, `created_at` datetime, `updated_at` datetime, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;36;1mSQL (108.0ms)[0m   [0;1mCREATE TABLE `pages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `name` varchar(255), `title` varchar(255), `path` varchar(255), `template_file_name` varchar(255), `description` text, `keywords` text, `language` varchar(255), `cacheable` tinyint(1) DEFAULT 0, `hidden` tinyint(1) DEFAULT 0, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;35;1mSQL (62.9ms)[0m   [0mCREATE TABLE `page_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `page_id` int(11), `version` int(11), `name` varchar(255), `title` varchar(255), `path` varchar(255), `template_file_name` varchar(255), `description` text, `keywords` text, `language` varchar(255), `cacheable` tinyint(1) DEFAULT 0, `hidden` tinyint(1) DEFAULT 0, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;36;1mSQL (165.7ms)[0m   [0;1mCREATE TABLE `content_type_groups` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mContentTypeGroup Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `content_type_groups`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContentTypeGroup Create (0.4ms)[0m   [0mINSERT INTO `content_type_groups` (`name`, `created_at`, `updated_at`) VALUES('Core', '2010-06-21 05:28:49', '2010-06-21 05:28:49')[0m
+  [4;36;1mSQL (63.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (154.9ms)[0m   [0mCREATE TABLE `content_types` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `content_type_group_id` int(11), `priority` int(11) DEFAULT 2, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.8ms)[0m   [0;1mCREATE TABLE `category_types` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mContentType Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `content_types`[0m
+  [4;36;1mSQL (3.9ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContentTypeGroup Load (0.3ms)[0m   [0mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Categorization') LIMIT 1[0m
+  [4;36;1mContentTypeGroup Create (0.3ms)[0m   [0;1mINSERT INTO `content_type_groups` (`name`, `created_at`, `updated_at`) VALUES('Categorization', '2010-06-21 05:28:49', '2010-06-21 05:28:49')[0m
+  [4;35;1mContentType Create (0.2ms)[0m   [0mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('CategoryType', '2010-06-21 05:28:49', '2010-06-21 05:28:49', 2, 2)[0m
+  [4;36;1mSQL (54.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (143.9ms)[0m   [0mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `category_type_id` int(11), `parent_id` int(11), `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContentTypeGroup Load (0.4ms)[0m   [0mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Categorization') LIMIT 1[0m
+  [4;36;1mContentType Create (0.3ms)[0m   [0;1mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('Category', '2010-06-21 05:28:50', '2010-06-21 05:28:50', 2, 2)[0m
+  [4;35;1mSQL (48.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (167.5ms)[0m   [0;1mCREATE TABLE `connectors` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `page_id` int(11), `page_version` int(11), `connectable_id` int(11), `connectable_type` varchar(255), `connectable_version` int(11), `container` varchar(255), `position` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (110.0ms)[0m   [0mCREATE TABLE `html_blocks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `name` varchar(255), `content` varchar(65537), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;36;1mSQL (64.2ms)[0m   [0;1mCREATE TABLE `html_block_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `html_block_id` int(11), `version` int(11), `name` varchar(255), `content` varchar(65537), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContentTypeGroup Load (0.4ms)[0m   [0;1mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Core') LIMIT 1[0m
+  [4;35;1mContentType Create (0.3ms)[0m   [0mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('HtmlBlock', '2010-06-21 05:28:50', '2010-06-21 05:28:50', 1, 1)[0m
+  [4;36;1mSQL (48.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (154.8ms)[0m   [0mCREATE TABLE `sections` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `path` varchar(255), `root` tinyint(1) DEFAULT 0, `hidden` tinyint(1) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.2ms)[0m   [0;1mCREATE TABLE `portlets` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `type` varchar(255), `name` varchar(255), `archived` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (143.8ms)[0m   [0mCREATE TABLE `portlet_attributes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `portlet_id` int(11), `name` varchar(255), `value` text) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mContentTypeGroup Load (0.1ms)[0m   [0mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Core') LIMIT 1[0m
+  [4;36;1mContentType Create (0.4ms)[0m   [0;1mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('Portlet', '2010-06-21 05:28:50', '2010-06-21 05:28:50', 1, 1)[0m
+  [4;35;1mSQL (48.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (144.0ms)[0m   [0;1mCREATE TABLE `redirects` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `from_path` varchar(255), `to_path` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (97.7ms)[0m   [0mCREATE TABLE `attachments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `file_path` varchar(255), `file_location` varchar(255), `file_extension` varchar(255), `file_type` varchar(255), `file_size` int(11), `created_at` datetime, `updated_at` datetime, `name` varchar(255), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;36;1mSQL (63.5ms)[0m   [0;1mCREATE TABLE `attachment_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `attachment_id` int(11), `version` int(11), `file_path` varchar(255), `file_location` varchar(255), `file_extension` varchar(255), `file_type` varchar(255), `file_size` int(11), `created_at` datetime, `updated_at` datetime, `name` varchar(255), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;35;1mSQL (109.1ms)[0m   [0mCREATE TABLE `file_blocks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `type` varchar(255), `name` varchar(255), `attachment_id` int(11), `attachment_version` int(11), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;36;1mSQL (52.9ms)[0m   [0;1mCREATE TABLE `file_block_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `file_block_id` int(11), `version` int(11), `type` varchar(255), `name` varchar(255), `attachment_id` int(11), `attachment_version` int(11), `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11), `created_at` datetime, `updated_at` datetime) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContentTypeGroup Load (0.2ms)[0m   [0;1mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Core') LIMIT 1[0m
+  [4;35;1mContentType Create (0.3ms)[0m   [0mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('FileBlock', '2010-06-21 05:28:51', '2010-06-21 05:28:51', 2, 1)[0m
+  [4;36;1mSQL (49.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContentTypeGroup Load (0.2ms)[0m   [0;1mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Core') LIMIT 1[0m
+  [4;35;1mContentType Create (0.5ms)[0m   [0mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('ImageBlock', '2010-06-21 05:28:51', '2010-06-21 05:28:51', 2, 1)[0m
+  [4;36;1mSQL (73.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (154.9ms)[0m   [0mCREATE TABLE `group_types` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `guest` tinyint(1) DEFAULT 0, `cms_access` tinyint(1) DEFAULT 0, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.6ms)[0m   [0;1mCREATE TABLE `groups` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `code` varchar(255), `group_type_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (144.1ms)[0m   [0mCREATE TABLE `user_group_memberships` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `group_id` int(11)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.6ms)[0m   [0;1mCREATE TABLE `permissions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `full_name` varchar(255), `description` varchar(255), `for_module` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (144.0ms)[0m   [0mCREATE TABLE `group_permissions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `group_id` int(11), `permission_id` int(11)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (155.2ms)[0m   [0;1mCREATE TABLE `group_type_permissions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `group_type_id` int(11), `permission_id` int(11)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (155.2ms)[0m   [0mCREATE TABLE `group_sections` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `group_id` int(11), `section_id` int(11)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (143.7ms)[0m   [0;1mCREATE TABLE `sites` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `domain` varchar(255), `the_default` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (143.6ms)[0m   [0mCREATE TABLE `section_nodes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `section_id` int(11), `node_type` varchar(255), `node_id` int(11), `position` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (109.4ms)[0m   [0;1mCREATE TABLE `links` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `version` int(11), `lock_version` int(11) DEFAULT 0, `name` varchar(255), `url` varchar(255), `new_window` tinyint(1) DEFAULT 0, `created_at` datetime, `updated_at` datetime, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;35;1mSQL (54.8ms)[0m   [0mCREATE TABLE `link_versions` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `link_id` int(11), `version` int(11), `name` varchar(255), `url` varchar(255), `new_window` tinyint(1) DEFAULT 0, `created_at` datetime, `updated_at` datetime, `published` tinyint(1) DEFAULT 0, `deleted` tinyint(1) DEFAULT 0, `archived` tinyint(1) DEFAULT 0, `version_comment` varchar(255), `created_by_id` int(11), `updated_by_id` int(11)) [0m
+  [4;36;1mSQL (154.7ms)[0m   [0;1mCREATE TABLE `tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mContentTypeGroup Load (0.1ms)[0m   [0;1mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`name` = 'Categorization') LIMIT 1[0m
+  [4;35;1mContentType Create (0.9ms)[0m   [0mINSERT INTO `content_types` (`name`, `created_at`, `updated_at`, `priority`, `content_type_group_id`) VALUES('Tag', '2010-06-21 05:28:53', '2010-06-21 05:28:53', 2, 2)[0m
+  [4;36;1mSQL (37.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (143.8ms)[0m   [0mCREATE TABLE `taggings` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `tag_id` int(11), `taggable_id` int(11), `taggable_type` varchar(255), `taggable_version` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (154.1ms)[0m   [0;1mCREATE TABLE `email_messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sender` varchar(255), `recipients` text, `subject` text, `cc` text, `bcc` text, `body` text, `content_type` varchar(255), `delivered_at` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (165.5ms)[0m   [0mCREATE TABLE `tasks` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `assigned_by_id` int(11), `assigned_to_id` int(11), `page_id` int(11), `comment` text, `due_date` date, `completed_at` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (165.9ms)[0m   [0;1mCREATE TABLE `page_routes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `pattern` varchar(255), `page_id` int(11), `code` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (143.5ms)[0m   [0mCREATE TABLE `page_route_options` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `page_route_id` int(11), `type` varchar(255), `name` varchar(255), `value` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (44.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20080815014337')[0m
+Migrating to LoadSeedData (20081114172307)
+  [4;35;1mUser Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'cmsadmin') LIMIT 1[0m
+  [4;36;1mUser Create (0.2ms)[0m   [0;1mINSERT INTO `users` (`salt`, `created_at`, `expires_at`, `crypted_password`, `remember_token_expires_at`, `updated_at`, `last_name`, `remember_token`, `login`, `first_name`, `email`) VALUES('5c46492bd1a5a4e41fb7bca4e5ad84b71c2e0eee', '2010-06-21 05:28:54', NULL, '31e35f7ff8aea13a26d39c28becdce3301829a3a', NULL, '2010-06-21 05:28:54', 'Administrator', NULL, 'cmsadmin', 'CMS', 'cmsadmin@example.com')[0m
+  [4;35;1mSQL (62.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPermission Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `permissions`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPermission Load (0.3ms)[0m   [0;1mSELECT `permissions`.id FROM `permissions` WHERE (`permissions`.`name` = BINARY 'administrate') LIMIT 1[0m
+  [4;35;1mPermission Create (0.2ms)[0m   [0mINSERT INTO `permissions` (`name`, `created_at`, `updated_at`, `for_module`, `full_name`, `description`) VALUES('administrate', '2010-06-21 05:28:54', '2010-06-21 05:28:54', NULL, 'Administer CMS', 'Allows users to administer the CMS, including adding users and groups.')[0m
+  [4;36;1mSQL (48.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPermission Load (0.5ms)[0m   [0;1mSELECT `permissions`.id FROM `permissions` WHERE (`permissions`.`name` = BINARY 'edit_content') LIMIT 1[0m
+  [4;35;1mPermission Create (0.4ms)[0m   [0mINSERT INTO `permissions` (`name`, `created_at`, `updated_at`, `for_module`, `full_name`, `description`) VALUES('edit_content', '2010-06-21 05:28:54', '2010-06-21 05:28:54', NULL, 'Edit Content', 'Allows users to Add, Edit and Delete both Pages and Blocks. Can Save (but not Publish) and Assign them as well.')[0m
+  [4;36;1mSQL (68.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT `permissions`.id FROM `permissions` WHERE (`permissions`.`name` = BINARY 'publish_content') LIMIT 1[0m
+  [4;35;1mPermission Create (0.3ms)[0m   [0mINSERT INTO `permissions` (`name`, `created_at`, `updated_at`, `for_module`, `full_name`, `description`) VALUES('publish_content', '2010-06-21 05:28:54', '2010-06-21 05:28:54', NULL, 'Publish Content', 'Allows users to Save and Publish, Hide and Archive both Pages and Blocks.')[0m
+  [4;36;1mSQL (47.3ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroupType Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `group_types`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroupType Create (0.4ms)[0m   [0mINSERT INTO `group_types` (`name`, `created_at`, `updated_at`, `cms_access`, `guest`) VALUES('Guest', '2010-06-21 05:28:54', '2010-06-21 05:28:54', 0, 1)[0m
+  [4;36;1mSQL (62.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupType Create (0.3ms)[0m   [0;1mINSERT INTO `group_types` (`name`, `created_at`, `updated_at`, `cms_access`, `guest`) VALUES('Registered Public User', '2010-06-21 05:28:54', '2010-06-21 05:28:54', 0, 0)[0m
+  [4;35;1mSQL (38.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroupType Create (0.3ms)[0m   [0mINSERT INTO `group_types` (`name`, `created_at`, `updated_at`, `cms_access`, `guest`) VALUES('CMS User', '2010-06-21 05:28:54', '2010-06-21 05:28:54', 1, 0)[0m
+  [4;36;1mSQL (60.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroupType Load (0.4ms)[0m   [0mSELECT * FROM `group_types` WHERE (`group_types`.`id` = 3) [0m
+  [4;36;1mPermission Load (0.5ms)[0m   [0;1mSELECT * FROM `permissions` WHERE (`permissions`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupTypePermission Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `group_type_permissions`[0m
+  [4;35;1mGroupTypePermission Create (0.3ms)[0m   [0mINSERT INTO `group_type_permissions` (`group_type_id`, `permission_id`) VALUES(3, 2)[0m
+  [4;36;1mSQL (60.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroupType Load (0.1ms)[0m   [0mSELECT * FROM `group_types` WHERE (`group_types`.`id` = 3) [0m
+  [4;36;1mPermission Load (0.4ms)[0m   [0;1mSELECT * FROM `permissions` WHERE (`permissions`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupTypePermission Create (0.3ms)[0m   [0;1mINSERT INTO `group_type_permissions` (`group_type_id`, `permission_id`) VALUES(3, 3)[0m
+  [4;35;1mSQL (48.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mGroupType Load (0.4ms)[0m   [0;1mSELECT * FROM `group_types` WHERE (`group_types`.`id` = 1) [0m
+  [4;35;1mGroup Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `groups`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroup Create (0.4ms)[0m   [0mINSERT INTO `groups` (`name`, `created_at`, `code`, `group_type_id`, `updated_at`) VALUES('Guest', '2010-06-21 05:28:55', 'guest', 1, '2010-06-21 05:28:55')[0m
+  [4;36;1mSQL (49.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroupType Load (0.2ms)[0m   [0mSELECT * FROM `group_types` WHERE (`group_types`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroup Create (0.5ms)[0m   [0mINSERT INTO `groups` (`name`, `created_at`, `code`, `group_type_id`, `updated_at`) VALUES('Cms Administrators', '2010-06-21 05:28:55', 'cms-admin', 3, '2010-06-21 05:28:55')[0m
+  [4;36;1mSQL (80.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroupType Load (0.1ms)[0m   [0mSELECT * FROM `group_types` WHERE (`group_types`.`id` = 3) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroup Create (0.3ms)[0m   [0mINSERT INTO `groups` (`name`, `created_at`, `code`, `group_type_id`, `updated_at`) VALUES('Content Editors', '2010-06-21 05:28:55', 'content-editor', 3, '2010-06-21 05:28:55')[0m
+  [4;36;1mSQL (47.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.5ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mGroup Load (0.5ms)[0m   [0;1mSELECT * FROM `groups` WHERE (`groups`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUserGroupMembership Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `user_group_memberships`[0m
+  [4;35;1mUserGroupMembership Create (0.2ms)[0m   [0mINSERT INTO `user_group_memberships` (`group_id`, `user_id`) VALUES(2, 1)[0m
+  [4;36;1mSQL (73.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.1ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mGroup Load (0.4ms)[0m   [0;1mSELECT * FROM `groups` WHERE (`groups`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUserGroupMembership Create (0.3ms)[0m   [0;1mINSERT INTO `user_group_memberships` (`group_id`, `user_id`) VALUES(3, 1)[0m
+  [4;35;1mSQL (48.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mGroup Load (0.1ms)[0m   [0;1mSELECT * FROM `groups` WHERE (`groups`.`id` = 2) [0m
+  [4;35;1mPermission Load (0.5ms)[0m   [0mSELECT * FROM `permissions` WHERE (`permissions`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroupPermission Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `group_permissions`[0m
+  [4;36;1mGroupPermission Load (0.3ms)[0m   [0;1mSELECT `group_permissions`.id FROM `group_permissions` WHERE (`group_permissions`.`permission_id` = 1 AND `group_permissions`.group_id = 2) LIMIT 1[0m
+  [4;35;1mGroupPermission Create (0.2ms)[0m   [0mINSERT INTO `group_permissions` (`permission_id`, `group_id`) VALUES(1, 2)[0m
+  [4;36;1mSQL (38.2ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroup Load (0.2ms)[0m   [0mSELECT * FROM `groups` WHERE (`groups`.`id` = 3) [0m
+  [4;36;1mPermission Load (0.1ms)[0m   [0;1mSELECT * FROM `permissions` WHERE (`permissions`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupPermission Load (0.4ms)[0m   [0;1mSELECT `group_permissions`.id FROM `group_permissions` WHERE (`group_permissions`.`permission_id` = 2 AND `group_permissions`.group_id = 3) LIMIT 1[0m
+  [4;35;1mGroupPermission Create (0.2ms)[0m   [0mINSERT INTO `group_permissions` (`permission_id`, `group_id`) VALUES(2, 3)[0m
+  [4;36;1mSQL (47.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroup Load (0.2ms)[0m   [0mSELECT * FROM `groups` WHERE (`groups`.`id` = 3) [0m
+  [4;36;1mPermission Load (0.1ms)[0m   [0;1mSELECT * FROM `permissions` WHERE (`permissions`.`id` = 3) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupPermission Load (0.5ms)[0m   [0;1mSELECT `group_permissions`.id FROM `group_permissions` WHERE (`group_permissions`.`permission_id` = 3 AND `group_permissions`.group_id = 3) LIMIT 1[0m
+  [4;35;1mGroupPermission Create (0.3ms)[0m   [0mINSERT INTO `group_permissions` (`permission_id`, `group_id`) VALUES(3, 3)[0m
+  [4;36;1mSQL (46.0ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSite Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `sites`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSite Load (0.4ms)[0m   [0mSELECT `sites`.id FROM `sites` WHERE (`sites`.`domain` = BINARY 'example.com') LIMIT 1[0m
+  [4;36;1mSite Create (0.3ms)[0m   [0;1mINSERT INTO `sites` (`name`, `created_at`, `updated_at`, `domain`, `the_default`) VALUES('Default', '2010-06-21 05:28:55', '2010-06-21 05:28:55', 'example.com', NULL)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `sites` WHERE (`sites`.`the_default` = 1) [0m
+  [4;36;1mSite Update (0.2ms)[0m   [0;1mUPDATE `sites` SET the_default = 0 [0m
+  [4;35;1mSite Update (0.2ms)[0m   [0mUPDATE `sites` SET `updated_at` = '2010-06-21 05:28:55', `name` = 'Default', `created_at` = '2010-06-21 05:28:55', `the_default` = 1, `domain` = 'example.com' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `sites` WHERE (`sites`.`the_default` = 1) [0m
+  [4;35;1mSQL (45.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSection Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `sections`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mSection Create (0.2ms)[0m   [0;1mINSERT INTO `sections` (`name`, `created_at`, `updated_at`, `root`, `path`, `hidden`) VALUES('My Site', '2010-06-21 05:28:55', '2010-06-21 05:28:55', 1, '/', 0)[0m
+  [4;35;1mSQL (59.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSection Load (0.4ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;35;1mSectionNode Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `section_nodes`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSection Create (1.2ms)[0m   [0mINSERT INTO `sections` (`name`, `created_at`, `updated_at`, `root`, `path`, `hidden`) VALUES('system', '2010-06-21 05:28:55', '2010-06-21 05:28:55', 0, '/system', 1)[0m
+  [4;36;1mSectionNode Load (0.7ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (section_id = 1) ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mSectionNode Create (0.3ms)[0m   [0mINSERT INTO `section_nodes` (`position`, `created_at`, `section_id`, `node_type`, `updated_at`, `node_id`) VALUES(1, '2010-06-21 05:28:55', 1, 'Section', '2010-06-21 05:28:55', 2)[0m
+  [4;36;1mSQL (63.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mGroup Load (0.4ms)[0m   [0mSELECT * FROM `groups` [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM `sections` [0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT `sections`.* FROM `sections` INNER JOIN `group_sections` ON `sections`.id = `group_sections`.section_id WHERE ((`group_sections`.group_id = 1)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mGroupSection Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `group_sections`[0m
+  [4;36;1mGroupSection Create (0.3ms)[0m   [0;1mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(1, 1)[0m
+  [4;35;1mGroupSection Create (0.1ms)[0m   [0mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(2, 1)[0m
+  [4;36;1mSQL (61.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` [0m
+  [4;36;1mSection Load (0.5ms)[0m   [0;1mSELECT `sections`.* FROM `sections` INNER JOIN `group_sections` ON `sections`.id = `group_sections`.section_id WHERE ((`group_sections`.group_id = 2)) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupSection Create (0.3ms)[0m   [0;1mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(1, 2)[0m
+  [4;35;1mGroupSection Create (0.1ms)[0m   [0mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(2, 2)[0m
+  [4;36;1mSQL (46.4ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` [0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT `sections`.* FROM `sections` INNER JOIN `group_sections` ON `sections`.id = `group_sections`.section_id WHERE ((`group_sections`.group_id = 3)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mGroupSection Create (0.3ms)[0m   [0;1mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(1, 3)[0m
+  [4;35;1mGroupSection Create (0.3ms)[0m   [0mINSERT INTO `group_sections` (`section_id`, `group_id`) VALUES(2, 3)[0m
+  [4;36;1mSQL (47.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;36;1mPage Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/') AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `page_versions`[0m
+  [4;36;1mConnector Load (0.7ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 0) AND (`connectors`.page_id = NULL)) AND (`connectors`.page_id = NULL)) ORDER BY connectors.container, connectors.position[0m
+  [4;35;1mPage Create (0.4ms)[0m   [0mINSERT INTO `pages` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `lock_version`, `language`, `archived`, `deleted`, `version`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Home', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 0, NULL, 0, 0, 1, '/', NULL, NULL, 1, 0)[0m
+  [4;36;1mPage::Version Load (0.2ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = NULL) [0m
+  [4;35;1mPage::Version Create (0.3ms)[0m   [0mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Home', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 1, NULL, 0, 0, 1, 'Created', '/', NULL, NULL, 1, 0)[0m
+  [4;36;1mConnector Load (0.3ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (`connectors`.page_id = NULL) ORDER BY connectors.container, connectors.position[0m
+  [4;35;1mSectionNode Load (0.3ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (section_id = 1) ORDER BY position DESC LIMIT 1[0m
+  [4;36;1mSectionNode Create (0.2ms)[0m   [0;1mINSERT INTO `section_nodes` (`position`, `created_at`, `section_id`, `node_type`, `updated_at`, `node_id`) VALUES(2, '2010-06-21 05:28:56', 1, 'Page', '2010-06-21 05:28:56', 1)[0m
+  [4;35;1mSQL (58.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSection Load (0.3ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/not_found') AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.2ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 0) AND (`connectors`.page_id = NULL)) AND (`connectors`.page_id = NULL)) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mPage Create (0.5ms)[0m   [0;1mINSERT INTO `pages` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `lock_version`, `language`, `archived`, `deleted`, `version`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Page Not Found', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 0, NULL, 0, 0, 1, '/system/not_found', NULL, NULL, 1, 1)[0m
+  [4;35;1mPage::Version Load (0.5ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = NULL) [0m
+  [4;36;1mPage::Version Create (0.4ms)[0m   [0;1mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Page Not Found', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 2, NULL, 0, 0, 1, 'Created', '/system/not_found', NULL, NULL, 1, 1)[0m
+  [4;35;1mConnector Load (0.1ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = NULL) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mSectionNode Load (0.3ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (section_id = 2) ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mSectionNode Create (0.2ms)[0m   [0mINSERT INTO `section_nodes` (`position`, `created_at`, `section_id`, `node_type`, `updated_at`, `node_id`) VALUES(1, '2010-06-21 05:28:56', 2, 'Page', '2010-06-21 05:28:56', 2)[0m
+  [4;36;1mPage::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Update (0.6ms)[0m   [0mUPDATE `page_versions` SET `updated_at` = '2010-06-21 05:28:56', `published` = 1 WHERE `id` = 2[0m
+  [4;36;1mPage Publish (0.5ms)[0m   [0;1mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Page Not Found', `version` = 1, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/not_found', `archived` = 0 WHERE `id` = 2[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 2) AND (pages.deleted = 0) [0m
+  [4;36;1mConnector Load (0.3ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 2)) AND (`connectors`.page_id = 2)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;35;1mSQL (61.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/access_denied') AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.2ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 0) AND (`connectors`.page_id = NULL)) AND (`connectors`.page_id = NULL)) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mPage Create (0.6ms)[0m   [0;1mINSERT INTO `pages` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `lock_version`, `language`, `archived`, `deleted`, `version`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Access Denied', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 0, NULL, 0, 0, 1, '/system/access_denied', NULL, NULL, 1, 1)[0m
+  [4;35;1mPage::Version Load (0.3ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = NULL) [0m
+  [4;36;1mPage::Version Create (0.3ms)[0m   [0;1mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Access Denied', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 3, NULL, 0, 0, 1, 'Created', '/system/access_denied', NULL, NULL, 1, 1)[0m
+  [4;35;1mConnector Load (0.1ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = NULL) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mSectionNode Load (0.3ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (section_id = 2) ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mSectionNode Create (0.5ms)[0m   [0mINSERT INTO `section_nodes` (`position`, `created_at`, `section_id`, `node_type`, `updated_at`, `node_id`) VALUES(2, '2010-06-21 05:28:56', 2, 'Page', '2010-06-21 05:28:56', 3)[0m
+  [4;36;1mPage::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Update (0.7ms)[0m   [0mUPDATE `page_versions` SET `updated_at` = '2010-06-21 05:28:56', `published` = 1 WHERE `id` = 3[0m
+  [4;36;1mPage Publish (0.2ms)[0m   [0;1mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Access Denied', `version` = 1, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/access_denied', `archived` = 0 WHERE `id` = 3[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 3) AND (pages.deleted = 0) [0m
+  [4;36;1mConnector Load (1.0ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 3)) AND (`connectors`.page_id = 3)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;35;1mSQL (69.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mSQL (1.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/server_error') AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.2ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 0) AND (`connectors`.page_id = NULL)) AND (`connectors`.page_id = NULL)) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mPage Create (0.5ms)[0m   [0;1mINSERT INTO `pages` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `lock_version`, `language`, `archived`, `deleted`, `version`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Server Error', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 0, NULL, 0, 0, 1, '/system/server_error', NULL, NULL, 1, 1)[0m
+  [4;35;1mPage::Version Load (0.4ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = NULL) [0m
+  [4;36;1mPage::Version Create (0.3ms)[0m   [0;1mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Server Error', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 0, 1, '2010-06-21 05:28:56', 4, NULL, 0, 0, 1, 'Created', '/system/server_error', NULL, NULL, 1, 1)[0m
+  [4;35;1mConnector Load (0.1ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = NULL) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mSectionNode Load (0.4ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (section_id = 2) ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mSectionNode Create (0.2ms)[0m   [0mINSERT INTO `section_nodes` (`position`, `created_at`, `section_id`, `node_type`, `updated_at`, `node_id`) VALUES(3, '2010-06-21 05:28:56', 2, 'Page', '2010-06-21 05:28:56', 4)[0m
+  [4;36;1mPage::Version Load (0.7ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Update (0.4ms)[0m   [0mUPDATE `page_versions` SET `updated_at` = '2010-06-21 05:28:56', `published` = 1 WHERE `id` = 4[0m
+  [4;36;1mPage Publish (0.2ms)[0m   [0;1mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Server Error', `version` = 1, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/server_error', `archived` = 0 WHERE `id` = 4[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 4) AND (pages.deleted = 0) [0m
+  [4;36;1mConnector Load (0.3ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 4)) AND (`connectors`.page_id = 4)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;35;1mSQL (68.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mHtmlBlock Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `html_blocks`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHtmlBlock::Version Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `html_block_versions`[0m
+  [4;35;1mHtmlBlock Create (5.3ms)[0m   [0mINSERT INTO `html_blocks` (`name`, `updated_by_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `content`) VALUES('Page Not Found', 1, '2010-06-21 05:28:56', 0, 1, '2010-06-21 05:28:56', 0, 0, 0, 1, '<p>The page you tried to access does not exist on this server.</p>')[0m
+  [4;36;1mHtmlBlock::Version Load (0.2ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = NULL) [0m
+  [4;35;1mHtmlBlock::Version Create (0.3ms)[0m   [0mINSERT INTO `html_block_versions` (`name`, `updated_by_id`, `html_block_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `version_comment`, `content`) VALUES('Page Not Found', 1, 1, '2010-06-21 05:28:56', 0, 1, '2010-06-21 05:28:56', 0, 0, 1, 'Created', '<p>The page you tried to access does not exist on this server.</p>')[0m
+  [4;36;1mHtmlBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mConnector Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mPage Load Including Associations (0.5ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTagging Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (2.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 1) AND (`taggings`.taggable_type = 'HtmlBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.5ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 1 AND `taggings`.taggable_type = 'HtmlBlock') [0m
+  [4;36;1mHtmlBlock::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mHtmlBlock::Version Update (0.5ms)[0m   [0mUPDATE `html_block_versions` SET `updated_at` = '2010-06-21 05:28:56', `published` = 1 WHERE `id` = 1[0m
+  [4;36;1mHtmlBlock Publish (0.2ms)[0m   [0;1mUPDATE `html_blocks` SET `content` = '<p>The page you tried to access does not exist on this server.</p>', `deleted` = 0, `name` = 'Page Not Found', `version` = 1, `published` = 1, `archived` = 0 WHERE `id` = 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 2) AND (pages.deleted = 0) [0m
+  [4;35;1mHtmlBlock Load (0.2ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 1) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/not_found' AND `pages`.id <> 2) AND (pages.deleted = 0) [0m
+  [4;36;1mPage::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mConnector Load (0.3ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 2)) AND (`connectors`.page_id = 2)) ORDER BY connectors.container, connectors.position[0m
+  [4;35;1mPage::Version Create (0.3ms)[0m   [0mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Page Not Found', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 1, 1, '2010-06-21 05:28:56', 2, NULL, 0, 0, 2, 'Html Block \'Page Not Found\' was added to the \'main\' container', '/system/not_found', NULL, NULL, 1, 1)[0m
+  [4;36;1mPage::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mConnector Load (0.4ms)[0m   [0mSELECT * FROM `connectors` WHERE (connectors.page_id = 2 and connectors.page_version = 2 and connectors.container = 'main') ORDER BY position DESC LIMIT 1[0m
+  [4;36;1mConnector Create (0.2ms)[0m   [0;1mINSERT INTO `connectors` (`connectable_id`, `position`, `created_at`, `container`, `updated_at`, `page_id`, `connectable_version`, `page_version`, `connectable_type`) VALUES(1, 1, '2010-06-21 05:28:56', 'main', '2010-06-21 05:28:56', 2, 1, 2, 'HtmlBlock')[0m
+  [4;35;1mSQL (73.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 2) AND (pages.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage::Version Load (0.2ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Publish (0.5ms)[0m   [0mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Page Not Found', `version` = 2, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/not_found', `archived` = 0 WHERE `id` = 2[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 2) AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.5ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 2) AND (`connectors`.page_id = 2)) AND (`connectors`.page_id = 2)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;36;1mHtmlBlock Load (0.4ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 1) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mHtmlBlock::Version Load (0.2ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mHtmlBlock Create (0.3ms)[0m   [0;1mINSERT INTO `html_blocks` (`name`, `updated_by_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `content`) VALUES('Access Denied', 1, '2010-06-21 05:28:56', 0, 1, '2010-06-21 05:28:56', 0, 0, 0, 1, '<p>You have tried to reach a resource or page which you do not have permission to view.</p>')[0m
+  [4;35;1mHtmlBlock::Version Load (0.2ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = NULL) [0m
+  [4;36;1mHtmlBlock::Version Create (0.2ms)[0m   [0;1mINSERT INTO `html_block_versions` (`name`, `updated_by_id`, `html_block_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `version_comment`, `content`) VALUES('Access Denied', 1, 2, '2010-06-21 05:28:56', 0, 1, '2010-06-21 05:28:56', 0, 0, 1, 'Created', '<p>You have tried to reach a resource or page which you do not have permission to view.</p>')[0m
+  [4;35;1mHtmlBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (3.8ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 2) AND (`taggings`.taggable_type = 'HtmlBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.2ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 2 AND `taggings`.taggable_type = 'HtmlBlock') [0m
+  [4;35;1mHtmlBlock::Version Load (0.1ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mHtmlBlock::Version Update (0.3ms)[0m   [0;1mUPDATE `html_block_versions` SET `updated_at` = '2010-06-21 05:28:56', `published` = 1 WHERE `id` = 2[0m
+  [4;35;1mHtmlBlock Publish (0.2ms)[0m   [0mUPDATE `html_blocks` SET `content` = '<p>You have tried to reach a resource or page which you do not have permission to view.</p>', `deleted` = 0, `name` = 'Access Denied', `version` = 1, `published` = 1, `archived` = 0 WHERE `id` = 2[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 3) AND (pages.deleted = 0) [0m
+  [4;36;1mHtmlBlock Load (0.2ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 2) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/access_denied' AND `pages`.id <> 3) AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Load (2.5ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mConnector Load (0.3ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 3)) AND (`connectors`.page_id = 3)) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mPage::Version Create (0.3ms)[0m   [0;1mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Access Denied', 1, '2010-06-21 05:28:56', NULL, 'default.html.erb', 1, 1, '2010-06-21 05:28:56', 3, NULL, 0, 0, 2, 'Html Block \'Access Denied\' was added to the \'main\' container', '/system/access_denied', NULL, NULL, 1, 1)[0m
+  [4;35;1mPage::Version Load (0.9ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mConnector Load (0.5ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (connectors.page_id = 3 and connectors.page_version = 2 and connectors.container = 'main') ORDER BY position DESC LIMIT 1[0m
+  [4;35;1mConnector Create (0.2ms)[0m   [0mINSERT INTO `connectors` (`connectable_id`, `position`, `created_at`, `container`, `updated_at`, `page_id`, `connectable_version`, `page_version`, `connectable_type`) VALUES(2, 1, '2010-06-21 05:28:56', 'main', '2010-06-21 05:28:56', 3, 1, 2, 'HtmlBlock')[0m
+  [4;36;1mSQL (90.9ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 3) AND (pages.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Publish (0.5ms)[0m   [0;1mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Access Denied', `version` = 2, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/access_denied', `archived` = 0 WHERE `id` = 3[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 3) AND (pages.deleted = 0) [0m
+  [4;36;1mConnector Load (0.6ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 2) AND (`connectors`.page_id = 3)) AND (`connectors`.page_id = 3)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;35;1mHtmlBlock Load (0.3ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 2) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mHtmlBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mHtmlBlock Create (0.3ms)[0m   [0mINSERT INTO `html_blocks` (`name`, `updated_by_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `content`) VALUES('Server Error', 1, '2010-06-21 05:28:57', 0, 1, '2010-06-21 05:28:57', 0, 0, 0, 1, '<p>The server encountered an unexpected condition that prevented it from fulfilling the request.</p>')[0m
+  [4;36;1mHtmlBlock::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = NULL) [0m
+  [4;35;1mHtmlBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `html_block_versions` (`name`, `updated_by_id`, `html_block_id`, `created_at`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `version_comment`, `content`) VALUES('Server Error', 1, 3, '2010-06-21 05:28:57', 0, 1, '2010-06-21 05:28:57', 0, 0, 1, 'Created', '<p>The server encountered an unexpected condition that prevented it from fulfilling the request.</p>')[0m
+  [4;36;1mHtmlBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.5ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 3 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 3) AND (`taggings`.taggable_type = 'HtmlBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 3 AND `taggings`.taggable_type = 'HtmlBlock') [0m
+  [4;36;1mHtmlBlock::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mHtmlBlock::Version Update (0.3ms)[0m   [0mUPDATE `html_block_versions` SET `updated_at` = '2010-06-21 05:28:57', `published` = 1 WHERE `id` = 3[0m
+  [4;36;1mHtmlBlock Publish (0.5ms)[0m   [0;1mUPDATE `html_blocks` SET `content` = '<p>The server encountered an unexpected condition that prevented it from fulfilling the request.</p>', `deleted` = 0, `name` = 'Server Error', `version` = 1, `published` = 1, `archived` = 0 WHERE `id` = 3[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 4) AND (pages.deleted = 0) [0m
+  [4;35;1mHtmlBlock Load (0.2ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 3) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSELECT count(*) AS count_all FROM `pages` WHERE (`pages`.`path` = BINARY '/system/server_error' AND `pages`.id <> 4) AND (pages.deleted = 0) [0m
+  [4;36;1mPage::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mConnector Load (0.4ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 4)) AND (`connectors`.page_id = 4)) ORDER BY connectors.container, connectors.position[0m
+  [4;35;1mPage::Version Create (0.9ms)[0m   [0mINSERT INTO `page_versions` (`name`, `updated_by_id`, `created_at`, `title`, `template_file_name`, `published`, `created_by_id`, `updated_at`, `page_id`, `language`, `archived`, `deleted`, `version`, `version_comment`, `path`, `description`, `keywords`, `cacheable`, `hidden`) VALUES('Server Error', 1, '2010-06-21 05:28:57', NULL, 'default.html.erb', 1, 1, '2010-06-21 05:28:57', 4, NULL, 0, 0, 2, 'Html Block \'Server Error\' was added to the \'main\' container', '/system/server_error', NULL, NULL, 1, 1)[0m
+  [4;36;1mPage::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mConnector Load (0.3ms)[0m   [0mSELECT * FROM `connectors` WHERE (connectors.page_id = 4 and connectors.page_version = 2 and connectors.container = 'main') ORDER BY position DESC LIMIT 1[0m
+  [4;36;1mConnector Create (0.2ms)[0m   [0;1mINSERT INTO `connectors` (`connectable_id`, `position`, `created_at`, `container`, `updated_at`, `page_id`, `connectable_version`, `page_version`, `connectable_type`) VALUES(3, 1, '2010-06-21 05:28:57', 'main', '2010-06-21 05:28:57', 4, 1, 2, 'HtmlBlock')[0m
+  [4;35;1mSQL (83.4ms)[0m   [0mCOMMIT[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 4) AND (pages.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Publish (0.8ms)[0m   [0mUPDATE `pages` SET `hidden` = 1, `deleted` = 0, `name` = 'Server Error', `version` = 2, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/system/server_error', `archived` = 0 WHERE `id` = 4[0m
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 4) AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.3ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 2) AND (`connectors`.page_id = 4)) AND (`connectors`.page_id = 4)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;36;1mHtmlBlock Load (0.3ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 3) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mHtmlBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage::Version Load (0.3ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage::Version Update (0.2ms)[0m   [0;1mUPDATE `page_versions` SET `updated_at` = '2010-06-21 05:28:57', `published` = 1 WHERE `id` = 1[0m
+  [4;35;1mPage Publish (0.2ms)[0m   [0mUPDATE `pages` SET `hidden` = 0, `deleted` = 0, `name` = 'Home', `version` = 1, `title` = NULL, `template_file_name` = 'default.html.erb', `keywords` = NULL, `cacheable` = 1, `published` = 1, `description` = NULL, `language` = NULL, `path` = '/', `archived` = 0 WHERE `id` = 1[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mConnector Load (0.3ms)[0m   [0mSELECT * FROM `connectors` WHERE (((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 1)) AND (`connectors`.page_id = 1)) ORDER BY position, connectors.container, connectors.position[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (52.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081114172307')[0m
+Migrating to Browsercms305 (20091109175123)
+  [4;36;1mSQL (352.1ms)[0m   [0;1mALTER TABLE `users` ADD `reset_token` varchar(255)[0m
+  [4;35;1mSQL (88.4ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20091109175123')[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSHOW FIELDS FROM `attachment_versions`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `attachment_versions`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `attachment_versions`[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW FIELDS FROM `attachments`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `attachments`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `attachments`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `category_types`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `category_types`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `category_types`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mdescribe `connectors`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `connectors`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `content_type_groups`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `content_type_groups`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `content_type_groups`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `content_types`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `content_types`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `content_types`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `dynamic_view_versions`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mdescribe `dynamic_view_versions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `dynamic_view_versions`[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW FIELDS FROM `dynamic_views`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mdescribe `dynamic_views`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `dynamic_views`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `email_messages`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `email_messages`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `email_messages`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mdescribe `file_block_versions`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `file_block_versions`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `file_blocks`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `group_permissions`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `group_permissions`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `group_permissions`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `group_sections`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `group_sections`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `group_sections`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW FIELDS FROM `group_type_permissions`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `group_type_permissions`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `group_type_permissions`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `group_types`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `group_types`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `group_types`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `groups`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `groups`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `groups`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `html_block_versions`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `html_block_versions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `html_block_versions`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW FIELDS FROM `html_blocks`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `html_blocks`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `html_blocks`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `link_versions`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mdescribe `link_versions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `link_versions`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `links`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mdescribe `links`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `links`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW FIELDS FROM `page_route_options`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `page_route_options`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `page_route_options`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `page_routes`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `page_routes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `page_routes`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `page_versions`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `page_versions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `page_versions`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mdescribe `pages`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `pages`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `permissions`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `permissions`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `permissions`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `portlet_attributes`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mdescribe `portlet_attributes`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `portlet_attributes`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `portlets`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mdescribe `portlets`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `portlets`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `redirects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `redirects`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `redirects`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `section_nodes`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `section_nodes`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `section_nodes`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW FIELDS FROM `sections`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `sections`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `sections`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW FIELDS FROM `sites`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mdescribe `sites`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `sites`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mdescribe `taggings`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `taggings`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `tags`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `tags`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `tags`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `tasks`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW KEYS FROM `tasks`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW FIELDS FROM `user_group_memberships`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mdescribe `user_group_memberships`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW KEYS FROM `user_group_memberships`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW KEYS FROM `users`[0m
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.5ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::HomeController#index (for 127.0.0.1 at 2010-06-21 01:30:16) [GET]
+  [4;36;1mGuestUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+Redirected to http://localhost:3000/cms/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 37ms (DB: 1) | 302 Found [http://localhost/cms]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::SessionsController#new (for 127.0.0.1 at 2010-06-21 01:30:23) [GET]
+Rendering template within layouts/cms/login
+Rendering cms/sessions/new
+Rendered layouts/cms/_footer (2.4ms)
+Completed in 72ms (View: 56, DB: 0) | 200 OK [http://localhost/cms/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::SessionsController#create (for 127.0.0.1 at 2010-06-21 01:30:30) [POST]
+  Parameters: {"commit"=>"LOGIN", "authenticity_token"=>"TlS8jhuA8xFlYBqa/LXSTXn4e8rIzWwcftOrxepxm6U=", "login"=>"cmsadmin", "password"=>"cmsadmin"}
+  [4;35;1mUser Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'cmsadmin') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'cmsadmin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/cms
+Completed in 218ms (DB: 3) | 302 Found [http://localhost/cms/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::HomeController#index (for 127.0.0.1 at 2010-06-21 01:30:34) [GET]
+Redirected to http://localhost:3000/cms/login
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/cms]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::SessionsController#new (for 127.0.0.1 at 2010-06-21 01:30:36) [GET]
+Rendering template within layouts/cms/login
+Rendering cms/sessions/new
+Rendered layouts/cms/_footer (0.1ms)
+Completed in 10ms (View: 10, DB: 0) | 200 OK [http://localhost/cms/login]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::SessionsController#create (for 127.0.0.1 at 2010-06-21 01:30:44) [POST]
+  Parameters: {"commit"=>"LOGIN", "authenticity_token"=>"TlS8jhuA8xFlYBqa/LXSTXn4e8rIzWwcftOrxepxm6U=", "login"=>"cmsadmin", "password"=>"cmsadmin"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`login` = 'cmsadmin') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'cmsadmin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/cms
+Completed in 11ms (DB: 1) | 302 Found [http://localhost/cms/login]
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /usr/lib/ruby/gems/1.8/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.1ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::SessionsController#create (for 127.0.0.1 at 2010-06-21 01:31:24) [POST]
+  Parameters: {"commit"=>"LOGIN", "authenticity_token"=>"TlS8jhuA8xFlYBqa/LXSTXn4e8rIzWwcftOrxepxm6U=", "login"=>"cmsadmin", "password"=>"cmsadmin"}
+  [4;36;1mUser Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `users`[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`login` = 'cmsadmin') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT `users`.id FROM `users` WHERE (LOWER(`users`.`login`) = BINARY 'cmsadmin' AND `users`.id <> 1) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/cms
+Completed in 220ms (DB: 2) | 302 Found [http://localhost/cms/login]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::HomeController#index (for 127.0.0.1 at 2010-06-21 01:31:24) [GET]
+  [4;35;1mUser Load (0.4ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `permissions`[0m
+  [4;35;1mGroup Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `groups`[0m
+  [4;36;1mPermission Load Including Associations (0.7ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+Redirected to http://localhost:3000/
+Completed in 133ms (DB: 3) | 302 Found [http://localhost/cms]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:24) [GET]
+  Parameters: {"path"=>[]}
+Caching is disabled
+  [4;35;1mUser Load (4.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (0.2ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mRedirect Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `redirects`[0m
+  [4;36;1mRedirect Load (0.4ms)[0m   [0;1mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/') LIMIT 1[0m
+..... Displaying draft version of page
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`path` = '/') AND (pages.deleted = 0) LIMIT 1[0m
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage::Version Load (0.3ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage::Version Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `page_versions`[0m
+  [4;35;1mPage::Version Load (0.4ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mSectionNode Load (0.4ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mSectionNode Columns (0.8ms)[0m   [0mSHOW FIELDS FROM `section_nodes`[0m
+  [4;36;1mSection Columns (0.7ms)[0m   [0;1mSHOW FIELDS FROM `sections`[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;36;1mSection Load Including Associations (0.7ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+Not Caching, user is logged in
+  [4;35;1mConnector Load (0.4ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND ((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+Rendering template within layouts/templates/default
+Rendering cms/content/show
+  [4;36;1mSectionNode Load (0.5ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (((section_nodes.node_type IN ('Section','Page','Link')) AND (`section_nodes`.section_id = 1)) AND (`section_nodes`.section_id = 1)) ORDER BY section_nodes.position[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+Rendered cms/menus/_menu_item (3.1ms)
+Rendered cms/menus/_menu (17.9ms)
+  [4;35;1mGroupType Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `group_types`[0m
+  [4;36;1mSection Load Including Associations (0.8ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mConnector Load (0.6ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND (((`connectors`.`page_version` = 1 AND `connectors`.`container` = 'main')) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND (((`connectors`.`page_version` = 1 AND `connectors`.`container` = 'main')) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+Rendered cms/pages/_edit_container (29.9ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 285ms (View: 148, DB: 16) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:25) [GET]
+  Parameters: {"path"=>["stylesheets", "cms", "page.css"]}
+Caching is disabled
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (1.4ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mRedirect Load (0.9ms)[0m   [0mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/stylesheets/cms/page.css') LIMIT 1[0m
+  [4;36;1mAttachment Load (0.4ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (`attachments`.`file_path` = '/stylesheets/cms/page.css') AND (((`attachments`.`published` = 1 AND `attachments`.`archived` = 0)) AND (attachments.deleted = 0)) LIMIT 1[0m
+..... Displaying draft version of page
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`path` = '/stylesheets/cms/page.css') AND (pages.deleted = 0) LIMIT 1[0m
+Rendering template within layouts/cms/application
+Rendering cms/content/no_page (not_found)
+Rendered layouts/cms/_head (5.7ms)
+Rendered layouts/_cms_toolbar (8.2ms)
+Rendered layouts/cms/_footer (1.0ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 248ms (View: 72, DB: 4) | 404 Not Found [http://localhost/stylesheets/cms/page.css]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ToolbarController#index (for 127.0.0.1 at 2010-06-21 01:31:25) [GET]
+  Parameters: {"page_toolbar"=>"1", "mode"=>"edit", "page_id"=>"1", "page_version"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.7ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Load (0.7ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = '1')) LIMIT 1[0m
+Rendering template within layouts/cms/toolbar
+Rendering cms/toolbar/index
+Rendered layouts/_cms_toolbar (5.3ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Load (0.2ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mSectionNode Load (0.1ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mSection Load Including Associations (0.2ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mTask Load (0.4ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+Rendered layouts/_page_toolbar (77.8ms)
+Completed in 136ms (View: 112, DB: 3) | 200 OK [http://localhost/cms/toolbar?mode=edit&page_id=1&page_toolbar=1&page_version=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:34) [GET]
+  Parameters: {"mode"=>"view", "path"=>[]}
+Caching is disabled
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.9ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mRedirect Load (0.3ms)[0m   [0;1mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/') LIMIT 1[0m
+..... Displaying draft version of page
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`path` = '/') AND (pages.deleted = 0) LIMIT 1[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mSectionNode Load (0.5ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;36;1mSection Load Including Associations (0.1ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+Not Caching, user is logged in
+  [4;35;1mConnector Load (1.8ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND ((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+Rendering template within layouts/templates/default
+Rendering cms/content/show
+  [4;36;1mSectionNode Load (0.1ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (((section_nodes.node_type IN ('Section','Page','Link')) AND (`section_nodes`.section_id = 1)) AND (`section_nodes`.section_id = 1)) ORDER BY section_nodes.position[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+Rendered cms/menus/_menu_item (0.1ms)
+Rendered cms/menus/_menu (0.7ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 39ms (View: 10, DB: 5) | 200 OK [http://localhost/?mode=view]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:34) [GET]
+  Parameters: {"path"=>["stylesheets", "cms", "page.css"]}
+Caching is disabled
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (0.4ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mRedirect Load (5.6ms)[0m   [0mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/stylesheets/cms/page.css') LIMIT 1[0m
+  [4;36;1mAttachment Load (0.2ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (`attachments`.`file_path` = '/stylesheets/cms/page.css') AND (((`attachments`.`published` = 1 AND `attachments`.`archived` = 0)) AND (attachments.deleted = 0)) LIMIT 1[0m
+..... Displaying draft version of page
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`path` = '/stylesheets/cms/page.css') AND (pages.deleted = 0) LIMIT 1[0m
+Rendering template within layouts/cms/application
+Rendering cms/content/no_page (not_found)
+Rendered layouts/cms/_head (4.8ms)
+Rendered layouts/_cms_toolbar (5.3ms)
+Rendered layouts/cms/_footer (0.2ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 36ms (View: 14, DB: 7) | 404 Not Found [http://localhost/stylesheets/cms/page.css]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ToolbarController#index (for 127.0.0.1 at 2010-06-21 01:31:34) [GET]
+  Parameters: {"page_toolbar"=>"1", "mode"=>"view", "page_id"=>"1", "page_version"=>"1"}
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.2ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = '1')) LIMIT 1[0m
+Rendering template within layouts/cms/toolbar
+Rendering cms/toolbar/index
+Rendered layouts/_cms_toolbar (5.2ms)
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mSectionNode Load (0.1ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;36;1mSection Load (0.1ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mSection Load Including Associations (0.2ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mTask Load (0.1ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+Rendered layouts/_page_toolbar (45.0ms)
+Completed in 68ms (View: 55, DB: 2) | 200 OK [http://localhost/cms/toolbar?mode=view&page_id=1&page_toolbar=1&page_version=1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:37) [GET]
+  Parameters: {"mode"=>"edit", "path"=>[]}
+Caching is disabled
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (2.4ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mRedirect Load (0.1ms)[0m   [0;1mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/') LIMIT 1[0m
+..... Displaying draft version of page
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`path` = '/') AND (pages.deleted = 0) LIMIT 1[0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage::Version Load (0.1ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mSectionNode Load (0.4ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;36;1mSection Load Including Associations (0.1ms)[0m   [0;1mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+Not Caching, user is logged in
+  [4;35;1mConnector Load (0.1ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND ((`connectors`.`page_version` = 1) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+Rendering template within layouts/templates/default
+Rendering cms/content/show
+  [4;36;1mSectionNode Load (0.7ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (((section_nodes.node_type IN ('Section','Page','Link')) AND (`section_nodes`.section_id = 1)) AND (`section_nodes`.section_id = 1)) ORDER BY section_nodes.position[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+Rendered cms/menus/_menu_item (0.1ms)
+Rendered cms/menus/_menu (0.7ms)
+  [4;35;1mSection Load Including Associations (2.7ms)[0m   [0mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mConnector Load (0.1ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND (((`connectors`.`page_version` = 1 AND `connectors`.`container` = 'main')) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `connectors` WHERE (`connectors`.page_id = 1) AND (((`connectors`.`page_version` = 1 AND `connectors`.`container` = 'main')) AND (`connectors`.page_id = 1)) ORDER BY connectors.container, connectors.position[0m
+Rendered cms/pages/_edit_container (14.6ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 64ms (View: 31, DB: 8) | 200 OK [http://localhost/?mode=edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentController#show (for 127.0.0.1 at 2010-06-21 01:31:37) [GET]
+  Parameters: {"path"=>["stylesheets", "cms", "page.css"]}
+Caching is disabled
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.2ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mRedirect Load (0.1ms)[0m   [0;1mSELECT * FROM `redirects` WHERE (`redirects`.`from_path` = '/stylesheets/cms/page.css') LIMIT 1[0m
+  [4;35;1mAttachment Load (0.1ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`file_path` = '/stylesheets/cms/page.css') AND (((`attachments`.`published` = 1 AND `attachments`.`archived` = 0)) AND (attachments.deleted = 0)) LIMIT 1[0m
+..... Displaying draft version of page
+  [4;36;1mPage Load (1.6ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`path` = '/stylesheets/cms/page.css') AND (pages.deleted = 0) LIMIT 1[0m
+Rendering template within layouts/cms/application
+Rendering cms/content/no_page (not_found)
+Rendered layouts/cms/_head (4.4ms)
+Rendered layouts/_cms_toolbar (5.1ms)
+Rendered layouts/cms/_footer (0.2ms)
+Filter chain halted as [:check_access_to_page] rendered_or_redirected.
+Completed in 29ms (View: 13, DB: 2) | 404 Not Found [http://localhost/stylesheets/cms/page.css]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ToolbarController#index (for 127.0.0.1 at 2010-06-21 01:31:37) [GET]
+  Parameters: {"page_toolbar"=>"1", "mode"=>"edit", "page_id"=>"1", "page_version"=>"1"}
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (0.2ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mPage::Version Load (0.1ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = '1')) LIMIT 1[0m
+Rendering template within layouts/cms/toolbar
+Rendering cms/toolbar/index
+Rendered layouts/_cms_toolbar (5.0ms)
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mPage::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mPage::Version Load (0.9ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mSectionNode Load (0.1ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 1 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mSection Load Including Associations (0.2ms)[0m   [0mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) AND (pages.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1 AND (`page_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mTask Load (0.1ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `tasks` WHERE (`tasks`.page_id = 1) AND ((completed_at is null) AND (`tasks`.page_id = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `page_versions` WHERE (`page_versions`.page_id = 1) ORDER BY version desc LIMIT 1[0m
+Rendered layouts/_page_toolbar (41.1ms)
+Completed in 68ms (View: 54, DB: 2) | 200 OK [http://localhost/cms/toolbar?mode=edit&page_id=1&page_toolbar=1&page_version=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::ContentTypesController#index (for 127.0.0.1 at 2010-06-21 01:31:39) [GET]
+  Parameters: {"connect_to_page_id"=>"1", "connect_to_container"=>"main"}
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (1.2ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mContentType Load (0.5ms)[0m   [0mSELECT * FROM `content_types` ORDER BY name[0m
+Rendering template within layouts/cms/application
+Rendering cms/content_types/index
+  [4;36;1mContentType Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `content_types`[0m
+  [4;35;1mContentTypeGroup Columns (0.6ms)[0m   [0mSHOW FIELDS FROM `content_type_groups`[0m
+  [4;36;1mContentType Load Including Associations (0.5ms)[0m   [0;1mSELECT `content_types`.`id` AS t0_r0, `content_types`.`name` AS t0_r1, `content_types`.`content_type_group_id` AS t0_r2, `content_types`.`priority` AS t0_r3, `content_types`.`created_at` AS t0_r4, `content_types`.`updated_at` AS t0_r5, `content_type_groups`.`id` AS t1_r0, `content_type_groups`.`name` AS t1_r1, `content_type_groups`.`created_at` AS t1_r2, `content_type_groups`.`updated_at` AS t1_r3 FROM `content_types` LEFT OUTER JOIN `content_type_groups` ON `content_type_groups`.id = `content_types`.content_type_group_id WHERE (content_type_groups.name != 'Categorization') ORDER BY content_types.priority, content_types.name[0m
+Rendered layouts/cms/_head (4.4ms)
+Rendered layouts/_cms_toolbar (4.9ms)
+Rendered layouts/cms/_footer (0.2ms)
+Completed in 187ms (View: 48, DB: 7) | 200 OK [http://localhost/cms/content_types?connect_to_container=main&connect_to_page_id=1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::TagsController#index to js (for 127.0.0.1 at 2010-06-21 01:31:39) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (18.8ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mContentType Load (0.4ms)[0m   [0mSELECT * FROM `content_types` WHERE (`content_types`.`name` = 'Tag') LIMIT 1[0m
+  [4;36;1mTag Load (15.7ms)[0m   [0;1mSELECT * FROM `tags` ORDER BY tags.name LIMIT 0, 15[0m
+Completed in 95ms (View: 36, DB: 35) | 200 OK [http://localhost/cms/tags.js]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::HtmlBlocksController#index (for 127.0.0.1 at 2010-06-21 01:31:45) [GET]
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (0.2ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mContentType Load (0.3ms)[0m   [0mSELECT * FROM `content_types` WHERE (`content_types`.`name` = 'HtmlBlock') LIMIT 1[0m
+  [4;36;1mHtmlBlock Load (0.3ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE ((html_blocks.deleted = 0)) ORDER BY html_blocks.name LIMIT 0, 15[0m
+Rendering template within layouts/cms/content_library
+Rendering cms/blocks/index
+Rendered cms/blocks/_toolbar_for_collection (5.6ms)
+Rendered cms/blocks/_toolbar (19.3ms)
+  [4;35;1mHtmlBlock Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `html_blocks`[0m
+  [4;36;1mHtmlBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mHtmlBlock::Version Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `html_block_versions`[0m
+  [4;36;1mHtmlBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mConnector Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mPage Load Including Associations (0.6ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;35;1mSection Load Including Associations (0.3ms)[0m   [0mSELECT `sections`.`id` AS t0_r0, `sections`.`name` AS t0_r1, `sections`.`path` AS t0_r2, `sections`.`root` AS t0_r3, `sections`.`hidden` AS t0_r4, `sections`.`created_at` AS t0_r5, `sections`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `group_types`.`id` AS t2_r0, `group_types`.`name` AS t2_r1, `group_types`.`guest` AS t2_r2, `group_types`.`cms_access` AS t2_r3, `group_types`.`created_at` AS t2_r4, `group_types`.`updated_at` AS t2_r5, `users`.`id` AS t3_r0, `users`.`login` AS t3_r1, `users`.`first_name` AS t3_r2, `users`.`last_name` AS t3_r3, `users`.`email` AS t3_r4, `users`.`crypted_password` AS t3_r5, `users`.`salt` AS t3_r6, `users`.`created_at` AS t3_r7, `users`.`updated_at` AS t3_r8, `users`.`expires_at` AS t3_r9, `users`.`remember_token` AS t3_r10, `users`.`remember_token_expires_at` AS t3_r11, `users`.`reset_token` AS t3_r12 FROM `sections` LEFT OUTER JOIN `group_sections` ON (`sections`.`id` = `group_sections`.`section_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_sections`.`group_id`) LEFT OUTER JOIN `group_types` ON `group_types`.id = `groups`.group_type_id LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1 and group_types.cms_access = 1) [0m
+  [4;36;1mSectionNode Load (0.5ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 3 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 3 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(DISTINCT `pages`.id) AS count_all FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;36;1mHtmlBlock Load (0.4ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 2) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 2) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mHtmlBlock::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mHtmlBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.9ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;35;1mSectionNode Load (0.4ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 2 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 2 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(DISTINCT `pages`.id) AS count_all FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;35;1mHtmlBlock Load (0.3ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 1) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 1) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mHtmlBlock::Version Load (0.4ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mHtmlBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.7ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 3 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;36;1mSectionNode Load (0.3ms)[0m   [0;1mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 4 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 3 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `section_nodes` WHERE (`section_nodes`.node_id = 4 AND `section_nodes`.node_type = 'Page') LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `sections` WHERE (`sections`.`id` = 2) [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(DISTINCT `pages`.id) AS count_all FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 3 and connectors.connectable_type = 'HtmlBlock' and connectors.connectable_version = 1) AND (pages.deleted = 0)) [0m
+  [4;36;1mHtmlBlock Load (0.1ms)[0m   [0;1mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 3) AND (html_blocks.deleted = 0) [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_blocks` WHERE (`html_blocks`.`id` = 3) AND (html_blocks.deleted = 0) [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3 AND (`html_block_versions`.`version` = 1)) LIMIT 1[0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM `html_block_versions` WHERE (`html_block_versions`.html_block_id = 3) ORDER BY version desc LIMIT 1[0m
+Rendered layouts/cms/_head (8.3ms)
+Rendered layouts/_cms_toolbar (5.1ms)
+  [4;36;1mContentTypeGroup Load (0.4ms)[0m   [0;1mSELECT * FROM `content_type_groups` ORDER BY content_type_groups.id[0m
+  [4;35;1mContentTypeGroup Load (0.3ms)[0m   [0mSELECT * FROM `content_type_groups` WHERE (`content_type_groups`.`id` = 1) [0m
+  [4;36;1mContentType Load (0.4ms)[0m   [0;1mSELECT * FROM `content_types` WHERE (`content_types`.content_type_group_id = 1) ORDER BY content_types.id[0m
+  [4;35;1mContentType Load (0.4ms)[0m   [0mSELECT * FROM `content_types` WHERE (`content_types`.content_type_group_id = 1) ORDER BY priority, name, content_types.id[0m
+  [4;36;1mContentType Load (0.3ms)[0m   [0;1mSELECT * FROM `content_types` WHERE (`content_types`.content_type_group_id = 2) ORDER BY content_types.id[0m
+  [4;35;1mContentType Load (0.3ms)[0m   [0mSELECT * FROM `content_types` WHERE (`content_types`.content_type_group_id = 2) ORDER BY priority, name, content_types.id[0m
+Rendered layouts/cms/_footer (0.3ms)
+Completed in 459ms (View: 409, DB: 16) | 200 OK [http://localhost/cms/content_library]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::TagsController#index to js (for 127.0.0.1 at 2010-06-21 01:31:46) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.2ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mContentType Load (0.6ms)[0m   [0;1mSELECT * FROM `content_types` WHERE (`content_types`.`name` = 'Tag') LIMIT 1[0m
+  [4;35;1mTag Load (0.2ms)[0m   [0mSELECT * FROM `tags` ORDER BY tags.name LIMIT 0, 15[0m
+Completed in 19ms (View: 2, DB: 1) | 200 OK [http://localhost/cms/tags.js]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::DashboardController#index (for 127.0.0.1 at 2010-06-21 01:32:10) [GET]
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;35;1mPermission Load Including Associations (0.6ms)[0m   [0mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;36;1mPage Load (1.0ms)[0m   [0;1mSELECT distinct `pages`.* FROM `pages` INNER JOIN `page_versions` ON page_versions.page_id = pages.id WHERE ((`page_versions`.`version` > `pages`.`version`) AND (pages.deleted = 0)) ORDER BY pages.updated_at desc[0m
+  [4;35;1mTask Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `tasks`[0m
+  [4;36;1mTask Load Including Associations (20.1ms)[0m   [0;1mSELECT `tasks`.`id` AS t0_r0, `tasks`.`assigned_by_id` AS t0_r1, `tasks`.`assigned_to_id` AS t0_r2, `tasks`.`page_id` AS t0_r3, `tasks`.`comment` AS t0_r4, `tasks`.`due_date` AS t0_r5, `tasks`.`completed_at` AS t0_r6, `tasks`.`created_at` AS t0_r7, `tasks`.`updated_at` AS t0_r8, `pages`.`id` AS t1_r0, `pages`.`version` AS t1_r1, `pages`.`lock_version` AS t1_r2, `pages`.`name` AS t1_r3, `pages`.`title` AS t1_r4, `pages`.`path` AS t1_r5, `pages`.`template_file_name` AS t1_r6, `pages`.`description` AS t1_r7, `pages`.`keywords` AS t1_r8, `pages`.`language` AS t1_r9, `pages`.`cacheable` AS t1_r10, `pages`.`hidden` AS t1_r11, `pages`.`published` AS t1_r12, `pages`.`deleted` AS t1_r13, `pages`.`archived` AS t1_r14, `pages`.`created_by_id` AS t1_r15, `pages`.`updated_by_id` AS t1_r16, `pages`.`created_at` AS t1_r17, `pages`.`updated_at` AS t1_r18 FROM `tasks` LEFT OUTER JOIN `pages` ON `pages`.id = `tasks`.page_id WHERE (((completed_at is null) AND (`tasks`.assigned_to_id = 1)) AND (`tasks`.assigned_to_id = 1)) ORDER BY tasks.due_date desc, pages.name[0m
+Rendering template within layouts/cms/dashboard
+Rendering cms/dashboard/index
+Rendered cms/dashboard/_page_drafts (12.4ms)
+Rendered cms/dashboard/_tasks (4.3ms)
+Rendered layouts/cms/_head (8.2ms)
+Rendered layouts/_cms_toolbar (10.2ms)
+Rendered layouts/cms/_footer (0.3ms)
+Completed in 154ms (View: 106, DB: 23) | 200 OK [http://localhost/cms/dashboard]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing Cms::TagsController#index to js (for 127.0.0.1 at 2010-06-21 01:32:10) [GET]
+  [4;35;1mUser Load (0.8ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 1) LIMIT 1[0m
+  [4;36;1mPermission Load Including Associations (0.7ms)[0m   [0;1mSELECT `permissions`.`id` AS t0_r0, `permissions`.`name` AS t0_r1, `permissions`.`full_name` AS t0_r2, `permissions`.`description` AS t0_r3, `permissions`.`for_module` AS t0_r4, `permissions`.`created_at` AS t0_r5, `permissions`.`updated_at` AS t0_r6, `groups`.`id` AS t1_r0, `groups`.`name` AS t1_r1, `groups`.`code` AS t1_r2, `groups`.`group_type_id` AS t1_r3, `groups`.`created_at` AS t1_r4, `groups`.`updated_at` AS t1_r5, `users`.`id` AS t2_r0, `users`.`login` AS t2_r1, `users`.`first_name` AS t2_r2, `users`.`last_name` AS t2_r3, `users`.`email` AS t2_r4, `users`.`crypted_password` AS t2_r5, `users`.`salt` AS t2_r6, `users`.`created_at` AS t2_r7, `users`.`updated_at` AS t2_r8, `users`.`expires_at` AS t2_r9, `users`.`remember_token` AS t2_r10, `users`.`remember_token_expires_at` AS t2_r11, `users`.`reset_token` AS t2_r12 FROM `permissions` LEFT OUTER JOIN `group_permissions` ON (`permissions`.`id` = `group_permissions`.`permission_id`) LEFT OUTER JOIN `groups` ON (`groups`.`id` = `group_permissions`.`group_id`) LEFT OUTER JOIN `user_group_memberships` ON (`groups`.`id` = `user_group_memberships`.`group_id`) LEFT OUTER JOIN `users` ON (`users`.`id` = `user_group_memberships`.`user_id`) WHERE (users.id = 1) [0m
+  [4;35;1mContentType Load (0.8ms)[0m   [0mSELECT * FROM `content_types` WHERE (`content_types`.`name` = 'Tag') LIMIT 1[0m
+  [4;36;1mTag Load (0.2ms)[0m   [0;1mSELECT * FROM `tags` ORDER BY tags.name LIMIT 0, 15[0m
+Completed in 23ms (View: 2, DB: 3) | 200 OK [http://localhost/cms/tags.js]
