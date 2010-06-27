@@ -1,0 +1,5 @@
+<%= f.cms_text_field :first_name %>
+<%= f.cms_text_field :last_name %>
+<%= f.cms_file_field :attachment, :label => "Headshot" %>
+<%= f.cms_text_editor :description %>
+<%= f.cms_text_field :website %>

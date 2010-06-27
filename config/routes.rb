@@ -1,5 +1,35 @@
 ActionController::Routing::Routes.draw do |map|
+  
+
+  #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
+  def setup_section_routing
+   yield if Section.table_exists?
+  end
+
+
+  map.namespace('cms') {|cms| cms.content_blocks :top_right_links }
+
+  map.namespace('cms') {|cms| cms.content_blocks :important_infos }
+
+  map.namespace('cms') {|cms| cms.content_blocks :style_sheets }
+
+  map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
+
+  map.namespace('cms') {|cms| cms.content_blocks :bio_updates }
+
+  map.namespace('cms') {|cms| cms.content_blocks :bios }
+
+ setup_section_routing do
+    Section.all(:conditions => {:hidden => false}).each do |section|
+       section_path = section.path[1...section.path.size]
+      map.connect section_path, :controller => 'sections'
+      map.connect section_path + '/:tab', :controller => 'sections'
+    end
+  end
+
   map.routes_for_browser_cms
+
+ 
 
   # The priority is based upon order of creation: first created -> highest priority.
 
@@ -42,4 +72,5 @@ ActionController::Routing::Routes.draw do |map|
   # consider removing or commenting them out if you're using named routes and resources.
   map.connect ':controller/:action/:id'
   map.connect ':controller/:action/:id.:format'
+
 end

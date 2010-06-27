@@ -29,3 +29,5 @@ config.action_view.cache_template_loading            = true
 SITE_DOMAIN="localhost:3000"
 config.action_view.cache_template_loading = false
 config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
+
+#Append StyleSheets from database to public/stylesheets/style.css

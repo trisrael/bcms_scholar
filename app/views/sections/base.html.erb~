@@ -1,0 +1,12 @@
+<% if @show_toolbar %>
+  <% content_for :html_head do %>
+    <%= stylesheet_link_tag 'cms/page' %>
+  <% end %>
+  <% flash.keep %>
+  <iframe src="<%=h cms_toolbar_path(:page_id => @page.id, :page_version => @page.version, :mode => 'edit', :page_toolbar => @show_page_toolbar ? 1 : 0) %>" width="100%" height="<%= @show_page_toolbar ? 159 : 100 %>px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" name="cms_toolbar"></iframe>
+<% end %>
+
+<% content_for :main do %>
+ <%= render_tabs %> 
+<% end %>
+

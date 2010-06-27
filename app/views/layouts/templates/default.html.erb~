@@ -2,14 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title><%= page_title %></title>
+    <title>Scholarship Dance Training<%= strip_tags(page_title) %></title>
+    <%= include_stylesheets %>
     <%= yield :html_head %>
+    <%= include_javascripts %>
   </head>
-  <body style="margin: 0; padding: 0; text-align: center;">
+  <body onload='init()' style="margin: 0; padding: 0; text-align: center;">
     <%= cms_toolbar %>
     <div id='header'/>
-    <div id="content" style="width: 700px; margin: 0 auto; text-align: left; padding: 30px">
-     <%= render_menu %>
+    <div id="content" style="width: 860px; margin: 0 auto; text-align: left; padding: 30px">
+     <%= render_menu(:depth => 1) %>
      <%= container :main %>
     </div>
     <div id='header'/>
