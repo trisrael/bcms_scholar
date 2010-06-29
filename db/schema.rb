@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100625033845) do
+ActiveRecord::Schema.define(:version => 20100624035120) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -479,35 +479,6 @@ ActiveRecord::Schema.define(:version => 20100625033845) do
     t.string   "name"
     t.string   "domain"
     t.boolean  "the_default"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "style_sheet_versions", :force => true do |t|
-    t.integer  "style_sheet_id"
-    t.integer  "version"
-    t.text     "css_html"
-    t.string   "name"
-    t.boolean  "published",       :default => false
-    t.boolean  "deleted",         :default => false
-    t.boolean  "archived",        :default => false
-    t.string   "version_comment"
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "style_sheets", :force => true do |t|
-    t.integer  "version"
-    t.integer  "lock_version",  :default => 0
-    t.text     "css_html"
-    t.string   "name"
-    t.boolean  "published",     :default => false
-    t.boolean  "deleted",       :default => false
-    t.boolean  "archived",      :default => false
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

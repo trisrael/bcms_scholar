@@ -11,8 +11,6 @@ ActionController::Routing::Routes.draw do |map|
 
   map.namespace('cms') {|cms| cms.content_blocks :important_infos }
 
-  map.namespace('cms') {|cms| cms.content_blocks :style_sheets }
-
   map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
 
   map.namespace('cms') {|cms| cms.content_blocks :bio_updates }

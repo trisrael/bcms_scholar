@@ -3,7 +3,7 @@ module TabHelper
  def render_tab_menu(tab_names)
   tab_menu = "<ul id='tab_menu'>"
   tab_names.each_with_index do |tab_name, i|
-    tab_menu << "<li id='tab_header_#{i}'>#{tab_name}</li>"  
+    tab_menu << "<li class='tab_header' id='tab_header_#{i}'><a href='#tab_content_#{i}'>#{tab_name}</a></li>"  
   end
   tab_menu << "</ul>"
  end

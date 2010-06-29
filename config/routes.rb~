@@ -19,15 +19,17 @@ ActionController::Routing::Routes.draw do |map|
 
   map.namespace('cms') {|cms| cms.content_blocks :bios }
 
-  map.routes_for_browser_cms
-
-  setup_section_routing do
+ setup_section_routing do
     Section.all(:conditions => {:hidden => false}).each do |section|
        section_path = section.path[1...section.path.size]
       map.connect section_path, :controller => 'sections'
       map.connect section_path + '/:tab', :controller => 'sections'
     end
   end
+
+  map.routes_for_browser_cms
+
+ 
 
   # The priority is based upon order of creation: first created -> highest priority.
 

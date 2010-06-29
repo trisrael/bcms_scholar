@@ -2,6 +2,7 @@ class SectionsController < Cms::ContentController
   include Cms::Acts::ContentPage
   helper :all
   before_filter :setup_section_attributes
+  before_filter :cms_properties_setup
   
 
 #Renders 'Section' roots, with sub-menu of children and default tab-selected unless another tab-brought in.
@@ -11,11 +12,15 @@ class SectionsController < Cms::ContentController
 
   private 
 
-  def setup_section_attributes
+  def cms_properties_setup
     if current_user.able_to?(:edit_content) #Someone is logged into the CMS  
       @show_toolbar = true
       @mode = 'edit'
+      @show_page_toolbar = true
     end
+  end
+
+  def setup_section_attributes
 
     path = request.env['REQUEST_PATH']
     

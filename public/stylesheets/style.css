@@ -1,67 +1,49 @@
 body, html{
- font-family: Helvetica, sans-serif, Verdana;
+ font-family: Arial, Helvetica, sans-serif, Verdana;
  font-size: 12px;
+}
+
+a, a:visited, a:link{
+  text-decoration: none;
+  color: black;
 }
 
 /* Menu */
 
-div.menu {
- margin-left: 58px;
+div#menu {
+ margin-left: 10px;
  height: 30px;
  width: 686px;
- border-top: solid #000 1px;
- border-bottom: solid #000 1px;
- background-color: black;
 }
 
-div.menu ul {
+div#menu ul {
  margin: 0px;
  padding: 0px;
- font-size: small;
- color: #fff;
+ font-size: 14px;
+ font-weight: bold;
  line-height: 29px;
  white-space: nowrap;
 }
 
-div.menu li {
+div#menu li {
  list-style-type: none;
  display: inline;
 }
 
-div.menu li a {
+div#menu li a {
  text-decoration: none;
- padding: 7px 10px;
- color: #FFF;
+ padding: 6px;
 }
 
-div.menu li a:link {
- color: #FFF:
+div#menu li a span{
+ margin-right: 2px; 
 }
 
-div.menu li a:visited {
- color: #FFF;}
-
-div.menu li a:hover {
- color: #FFF;
- background-color: #2A2B2B;
- border-bottom: 1px solid #2A2B2B;
+div#menu li a .even{
+ color: #767676;
 }
 
-/*Menu buttons w/ 2 rows */
-.menu_placeholder{
- padding-right: 120px;
- width: 140px;
+.link_hover.focused{
+ background-color: #009DEA;
 }
 
-.menu .page_link.top{
- position: absolute; 
- margin-top: -7px; 
- font-size: 11px; 
- margin-left: -116px;
-}
-
-.menu .page_link.bottom{
-  position: absolute;
-  margin-top: 6px;
-  margin-left: -136px; 
-}
