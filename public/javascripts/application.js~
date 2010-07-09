@@ -23,8 +23,6 @@ setupMenu: function(){
  }
  );
 
-
-
 }, 
 setupTabs: function() {
  if(!$('#tab_menu')){return;} // Return if the base element needed to initialize is not available

@@ -1,3 +1,0 @@
-<%= f.cms_text_field :name %>
-
-<%= f.cms_text_area :cms_text_editor%>

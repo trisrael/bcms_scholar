@@ -61,13 +61,17 @@ private
      if menu_item[:id].include?('section')
        menu_item[:id].gsub!('section', 'page')
      end     
-     if menu_item[:url].include?(relative_url) && relative_url.length > 1
+     if similar_url?(menu_item[:url], relative_url) && relative_url.length > 1
        menu_item[:selected] = 'true'
      elsif menu_item[:url] == relative_url
        menu_item[:selected] = 'true'
      end
    end
    return menu_items
+ end
+
+ def similar_url?(act_url, rel_url)
+   act_url.include?(rel_url) || act_url == rel_url
  end
 
 end

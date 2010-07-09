@@ -35,15 +35,27 @@ div#menu li a {
  padding: 6px;
 }
 
+div#menu li a .even, .odd{
+ margin-left: 5px;
+}
+
 div#menu li a span{
- margin-right: 2px; 
+ margin-right: 1px; 
 }
 
 div#menu li a .even{
  color: #767676;
 }
 
-.link_hover.focused{
- background-color: 
+.link_hover{
+ width:4px;
+ position: absolute;
+ z-index: 16;
+}
+
+.link_hover.focused{ 
+ border-left: 4px solid #009DEA;
+ line-height: 16px;
+ margin-top: 8px; 
 }
 

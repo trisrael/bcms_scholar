@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.namespace('cms') {|cms| cms.content_blocks :social_media_headers }
+
   
 
   #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
