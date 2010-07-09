@@ -3,7 +3,7 @@ module TabHelper
  def render_tab_menu(tab_names)
   tab_menu = "<ul id='tab_menu'>"
   tab_names.each_with_index do |tab_name, i|
-    tab_menu << "<li class='tab_header' id='tab_header_#{i}'><a href='#'>#{tab_name}</a></li>"  
+    tab_menu << "<li class='tab_header' id='tab_header_#{i}'><a href='#tab_content_#{i}'>#{tab_name}</a></li>"  
   end
   tab_menu << "</ul>"
  end
@@ -17,6 +17,7 @@ module TabHelper
     @tab_data.each_with_index do |tab, i|
     tab_names << tab[:page].name
     tabs_content << "<div id='tab_content_#{i}' class='tab_content' style='display: none;'>"
+    tabs_content << "<input class='page_id' type='hidden' value='#{tab[:page].id}' />"
     tab[:connectors].each_with_index do |connector, i|
      tabs_content << render_connector_and_connectable(connector, tab[:connectables][i])
     end

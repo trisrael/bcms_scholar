@@ -35,7 +35,7 @@ class SectionsController < Cms::ContentController
     setup_connectors
   end
  
-  #Setup up a hash to make the page along with its connectables available for each 'Tab'
+  #Setup up a hash to make the page, along with its connectables, available for each 'Tab'
   def setup_connectors
     
    @tab_data = []

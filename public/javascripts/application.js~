@@ -34,6 +34,18 @@ setupTabs: function() {
  stringref = jQuery(this).attr("href").split('#')[1];
  //hide the tabs that doesn't match the ID
  jQuery('.tab_content:not(#'+stringref+')').hide();
+ 
+ //Update the CMS Editor container with the correct page_id for Connectables linking. 
+ links_to_update = jQuery('.cms_edit_container div a');
+ if(links_to_update.length > 0){
+ bcmsPageId  = jQuery('#' + stringref + " input").attr('value');
+ links_to_update.each(function(){
+   oldHref = this.href;
+   newHref = oldHref.replace(/page_id=.*$/, 'page_id=' + bcmsPageId);
+   alert(newHref);
+  });
+ }
+
  //IE6 fix.
  if (jQuery.browser.msie && jQuery.browser.version.substr(0,3) == "6.0") {
  jQuery('.tab_content#' + stringref).show();

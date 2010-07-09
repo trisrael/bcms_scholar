@@ -17,6 +17,9 @@ module TabHelper
     @tab_data.each_with_index do |tab, i|
     tab_names << tab[:page].name
     tabs_content << "<div id='tab_content_#{i}' class='tab_content' style='display: none;'>"
+    #Add in hidden input which holds the page id => Used by Tab switching javascript to update URL
+    #of CMS toolbar, so that when adding Connectables they point to the correct page.
+    tabs_content << "<input class='page_id' type='hidden' value='#{tab[:page].id}' />"
     tab[:connectors].each_with_index do |connector, i|
      tabs_content << render_connector_and_connectable(connector, tab[:connectables][i])
     end
