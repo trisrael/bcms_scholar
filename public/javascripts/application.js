@@ -1,10 +1,10 @@
 jQuery(document).ready(function(){
 
 
- Initializer.setupTabs();
- Initializer.setupMenu();
- 
- 
+if($('#tab_menu')){
+  Initializer.setupTabs();
+} 
+ Initializer.setupMenu(); 
 });
 
 var Initializer = {
@@ -24,8 +24,8 @@ setupMenu: function(){
  );
 
 }, 
+
 setupTabs: function() {
- if(!$('#tab_menu')){return;} // Return if the base element needed to initialize is not available
  jQuery(".tab_content:not(:first)").hide();
  jQuery(".tab_content:first").show();
  
@@ -39,12 +39,22 @@ setupTabs: function() {
  links_to_update = jQuery('.cms_edit_container div a');
  if(links_to_update.length > 0){
  bcmsPageId  = jQuery('#' + stringref + " input").attr('value');
+ 
+ //Switch disabled status of Publish button if needed
+ publish_button = jQuery("#publish_button");
+ 
+ 
+
  links_to_update.each(function(){
    oldHref = this.href;
    newHref = oldHref.replace(/page_id=.*$/, 'page_id=' + bcmsPageId);
    this.href = newHref;
   });
+
+
  }
+
+
 
  //IE6 fix.
  if (jQuery.browser.msie && jQuery.browser.version.substr(0,3) == "6.0") {

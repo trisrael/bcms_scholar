@@ -8,6 +8,10 @@ a, a:visited, a:link{
   color: black;
 }
 
+li{
+ list-style-type: none;
+}
+
 /* Menu */
 
 div#menu {
@@ -26,7 +30,6 @@ div#menu ul {
 }
 
 div#menu li {
- list-style-type: none;
  display: inline;
 }
 
@@ -56,6 +59,33 @@ div#menu li a .even{
 .link_hover.focused{ 
  border-left: 4px solid #009DEA;
  line-height: 16px;
- margin-top: 8px; 
+ margin-top: 7px; 
+}
+
+/* Tab Menu */
+
+#tab_menu{
+ position: absolute:
+ margin-left: -20px;
+}
+
+.tab_header a{
+ text-decoration: none;
+ color: black;
+ border:1px solid black;
+ padding: 2px 3px;
+ display: block;
+}
+
+.tab_header{
+ margin-bottom: 6px;
+ text-align: center;
+}
+
+
+/* Specific Section Tab Menus */
+
+.tab_header.the_program a{
+  width: 135px;
 }
 

@@ -5,33 +5,6 @@
   <% flash.keep %>
   <iframe src="<%=h cms_toolbar_path(:page_id => @page.id, :page_version => @page.version, :mode => @mode, :page_toolbar =>    @show_page_toolbar ? 1 : 0) %>" width="100%" height="<%= @show_page_toolbar ? 159 : 100 %>px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" name="cms_toolbar"></iframe>
 <% end %>
-
-<script>
-
-jQuery(document).ready(function(){
-
- jQuery(".tab_content:not(:first)").hide();
- jQuery(".tab_content:first").show();
- 
- jQuery(".tab_header a").click(function(){
- //get the ID of the element we need to show
- stringref = jQuery(this).attr("href").split('#')[1];
- //hide the tabs that doesn't match the ID
- jQuery('.tab_content:not(#'+stringref+')').hide();
- //IE6 fix.
- if (jQuery.browser.msie && jQuery.browser.version.substr(0,3) == "6.0") {
- jQuery('.tab_content#' + stringref).show();
- }
- else
- //display our tab fading it in
- jQuery('.tab_content#' + stringref).fadeIn();
- return false;
- });
- 
-});
-
-</script>
-
 <% content_for :main do %>
  <%= render_tabs %> 
 <% end %>
