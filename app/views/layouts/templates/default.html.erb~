@@ -8,12 +8,14 @@
     <%= include_javascripts %>
   </head>
   <body style="margin: 0; padding: 0; text-align: center;">
-    <%= cms_toolbar %>
+     <%= cms_toolbar %>
     <div id='header'><%= image_tag 'header.jpg' %></div>
-    <div id="content" style="width: 800px; margin: 0 auto; text-align: left;">
-
-     <%= render_main_nav %>
-     <% container :main %>
+    <div id="content">
+     <div id='navigation_container'>
+      <%= render_main_nav %>
+      <%= yield :navigation%>
+     </div>
+     <%= container :main %>
     </div>
     <div id='footer'></div>
   </body>

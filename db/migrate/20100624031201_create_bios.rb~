@@ -1,6 +1,6 @@
-class CreateBios < ActiveRecord::Migration
+class FacultyBio < ActiveRecord::Migration
   def self.up
-    create_content_table :bios do |t|
+    create_content_table :faculty_bios do |t|
       t.string :first_name 
       t.string :last_name 
       t.belongs_to :attachment
@@ -9,17 +9,16 @@ class CreateBios < ActiveRecord::Migration
       t.string :website 
     end
     
-    unless Section.with_path('/bios').exists?
-      Section.create!(:name => "Bio", :parent => Section.system.first, :path => '/bios', :allow_groups=>:all)
+    unless Section.with_path('/faculty_bios').exists?
+      Section.create!(:name => "Faculty Bio", :parent => Section.system.first, :path => '/faculty_bios', :allow_groups=>:all)
     end
-    ContentType.create!(:name => "Bio", :group_name => "People")
+    ContentType.create!(:name => "Faculty Bio", :group_name => "People")
   end
 
   def self.down
-    ContentType.delete_all(['name = ?', 'Bio'])
-    CategoryType.all(:conditions => ['name = ?', 'Bio']).each(&:destroy)
+    ContentType.delete_all(['name = ?', 'Faculty Bio'])
     #If you aren't creating a versioned table, be sure to comment this out.
-    drop_table :bio_versions
-    drop_table :bios
+    drop_table :faculty_bio_versions
+    drop_table :faculty_bios
   end
 end

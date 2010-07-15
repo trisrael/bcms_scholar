@@ -1,23 +1,33 @@
 module TabHelper
 
  def render_tab_menu(tab_names, section_name)
-  tab_menu = "<ul id='tab_menu'>"
+  out = "<div id='tab_menu'><ul>"
   tab_names.each_with_index do |tab_name, i|
-    tab_menu << "<li class='tab_header #{'current' if i == 0} #{section_name}' id='tab_header_#{i}'><a href='#tab_content_#{i}'>#{tab_name.upcase}</a></li>"  
+    out << "<li class='tab_header #{'current' if i == 0} #{section_name}' id='tab_header_#{i}'><a href='#tab_content_#{i}'>#{render_tab_name(tab_name)}</a></li>"  
   end
-  tab_menu << "</ul>"
+  out << "</ul></div>"
+  out
+ end
+
+ def render_tab_name(tab_name)
+   out = ""
+   #TODO: replace the following with the regexp for whitepace
+   tab_name.split(/\s/).each_with_index do |name_partial, index|
+   out << "<span class='partial_#{index}'>#{name_partial}</span>"
+  end
+   out
  end
  
  def render_tabs
 
    if @tab_data
-    tab_names = []
+    @tab_names = []
     tabs_content = ""
     tabs_content << "<div id='tabs_container'>"
-    section_name = @tab_data.first[:page].top_level_section.name.underscore
-    section_name.gsub!(" ", "_")
+    @section_name = @tab_data.first[:page].top_level_section.name.underscore
+    @section_name.gsub!(" ", "_")
     @tab_data.each_with_index do |tab, i|
-    tab_names << tab[:page].name
+    @tab_names << tab[:page].name
     tabs_content << "<div id='tab_content_#{i}' class='tab_content' style='display: none;'>"
     #Add in hidden input which holds the page id => Used by Tab switching javascript to update URL
     #of CMS toolbar, so that when adding Connectables they point to the correct page.
@@ -29,7 +39,7 @@ module TabHelper
     tabs_content << "</div>"
    end
     tabs_content << "</div>"
-   return render_tab_menu(tab_names, section_name) + tabs_content
+   return tabs_content
    end
  end
 

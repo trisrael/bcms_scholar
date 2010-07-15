@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.namespace('cms') {|cms| cms.content_blocks :faculty_bios }
+
   map.namespace('cms') {|cms| cms.content_blocks :social_media_headers }
 
   
@@ -16,8 +18,6 @@ ActionController::Routing::Routes.draw do |map|
   map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
 
   map.namespace('cms') {|cms| cms.content_blocks :bio_updates }
-
-  map.namespace('cms') {|cms| cms.content_blocks :bios }
 
  setup_section_routing do
     Section.all(:conditions => {:hidden => false}).each do |section|

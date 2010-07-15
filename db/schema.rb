@@ -81,45 +81,6 @@ ActiveRecord::Schema.define(:version => 20100626151452) do
     t.datetime "updated_at"
   end
 
-  create_table "bio_versions", :force => true do |t|
-    t.integer  "bio_id"
-    t.integer  "version"
-    t.string   "first_name"
-    t.string   "last_name"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.text     "description"
-    t.string   "website"
-    t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
-    t.string   "version_comment"
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "bios", :force => true do |t|
-    t.integer  "version"
-    t.integer  "lock_version",       :default => 0
-    t.string   "first_name"
-    t.string   "last_name"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.text     "description"
-    t.string   "website"
-    t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "carousel_page_versions", :force => true do |t|
     t.integer  "carousel_page_id"
     t.integer  "version"
@@ -235,6 +196,45 @@ ActiveRecord::Schema.define(:version => 20100626151452) do
     t.text     "body"
     t.string   "content_type"
     t.datetime "delivered_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "faculty_bio_versions", :force => true do |t|
+    t.integer  "faculty_bio_id"
+    t.integer  "version"
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.text     "description"
+    t.string   "website"
+    t.string   "name"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "faculty_bios", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",       :default => 0
+    t.string   "first_name"
+    t.string   "last_name"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.text     "description"
+    t.string   "website"
+    t.string   "name"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

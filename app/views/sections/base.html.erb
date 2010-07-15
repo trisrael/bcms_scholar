@@ -9,4 +9,8 @@
  <%= render_tabs %> 
 <% end %>
 
+<% content_for :navigation do %>
+ <%= render_tab_menu(@tab_names, @section_name) %>
+<% end %>
+
 

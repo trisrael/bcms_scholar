@@ -30,28 +30,29 @@ setupTabs: function() {
  jQuery(".tab_content:first").show();
  
  jQuery(".tab_header a").click(function(){
- //get the ID of the element we need to show
+//Switch "current" Tab selected
+ jQuery(".tab_header.current").removeClass("current"); //currently selected tab
+
+ jQuery(this.parentNode).addClass("current");
+
+ //get the ID of the "tab_content" element to be unhidden
  stringref = jQuery(this).attr("href").split('#')[1];
- //hide the tabs that doesn't match the ID
+
+ //hide the tabs not matching the ID
  jQuery('.tab_content:not(#'+stringref+')').hide();
  
  //Update the CMS Editor container with the correct page_id for Connectables linking. 
  links_to_update = jQuery('.cms_edit_container div a');
  if(links_to_update.length > 0){
  bcmsPageId  = jQuery('#' + stringref + " input").attr('value');
- 
- //Switch disabled status of Publish button if needed
- publish_button = jQuery("#publish_button");
- 
- 
 
+ links_to_update.add(publish_button);
+console.log(links_to_update.length);
  links_to_update.each(function(){
    oldHref = this.href;
    newHref = oldHref.replace(/page_id=.*$/, 'page_id=' + bcmsPageId);
    this.href = newHref;
   });
-
-
  }
 
 

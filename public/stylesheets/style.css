@@ -1,3 +1,5 @@
+/* Main */
+
 body, html{
  font-family: Arial, Helvetica, sans-serif, Verdana;
  font-size: 12px;
@@ -12,19 +14,27 @@ li{
  list-style-type: none;
 }
 
+
 /* Menu */
 
+#header{
+ text-align: center;
+}
+
+#content{
+ width: 90%;
+ margin:0 auto;
+}
+
 div#menu {
- margin-left: 10px;
- height: 30px;
- width: 686px;
+ padding: 0 10%;
+ height: 2.5em; 
 }
 
 div#menu ul {
  margin: 0px;
  padding: 0px;
- font-size: 14px;
- font-weight: bold;
+ font-size: 15px;
  line-height: 29px;
  white-space: nowrap;
 }
@@ -64,28 +74,110 @@ div#menu li a .even{
 
 /* Tab Menu */
 
+#tabs_container{
+ padding-top:10px;
+}
+
 #tab_menu{
- position: absolute:
- margin-left: -20px;
+ float: left;
+ padding-left: 5%;
+ padding-right: 10px;
+ font-size: 13px;
 }
 
 .tab_header a{
  text-decoration: none;
- color: black;
- border:1px solid black;
+ border: 1px solid #5F5F5F;
  padding: 2px 3px;
  display: block;
 }
 
+.tab_header a span{
+ margin-right: 0.2em;
+}
+
+.tab_header.current a{
+ color: #feffff;
+}
+
 .tab_header{
+ width:12em;
  margin-bottom: 6px;
+ color: black;
  text-align: center;
+ background-color: #8c8c8c;
+}
+
+.tab_header.current{
+ background-color: #323433;
 }
 
 
-/* Specific Section Tab Menus */
+/* Customized Section Tab Menus */
 
-.tab_header.the_program a{
-  width: 135px;
+.tab_header.the_program{
+  width: 10em;
+}
+
+.tab_header.media{
+  width: 6em;
+}
+
+.tab_header.the_company{
+ width: 8em;
+}
+
+.tab_header.the_company a span{
+ margin-right: 1px;
+}
+
+.tab_header.the_company.current a span.partial_1{
+ color: #0098e1;
+}
+
+/** Faculty Bio **/
+
+.faculty{
+ margin-top: 20px;
+ padding: 0 10px;
+}
+
+.faculty + .faculty{
+ margin-top: 10px;
+}
+
+.faculty .image_container{
+ float: left;
+ padding: 2px 10px 0 0 ;
+ height: 200px;
+ overflow-y: hidden;
+}
+
+.faculty h3{
+ margin:0;
+}
+
+.faculty h3 span.first_name{
+ color: #767676
+}
+
+.faculty h3 span.first_name{
+
+}
+
+.faculty img{
+ border: 1px solid black;
+}
+
+.faculty h3{
+ padding: 0;
+ margin: 0;
+}
+
+.faculty .border_element{
+ width: 33%;
+ margin: 0 auto;
+ height: 1px;
+ background-color: black;
 }
 

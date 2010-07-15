@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.namespace('cms') {|cms| cms.content_blocks :social_media_headers }
+
   
 
   #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
@@ -10,8 +12,6 @@ ActionController::Routing::Routes.draw do |map|
   map.namespace('cms') {|cms| cms.content_blocks :top_right_links }
 
   map.namespace('cms') {|cms| cms.content_blocks :important_infos }
-
-  map.namespace('cms') {|cms| cms.content_blocks :style_sheets }
 
   map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
 
