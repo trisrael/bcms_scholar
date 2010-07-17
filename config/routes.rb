@@ -1,17 +1,13 @@
 ActionController::Routing::Routes.draw do |map|
   map.namespace('cms') {|cms| cms.content_blocks :faculty_bios }
 
-  map.namespace('cms') {|cms| cms.content_blocks :social_media_headers }
-
-  
-
   #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
   def setup_section_routing
    yield if Section.table_exists?
   end
 
 
-  map.namespace('cms') {|cms| cms.content_blocks :top_right_links }
+  map.namespace('cms') {|cms| cms.content_blocks :page_links }
 
   map.namespace('cms') {|cms| cms.content_blocks :important_infos }
 

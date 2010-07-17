@@ -7,6 +7,7 @@ class SectionsController < Cms::ContentController
 
 #Renders 'Section' roots, with sub-menu of children and default tab-selected unless another tab-brought in.
   def index
+    set_page_mode
     render 'base.html.erb', :layout => 'templates/default'
   end
 
@@ -43,8 +44,7 @@ class SectionsController < Cms::ContentController
      @section.visible_child_nodes.each do |child|
        if child.node_type == 'Page'
          @page = child.node
-         #Default to first page as page to Edit
-         @current_page = @page unless @current_page
+
          prepare_connectables_for_render
          @tab_data <<
          {:page => @page, :connectors => @_connectors, :connectables => @_connectables }

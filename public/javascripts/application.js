@@ -26,8 +26,8 @@ setupMenu: function(){
 }, 
 
 setupTabs: function() {
- jQuery(".tab_content:not(:first)").hide();
- jQuery(".tab_content:first").show();
+ jQuery(".tab_content:not(.current)").hide();
+ jQuery(".tab_content.current").show();
  
  jQuery(".tab_header a").click(function(){
 //Switch "current" Tab selected
@@ -46,15 +46,21 @@ setupTabs: function() {
  if(links_to_update.length > 0){
  bcmsPageId  = jQuery('#' + stringref + " input").attr('value');
 
- links_to_update.add(publish_button);
-console.log(links_to_update.length);
+
  links_to_update.each(function(){
    oldHref = this.href;
    newHref = oldHref.replace(/page_id=.*$/, 'page_id=' + bcmsPageId);
    this.href = newHref;
   });
- }
 
+  
+
+ }
+ 
+var visualEditorButton = jQuery('a.sm_button');
+  if(visualEditorButton.length > 0){
+   debugger;
+  }
 
 
  //IE6 fix.

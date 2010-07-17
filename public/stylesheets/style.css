@@ -181,3 +181,16 @@ div#menu li a .even{
  background-color: black;
 }
 
+
+/** CMS Editing **/
+
+#content.cms_editing{
+ margin-left: 15%;
+ width: 80%;
+}
+
+#tab_menu.cms_editing{
+ position: absolute;
+ padding-left: 0;
+ margin-left: -15%;
+}

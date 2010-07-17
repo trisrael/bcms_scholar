@@ -75,7 +75,7 @@ div#menu li a .even{
 /* Tab Menu */
 
 #tabs_container{
-padding-top:10px;
+ padding-top:10px;
 }
 
 #tab_menu{
@@ -181,3 +181,16 @@ padding-top:10px;
  background-color: black;
 }
 
+
+/** CMS Editing **/
+
+#content.cms_editing{
+ margin-left: 15%;
+ width: 85%;
+}
+
+#tab_menu.cms_editing{
+ position: absolute;
+ padding-left: 0;
+ margin-left: -15%;
+}

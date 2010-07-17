@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100626151452) do
+ActiveRecord::Schema.define(:version => 20100626152716) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -392,6 +392,43 @@ ActiveRecord::Schema.define(:version => 20100626151452) do
     t.boolean  "archived",      :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
+  end
+
+  create_table "page_link_versions", :force => true do |t|
+    t.integer  "page_link_id"
+    t.integer  "version"
+    t.string   "link_name"
+    t.string   "link_url"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.integer  "position"
+    t.string   "name"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "page_links", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",       :default => 0
+    t.string   "link_name"
+    t.string   "link_url"
+    t.integer  "attachment_id"
+    t.integer  "attachment_version"
+    t.integer  "position"
+    t.string   "name"
+    t.boolean  "published",          :default => false
+    t.boolean  "deleted",            :default => false
+    t.boolean  "archived",           :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "page_route_options", :force => true do |t|

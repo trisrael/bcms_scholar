@@ -7,10 +7,10 @@
     <%= yield :html_head %>
     <%= include_javascripts %>
   </head>
-  <body style="margin: 0; padding: 0; text-align: center;">
+  <body style="margin: 0; padding: 0;">
      <%= cms_toolbar %>
     <div id='header'><%= image_tag 'header.jpg' %></div>
-    <div id="content">
+    <div id="content" class='<%='cms_editing' if @mode == 'edit'%>'>
      <div id='navigation_container'>
       <%= render_main_nav %>
       <%= yield :navigation%>
