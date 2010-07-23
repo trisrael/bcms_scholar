@@ -1,5 +1,4 @@
 <%= f.cms_text_field :name %>
-
-<%= f.cms_text_editor :text %>
-
-<%= f.select :page_id, Page.find(:all, :conditions => {:published => true}).map{|p| [p.name , p.id]} %>
+<%= f.cms_text_field :title, :label => "Title eg: 'Latest News'" %>
+<%= f.cms_text_field :url, :label => "Link URL (optional)", :title=> "Adding a Link URL will make the entire ImportantInfo content block 'clickable'. Thus, when a User hovers over the ImportantInfo area it will highlight and onclick will bring the user to the URL supplied."  %>
+<%= f.cms_text_editor :text, :label => "Content" %>

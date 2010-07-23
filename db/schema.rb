@@ -346,6 +346,8 @@ ActiveRecord::Schema.define(:version => 20100721035210) do
     t.integer  "important_info_id"
     t.integer  "version"
     t.text     "text"
+    t.string   "url"
+    t.string   "title"
     t.integer  "page_id"
     t.string   "name"
     t.boolean  "published",         :default => false
@@ -362,6 +364,8 @@ ActiveRecord::Schema.define(:version => 20100721035210) do
     t.integer  "version"
     t.integer  "lock_version",  :default => 0
     t.text     "text"
+    t.string   "url"
+    t.string   "title"
     t.integer  "page_id"
     t.string   "name"
     t.boolean  "published",     :default => false

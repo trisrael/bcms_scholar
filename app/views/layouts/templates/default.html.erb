@@ -9,17 +9,27 @@
   </head>
   <body style="margin: 0; padding: 0;">
      <%= cms_toolbar %>
-    <div id='links'><%= PageLink.all.sort{|a,b| a.position <=> b.position}.collect{|link|render_connectable(link)}
-%></div>
+    <div id='links'>
+	<%= PageLink.all.sort{|a,b| a.position <=> b.position}.collect{|link|render_connectable(link)}%>
+    </div>
 
     <div id='header'><%= image_tag 'header.jpg' %></div>
 
     <div id="content" class='<%='cms_editing' if @mode == 'edit' && @section %>'>
      <div id='navigation_container'>
       <%= render_main_nav %>
-      <%= yield :navigation%>
+      <%= yield :navigation %>
      </div>
-     <%= container :main %>
+     <div id='inner_content' class='<%='cms' if @mode == 'edit' && !@section %>'>
+     <div id='floating_sidebar'>
+      <%= container :upper_left_sidebar if !@section %>
+     </div>
+     <div id='main'>
+      <%= container :main %>
+     </div>
+     <div id='testimonial'>
+      <%= container :testimonial %>
+     </div>
     </div>
     <div id='footer'></div>
   </body>

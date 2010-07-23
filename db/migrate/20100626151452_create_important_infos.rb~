@@ -2,7 +2,8 @@ class CreateImportantInfos < ActiveRecord::Migration
   def self.up
     create_content_table :important_infos do |t|
       t.text :text, :size => (64.kilobytes + 1) 
-      t.references :page
+      t.string :url
+      t.string :title
     end
     
     

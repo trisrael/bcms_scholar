@@ -20,7 +20,10 @@ module TagAdditions
 end
 
 ActiveRecord::Base.send(:include, TagAdditions)
+
 AbstractFileBlock.send(:can_tag)
+Student.send(:can_tag)
+ImportantInfo.send(:can_tag)
 
 
 

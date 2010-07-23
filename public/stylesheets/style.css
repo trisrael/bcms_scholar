@@ -1,3 +1,33 @@
+/* Layout */
+
+#floating_sidebar{
+}
+
+.cms #floating_sidebar{
+ width: 20%;
+ position: absolute;
+ margin-left: -21.5%;
+ margin-top: 8px;
+ height: 5%;
+}
+
+
+#inner_content.cms{
+  padding-left: 22%;
+  margin-top: 5px;
+}
+
+.cms #main{
+ margin-bottom: 15px;
+ width: 80%
+}
+
+.cms #testimonial{
+ width: 80%
+}
+
+
+
 /* Main */
 
 body, html{
