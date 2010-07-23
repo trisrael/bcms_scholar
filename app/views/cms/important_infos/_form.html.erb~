@@ -1,0 +1,5 @@
+<%= f.cms_text_field :name %>
+
+<%= f.cms_text_editor :text %>
+
+<%= f.select :page_id, Page.find(:all, :conditions => {:published => true}).map{|p| [p.name , p.id]} %>

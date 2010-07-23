@@ -1,5 +1,6 @@
 class Cms::PageLinksController < Cms::ContentBlockController
  before_filter :setup_positions_for_new, :only => [:edit, :new]
+ helper :all
 
  #method to setup available positions for a new PageLink to take 
  def setup_positions_for_new

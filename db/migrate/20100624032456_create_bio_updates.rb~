@@ -3,7 +3,8 @@ class CreateBioUpdates < ActiveRecord::Migration
     create_content_table :bio_updates do |t|
       t.date :date_entered 
       t.text :update_text 
-      t.references :bio
+      t.references :person_id
+      t.string :type
     end
     
     

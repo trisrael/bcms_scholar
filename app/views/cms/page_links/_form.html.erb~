@@ -1,0 +1,5 @@
+<%= f.cms_file_field :attachment_file, :label => "Picture" %>
+<%= f.cms_text_field :link_name, :label => "Name of Link" %>
+<%= f.cms_text_field :link_url %>
+<%= f.select :position,  @positions %>
+

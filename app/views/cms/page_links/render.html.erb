@@ -1,3 +1,18 @@
-<a href="<%= @content_block.url%>" name="<%= @content_block.name %>">
-<%= img_tag(@content_block.attachment.url) if @content_block.attachment %>
+<a href="<%= @content_block.link_url%>" name="<%= @content_block.link_name %>">
+<%= 
+
+ out = ""
+ if @content_block.attachment
+   if @content_block.published? 
+     out << image_tag(@content_block.attachment.file_path)
+   else
+     out << image_tag(url_for(@content_block.attachment))
+   end
+   return out
+ end
+
+   out << @content_block.link_name
+
+%>
+
 </a>

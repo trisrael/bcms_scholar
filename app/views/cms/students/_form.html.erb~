@@ -1,0 +1,15 @@
+<%= f.cms_text_field :name %>
+
+<%= f.cms_text_field :first_name %>
+<%= f.cms_text_field :last_name %>
+<%= f.cms_text_editor :description %>
+<%= f.cms_text_field :website %>
+<%= f.label :headshot %>
+<%= f.select :headshot, @headshots.collect{|ah| ah.attachment.file_path} %>
+
+<%= f.label :thumbnail %>
+
+<%= f.select :thumbnail, @thumbnails.collect{|ah| ah.attachment.file_path}, :label => "Thumbnail" %>
+
+
+

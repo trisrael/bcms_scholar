@@ -1,0 +1,13 @@
+<div class='faculty'>
+ <div class='image_container left floating'>
+  <img src='<%=@content_block.attachment_link%>'/>
+ </div>
+ <h3>
+  <span class='first_name'> <%= @content_block.first_name.upcase %></span>
+  <span class='last_name'> <%= @content_block.last_name.upcase %></span>
+ </h3>
+ <span class='website'><%= @content_block.website %></span>
+ <p><%= @content_block.description %></p>
+ <div class='border_element'>&nbsp</div>
+</div>
+

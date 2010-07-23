@@ -1,0 +1,3 @@
+<a href="<%= @content_block.link_url%>" name="<%= @content_block.link_name %>">
+
+</a>

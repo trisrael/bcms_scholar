@@ -4,14 +4,10 @@
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
-  
-  before_filter :setup_dynamic_stylesheets
+  before_filter :setup_page_links
 
-  #Get the StyleSheet content_blocks from the database and make them accessible to the helpers
-  def setup_dynamic_stylesheets
-   if Rails.env.equals? 'development'
-    @stylesheet_content_arr = StyleSheet.all
-   end 
+  def setup_page_links
+   @page_links = PageLink.all.sort{|a,b| a.position <=> b.position}
   end
 
   # Scrub sensitive parameters from your log

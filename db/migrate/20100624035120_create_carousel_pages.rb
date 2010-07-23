@@ -2,7 +2,12 @@ class CreateCarouselPages < ActiveRecord::Migration
   def self.up
     create_content_table :carousel_pages do |t|
       t.string :title 
-      t.text :content, :size => (64.kilobytes + 1) 
+      t.text :content, :size => (64.kilobytes + 1)
+      t.belongs_to :attachment 
+      t.integer :attachment_version 
+      t.string :attachment_url
+      t.string :page_link	
+      t.integer :position
     end
     
     

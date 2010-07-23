@@ -1,4 +1,8 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :photos
+
+  map.namespace('cms') {|cms| cms.content_blocks :students }
+
   map.namespace('cms') {|cms| cms.content_blocks :faculty_bios }
 
   #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
