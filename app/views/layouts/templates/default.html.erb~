@@ -26,10 +26,12 @@
      </div>
      <div id='main'>
       <%= container :main %>
+     </div>
+      <div style="clear: both" />
      <div id='testimonial'>
+       <div style='width: 100%'>&nbsp</div>
       <%= container :testimonial %>
      </div>
-</div>
     </div>
     <div id='footer'></div>
   </body>

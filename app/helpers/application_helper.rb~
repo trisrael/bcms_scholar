@@ -38,6 +38,8 @@ module ApplicationHelper
   out
  end
 
+ 
+
 private
  
  def render_nav_link(name)
@@ -72,20 +74,6 @@ private
 
  def similar_url?(act_url, rel_url)
    act_url.include?(rel_url) || act_url == rel_url
- end
-
-def page_link_inner_content
- out = ""
- if @content_block.attachment
-   if @content_block.published? 
-     out << image_tag(@content_block.attachment.file_path)
-   else
-     out << image_tag(url_for(@content_block.attachment))
-   end
-   return out
- end
-
-   out << @content_block.link_name
  end
 
 end
