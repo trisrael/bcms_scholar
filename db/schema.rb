@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100721035210) do
+ActiveRecord::Schema.define(:version => 20100723102804) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -623,6 +623,37 @@ ActiveRecord::Schema.define(:version => 20100721035210) do
     t.text     "comment"
     t.date     "due_date"
     t.datetime "completed_at"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "testimonial_versions", :force => true do |t|
+    t.integer  "testimonial_id"
+    t.integer  "version"
+    t.text     "text"
+    t.string   "name"
+    t.string   "title"
+    t.boolean  "published",       :default => false
+    t.boolean  "deleted",         :default => false
+    t.boolean  "archived",        :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "testimonials", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",  :default => 0
+    t.text     "text"
+    t.string   "name"
+    t.string   "title"
+    t.boolean  "published",     :default => false
+    t.boolean  "deleted",       :default => false
+    t.boolean  "archived",      :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

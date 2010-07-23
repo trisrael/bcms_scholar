@@ -44,7 +44,7 @@ private
   reset_cycle('link')
   name.strip!
   parts = name.split(/\s+/)
-  out = "<span class='link_hover'>&nbsp</span>"
+  out = "<span class='link_hover'>&nbsp;</span>"
   parts.each do |part|
    out << "<span class='#{cycle('odd', 'even', :name => 'link')}'>"
    out << part.upcase

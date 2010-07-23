@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.namespace('cms') {|cms| cms.content_blocks :testimonials }
+
   map.resources :photos
 
   map.namespace('cms') {|cms| cms.content_blocks :students }

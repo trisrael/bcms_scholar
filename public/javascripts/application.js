@@ -12,7 +12,7 @@ var Initializer = {
 setupMenu: function(){
  if(!$('#menu')){return;} // Return if the base element needed to initialize is not available
  jQuery("#menu li.current .link_hover").addClass('focused');
-
+/**
  jQuery("#menu li:not(.current)").hover(
   
  function(){
@@ -21,8 +21,9 @@ setupMenu: function(){
  function(){
   jQuery('.link_hover', this).removeClass('focused');
  }
- );
 
+ );
+**/
 }, 
 
 setupTabs: function() {

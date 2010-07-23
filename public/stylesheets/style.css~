@@ -51,9 +51,8 @@ body, html{
  font-size: 12px;
 }
 
-h1, h3, h4, h5, h2, span{
+h1, h3, h4, h5, h2{
 margin: 0 0;
-padding: 0 0;
 }
 
 h3{
@@ -66,7 +65,7 @@ a, a:visited, a:link{
 }
 
 h3 .odd{
- color:  #009DEA;
+ color:  #4FB0FF;
 }
 
 li{
@@ -102,6 +101,8 @@ div#menu ul {
  margin: 0px;
  padding: 0px;
  font-size: 15px;
+ font-weight: bold;
+ letter-spacing: -0.5px;
  line-height: 29px;
  white-space: nowrap;
 }
@@ -111,8 +112,20 @@ div#menu li {
 }
 
 div#menu li a {
- text-decoration: none;
- padding: 6px;
+ background-color: white;
+ margin:4px 6px 0;
+ padding:0 2px;
+ text-decoration:none;
+}
+
+div#menu li.current a{
+ border-bottom: 2px solid #4FB0FF;
+ border-left: 2px solid #4FB0FF;
+}
+
+div#menu li.focused a {
+ border-bottom: 2px solid #4FB0FF;
+ border-left: 2px solid #4FB0FF;
 }
 
 div#menu li a .even, .odd{
@@ -127,16 +140,17 @@ div#menu li a .even{
 }
 
 .link_hover{
- width:4px;
- position: absolute;
- z-index: 16;
+ position:absolute;
+ width: 17px;
+ height: 16px;
+ z-index:-16;
 }
 
 .link_hover.focused{ 
- border-left: 4px solid #009DEA;
- margin-left: -5px;
- line-height: 16px;
- margin-top: 7px; 
+ margin-top:18px;
+ background-color:#4FB0FF;
+ line-height:8px;
+ margin-left:-11px;
 }
 
 /* Tab Menu */
@@ -203,9 +217,40 @@ div#menu li a .even{
 }
 
 /** * Content Blocks * **/
+
+/** ImportantInfo **/
 .important_info{
  border: 2px solid black;
  padding: 10px; 
+}
+
+/** Testimonial **/
+
+.testimonial{
+/**
+ background-image:url("/images/ddc/testimonial/top_left_corner.png"), url("/images/ddc/testimonial/top_right_corner.png"), url("/images/ddc/testimonial/bottom_left_corner.png") , url("/images/ddc/testimonial/bottom_right_corner.png");
+ background-position: left top, right top, bottom left, bottom right;
+ background-repeat:no-repeat;
+**/
+ border-radius: 6px;
+ -moz-border-radius: 6px;
+  border: 2px solid;
+  padding:10px 10px;
+  margin-bottom: 30px;
+  font-size: 110%;
+}
+
+.testimonial p{
+  font-style: italic;
+ }
+
+.testimonial .quote{
+ background-image:url("/images/ddc/testimonial/quote_portion.jpg");
+ background-repeat: no-repeat;
+ position: absolute;
+ width: 30px;
+ height:23px;
+ margin:8px 0 0 12px;
 }
 
 /** Faculty Bio **/

@@ -1,0 +1,9 @@
+<div class='testimonial'>
+ <p>
+  "<%= @content_block.text %>"
+ </p>
+ <h4>
+  -<%= @content_block.name %><%= ", " + @content_block.title if @content_block.title  %>
+</h4>
+ <span class='quote'>&nbsp</span>
+</div>
