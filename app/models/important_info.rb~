@@ -1,8 +1,4 @@
 class ImportantInfo < ActiveRecord::Base
   acts_as_content_block :taggable => true
 
-  def attributes=(attributes = nil) 
-   super 
-  end
-
 end	

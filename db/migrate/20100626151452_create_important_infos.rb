@@ -4,7 +4,6 @@ class CreateImportantInfos < ActiveRecord::Migration
       t.text :text, :size => (64.kilobytes + 1) 
       t.string :url
       t.string :title
-      t.references :page
     end
     
     

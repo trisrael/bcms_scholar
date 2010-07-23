@@ -348,7 +348,6 @@ ActiveRecord::Schema.define(:version => 20100721035210) do
     t.text     "text"
     t.string   "url"
     t.string   "title"
-    t.integer  "page_id"
     t.string   "name"
     t.boolean  "published",         :default => false
     t.boolean  "deleted",           :default => false
@@ -366,7 +365,6 @@ ActiveRecord::Schema.define(:version => 20100721035210) do
     t.text     "text"
     t.string   "url"
     t.string   "title"
-    t.integer  "page_id"
     t.string   "name"
     t.boolean  "published",     :default => false
     t.boolean  "deleted",       :default => false
