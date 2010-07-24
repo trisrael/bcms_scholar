@@ -1,3 +1,0 @@
-module ContentBlockHelper
- 
-end

@@ -411,13 +411,11 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
     t.integer  "version"
     t.string   "link_name"
     t.string   "link_url"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.integer  "position"
+    t.integer  "image_block_id"
     t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
+    t.boolean  "published",       :default => false
+    t.boolean  "deleted",         :default => false
+    t.boolean  "archived",        :default => false
     t.string   "version_comment"
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
@@ -427,16 +425,14 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
 
   create_table "page_links", :force => true do |t|
     t.integer  "version"
-    t.integer  "lock_version",       :default => 0
+    t.integer  "lock_version",   :default => 0
     t.string   "link_name"
     t.string   "link_url"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.integer  "position"
+    t.integer  "image_block_id"
     t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
+    t.boolean  "published",      :default => false
+    t.boolean  "deleted",        :default => false
+    t.boolean  "archived",       :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"

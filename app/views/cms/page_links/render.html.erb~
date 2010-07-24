@@ -1,3 +1,6 @@
 <a href="<%= @content_block.link_url%>" name="<%= @content_block.link_name %>">
-
+<% if @content_block.image_block %>
+<%= render_connectable(@content_block.image_block) %>
+<% else %>
+<%= @content_block.link_name %>
 </a>

@@ -1,5 +1,5 @@
-<%= f.cms_file_field :attachment_file, :label => "Picture" %>
-<%= f.cms_text_field :link_name, :label => "Name of Link" %>
+<%= f.cms_text_field :name, :label => "Page Link Name" %>
+<%= f.cms_text_field :link_name , :label => "Link Title",:title => "Rendered as PageLink's text when no Image is supplied" %>
 <%= f.cms_text_field :link_url %>
-<%= f.select :position,  @positions || [] %>
-
+<%= f.label :Image%>
+<%= f.select :image_block_id, (@images || ImageBlock.with_tag("page_link").collect{|image| [image.attachment.file_path, image.id]}) , :include_blank => "None" %>

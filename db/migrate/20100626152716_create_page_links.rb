@@ -2,16 +2,14 @@ class CreatePageLinks < ActiveRecord::Migration
   def self.up
     create_content_table :page_links do |t|
       t.string :link_name
-      t.string :link_url 
-      t.belongs_to :attachment
-      t.integer :attachment_version 
-      t.integer :position
+      t.string :link_url
+      t.references :image_block
     end
     
     unless Section.with_path('/top_right_links').exists?
       Section.create!(:name => "PageLink", :parent => Section.system.first, :path => '/page_links', :allow_groups=>:all)
     end
-    ContentType.create!(:name => "PageLink", :group_name => "Miscellaneous")
+    ContentType.create!(:name => "PageLink", :group_name => "Core")
   end
 
   def self.down
