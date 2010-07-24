@@ -29,7 +29,6 @@
      </div>
       <div style="clear: both" />
      <div id='testimonial'>
-       <div style='width: 100%'>&nbsp</div>
       <%= container :testimonial %>
      </div>
     </div>

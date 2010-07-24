@@ -1,0 +1,10 @@
+<%= f.cms_text_field :name %>
+
+<script>
+$(document).ready(function(){
+
+
+});
+</script>
+
+<%= f.cms_template_editor :template %>
