@@ -1,4 +1,0 @@
-<%= f.cms_text_field :name %>
-<%= f.cms_date_picker :date_entered %>
-<%= f.cms_text_area :update_text %>
-<%= select "bio", "bio_id", Bio.all.collect{|b| [b.name, b.id]}, {:include_blank => 'None'} %>

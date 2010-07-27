@@ -48,39 +48,6 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
     t.integer  "updated_by_id"
   end
 
-  create_table "bio_update_versions", :force => true do |t|
-    t.integer  "bio_update_id"
-    t.integer  "version"
-    t.date     "date_entered"
-    t.text     "update_text"
-    t.integer  "bio_id"
-    t.string   "name"
-    t.boolean  "published",       :default => false
-    t.boolean  "deleted",         :default => false
-    t.boolean  "archived",        :default => false
-    t.string   "version_comment"
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "bio_updates", :force => true do |t|
-    t.integer  "version"
-    t.integer  "lock_version",  :default => 0
-    t.date     "date_entered"
-    t.text     "update_text"
-    t.integer  "bio_id"
-    t.string   "name"
-    t.boolean  "published",     :default => false
-    t.boolean  "deleted",       :default => false
-    t.boolean  "archived",      :default => false
-    t.integer  "created_by_id"
-    t.integer  "updated_by_id"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
   create_table "carousel_page_versions", :force => true do |t|
     t.integer  "carousel_page_id"
     t.integer  "version"
