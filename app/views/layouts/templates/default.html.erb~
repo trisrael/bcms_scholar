@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>Scholarship Dance Training -<%= strip_tags(page_title) %></title>
+    <title>Scholarship Dance Training -<%= strip_tags(@page.title) %></title>
     <%= include_stylesheets %>
     <%= yield :html_head %>
     <%= include_javascripts %>
@@ -10,7 +10,7 @@
   <body style="margin: 0; padding: 0;">
      <%= cms_toolbar %>
     <div id='links'>
-	<%= PageLink.all.sort{|a,b| a.position <=> b.position}.collect{|link|render_connectable(link)}%>
+	<%= render_portlet("Social Media Headers") %>
     </div>
 
     <div id='header'><%= image_tag 'header.jpg' %></div>
@@ -21,13 +21,14 @@
       <%= yield :navigation %>
      </div>
      <div id='inner_content' class='<%='cms' if @mode == 'edit' && !@section %>'>
-     <div id='floating_sidebar'>
+    
+     <div id='sidebar'>
       <%= container :upper_left_sidebar if !@section %>
      </div>
      <div id='main'>
       <%= container :main %>
      </div>
-      <div style="clear: both" />
+      <div style="clear: both"/>
      <div id='testimonial'>
       <%= container :testimonial %>
      </div>

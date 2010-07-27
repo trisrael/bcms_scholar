@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <title>Scholarship Dance Training -<%= strip_tags(page_title) %></title>
+    <title>Scholarship Dance Training -<%= strip_tags(@page.title) %></title>
     <%= include_stylesheets %>
     <%= yield :html_head %>
     <%= include_javascripts %>
@@ -21,13 +21,14 @@
       <%= yield :navigation %>
      </div>
      <div id='inner_content' class='<%='cms' if @mode == 'edit' && !@section %>'>
-     <div id='floating_sidebar'>
-      <%= container :upper_left_sidebar if !@section %>
+    
+     <div id='sidebar'>
+      <%= container :upper_left_sidebar %>
      </div>
      <div id='main'>
       <%= container :main %>
      </div>
-      <div style="clear: both" />
+      <div style="clear: both"/>
      <div id='testimonial'>
       <%= container :testimonial %>
      </div>

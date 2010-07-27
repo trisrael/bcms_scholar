@@ -85,16 +85,15 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
     t.integer  "carousel_page_id"
     t.integer  "version"
     t.string   "title"
-    t.text     "content"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.string   "attachment_url"
-    t.string   "page_link"
-    t.integer  "position"
+    t.text     "descriptive_content"
+    t.text     "eyecatcher_content"
+    t.integer  "image_block_id"
+    t.string   "main_url"
+    t.string   "secondary_url"
     t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
+    t.boolean  "published",           :default => false
+    t.boolean  "deleted",             :default => false
+    t.boolean  "archived",            :default => false
     t.string   "version_comment"
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
@@ -104,18 +103,17 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
 
   create_table "carousel_pages", :force => true do |t|
     t.integer  "version"
-    t.integer  "lock_version",       :default => 0
+    t.integer  "lock_version",        :default => 0
     t.string   "title"
-    t.text     "content"
-    t.integer  "attachment_id"
-    t.integer  "attachment_version"
-    t.string   "attachment_url"
-    t.string   "page_link"
-    t.integer  "position"
+    t.text     "descriptive_content"
+    t.text     "eyecatcher_content"
+    t.integer  "image_block_id"
+    t.string   "main_url"
+    t.string   "secondary_url"
     t.string   "name"
-    t.boolean  "published",          :default => false
-    t.boolean  "deleted",            :default => false
-    t.boolean  "archived",           :default => false
+    t.boolean  "published",           :default => false
+    t.boolean  "deleted",             :default => false
+    t.boolean  "archived",            :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"

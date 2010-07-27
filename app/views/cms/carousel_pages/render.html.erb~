@@ -1,0 +1,28 @@
+<div class='carousel_page content' title='<%= @content_block.title %>'>
+ 
+<%= "<a href='#{@content_block.main_url}'>" unless @content_block.main_url.blank? %>
+ <div class='eyecatcher'>
+ <% if @content_block.image_block %>
+  <%= render_connectable(@content_block.image_block) %>
+ <% else #Assume there is HTML content %>
+   <%= @content_block.eyecatcher_content %>
+ <% end %>
+ </div>
+<%= "</a>" unless @content_block.main_url.blank? %>
+
+<% if (!@content_block.secondary_url.blank?) %>
+ <%= "<a href='#{@content_block.secondary_url}'>" %>
+<% elsif !@content_block.main_url.blank? %>
+ <%= "<a href='#{@content_block.secondary_url}'>" %>
+<% end %>
+
+
+ <div class='descriptive'>
+   <div class='content'>
+ <h3><%= @content_block.title %></h3>
+  <%= @content_block.descriptive_content %>
+   </div>
+ </div>
+
+</div>
+<%= "</a>" unless @content_block.main_url.blank? && @content_block.secondary_url.blank? %>

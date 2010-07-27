@@ -17,7 +17,7 @@
 development:
   adapter: mysql
   encoding: utf8
-  reconnect: false
+  reconnect: fal
   database: ddc_bcms_development
   pool: 5
   username: root

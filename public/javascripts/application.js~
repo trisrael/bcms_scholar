@@ -1,4 +1,9 @@
 jQuery(document).ready(function(){
+debugger;
+if($("#floating_sidebar:empty")){
+  $("#main").css("width","80%");
+  $("#main").css("margin","0 10%");
+}
 
 
 if($('#tab_menu')){
@@ -21,9 +26,9 @@ setupMenu: function(){
  function(){
   jQuery('.link_hover', this).removeClass('focused');
  }
-**/
- );
 
+ );
+**/
 }, 
 
 setupTabs: function() {

@@ -1,10 +1,10 @@
 /* Layout */
 
-#floating_sidebar{
+#sidebar{
  width: 20%;
 }
 
-.cms #floating_sidebar{
+.cms #sidebar{
  width: 20%;
  position: absolute;
  margin-left: -21.5%;
@@ -13,7 +13,7 @@
 }
 
 #inner_content{
-
+ margin-top: 15px;
 }
 
 #inner_content.cms{
@@ -25,6 +25,7 @@
  margin-top: 3px;
  float: left;
  width: 70%;
+ margin-bottom: 30px;
 }
 
 .cms #main{
@@ -43,6 +44,11 @@
 #testimonial{
  width: 70%
 }
+
+#footer{
+ height: 30px;
+}
+
 
 /* Main */
 
@@ -311,4 +317,80 @@ div#menu li a .even{
  position: absolute;
  padding-left: 0;
  margin-left: -15%;
+}
+
+/** Carousel **/
+
+.carousel_container{
+ position: relative;
+ margin: 40px 20%;
+}
+
+.carousel{
+ width: 600px;
+}
+
+#pager{
+ position:absolute;
+ right:-100px;
+}
+
+#pager a{
+ color:  #767676;
+ text-transform:uppercase;
+}
+
+.carousel_container #pager .activeSlide a{
+ color: black;
+ font-weight: bold;
+}
+
+.carousel img{
+ border:none;
+}
+.carousel_page a, .carousel_page p,.carousel_page h3, .carousel_page div,.carousel_page a:link,.carousel_page a:visited{
+ color: white; 
+}
+
+.carousel_page.content{
+ height:350px;
+ width:500px;
+ overflow: hidden;
+ background-color: black;
+}
+.carousel_page a{
+
+ height: 350px;
+}
+
+
+.carousel_page .eyecatcher{
+ text-align: center;
+ width: 330px;
+ float: left;
+ overflow: hidden;
+}
+
+.carousel_page .descriptive{
+ padding: 5px;
+ width: 130px;
+ overflow: hidden;
+}
+
+.carousel_page .descriptive .content{
+
+}
+
+.carousel_page .descriptive h3{
+ padding-left: 15px;
+ text-indent: -15px;
+}
+.carousel_page .descriptive h3 a{
+  color: #059EEE; 
+  text-transform:uppercase;
+}
+
+.jcarousel-list li, .jcarousel-item {
+ float:left;
+ list-style:none outside none;
 }

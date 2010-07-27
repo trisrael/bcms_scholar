@@ -2,16 +2,14 @@ class CreateCarouselPages < ActiveRecord::Migration
   def self.up
     create_content_table :carousel_pages do |t|
       t.string :title 
-      t.text :content, :size => (64.kilobytes + 1)
-      t.belongs_to :attachment 
-      t.integer :attachment_version 
-      t.string :attachment_url
-      t.string :page_link	
-      t.integer :position
+      t.text :descriptive_content, :size => (64.kilobytes + 1)
+      t.text :eyecatcher_content, :size => (64.kilobytes + 1)
+      t.references :image_block
+      t.string :main_url
+      t.string :secondary_url
     end
-    
-    
-    ContentType.create!(:name => "CarouselPage", :group_name => "CarouselPage")
+
+    ContentType.create!(:name => "CarouselPage", :group_name => "Core")
   end
 
   def self.down

@@ -1,5 +1,10 @@
 jQuery(document).ready(function(){
 
+if($("#floating_sidebar:empty")){
+  $("#main").css("width","80%");
+  $("#main").css("margin","0 10%");
+}
+
 
 if($('#tab_menu')){
   Initializer.setupTabs();
