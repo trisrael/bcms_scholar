@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100723102804) do
+ActiveRecord::Schema.define(:version => 20100727063048) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -531,6 +531,8 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
     t.string   "last_name"
     t.text     "description"
     t.string   "website"
+    t.integer  "headshot_id"
+    t.integer  "thumbnail_id"
     t.string   "name"
     t.boolean  "published",       :default => false
     t.boolean  "deleted",         :default => false
@@ -544,22 +546,21 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
 
   create_table "students", :force => true do |t|
     t.integer  "version"
-    t.integer  "lock_version",   :default => 0
+    t.integer  "lock_version",  :default => 0
     t.string   "first_name"
     t.string   "last_name"
     t.text     "description"
     t.string   "website"
+    t.integer  "headshot_id"
+    t.integer  "thumbnail_id"
     t.string   "name"
-    t.boolean  "published",      :default => false
-    t.boolean  "deleted",        :default => false
-    t.boolean  "archived",       :default => false
+    t.boolean  "published",     :default => false
+    t.boolean  "deleted",       :default => false
+    t.boolean  "archived",      :default => false
     t.integer  "created_by_id"
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "headshot"
-    t.string   "thumbnail"
-    t.text     "tabs_published"
   end
 
   create_table "taggings", :force => true do |t|
@@ -610,6 +611,37 @@ ActiveRecord::Schema.define(:version => 20100723102804) do
     t.text     "text"
     t.string   "name"
     t.string   "title"
+    t.boolean  "published",     :default => false
+    t.boolean  "deleted",       :default => false
+    t.boolean  "archived",      :default => false
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "update_versions", :force => true do |t|
+    t.integer  "update_id"
+    t.integer  "version"
+    t.integer  "student_id"
+    t.string   "update_text"
+    t.string   "name"
+    t.boolean  "published",       :default => false
+    t.boolean  "deleted",         :default => false
+    t.boolean  "archived",        :default => false
+    t.string   "version_comment"
+    t.integer  "created_by_id"
+    t.integer  "updated_by_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "updates", :force => true do |t|
+    t.integer  "version"
+    t.integer  "lock_version",  :default => 0
+    t.integer  "student_id"
+    t.string   "update_text"
+    t.string   "name"
     t.boolean  "published",     :default => false
     t.boolean  "deleted",       :default => false
     t.boolean  "archived",      :default => false

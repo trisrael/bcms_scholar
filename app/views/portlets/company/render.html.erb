@@ -1,0 +1,42 @@
+<% id_partial = @portlet.name.underscore.gsub(/\s+/, "_") %>
+
+<div class='company_container'>
+<div class='students'>
+
+ <div class='content'>
+<% @students.each_with_index do |cp, i| %>
+  <%= render_connectable(cp)%>
+<% end %>  
+ </div>
+ </div>
+</div>
+
+<% content_for :head do %>
+   <%= javascript_include_tag('jquery.cycle.all')%>
+   <%= javascript_include_tag('jquery.easing.1.3')%>
+    <script type="text/javascript">
+     $().ready(function(){ 
+      $(".students").before("<ul id='<%= id_partial%>_pager' class='pager'/>").cycle({
+ fx: 'fade',
+ sync: true, 
+ timeout: 0,
+ speed: 1500,
+ pause: true,
+ slideExpr: '.student', 
+ timeout: 8000,
+ pager: '#<%= id_partial%>_pager', 
+ pagerAnchorBuilder: function(idx, slide) { 
+         out = [];
+ 	 out.push('<li>');
+         out.push('<span class="image_wrapper">');
+ 	 out.push('<img src="');
+         out.push($('.thumbnail_file_path', slide)[0].value);
+         out.push('" class="thumbnail"/></span></li>');     
+         return out.join('\n');
+    } 
+});
+});
+
+    </script>
+<% end %>
+

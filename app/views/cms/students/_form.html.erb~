@@ -1,15 +1,16 @@
-<%= f.cms_text_field :name %>
-
 <%= f.cms_text_field :first_name %>
 <%= f.cms_text_field :last_name %>
 <%= f.cms_text_editor :description %>
 <%= f.cms_text_field :website %>
-<%= f.label :headshot %>
-<%= f.select :headshot, @headshots.collect{|ah| ah.attachment.file_path} %>
 
+<div class='fields text_field'>
+<%= f.label :headshot %>
+<%= f.select :headshot_id, ImageBlock.with_tag('headshot') .collect{|ah| [ah.attachment.file_path, ah.id]} %>
+</div>
+<div class='fields text_field'>
 <%= f.label :thumbnail %>
 
-<%= f.select :thumbnail, @thumbnails.collect{|ah| ah.attachment.file_path}, :label => "Thumbnail" %>
+<%= f.select :thumbnail_id, ImageBlock.with_tag('thumbnail').collect{|ah| [ah.attachment.file_path, ah.id ]} %>
+</div?
 
-
-
+<%= f.cms_tag_list %>

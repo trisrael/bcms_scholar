@@ -5,8 +5,9 @@ class CreateStudents < ActiveRecord::Migration
       t.string :last_name 
       t.text :description, :size => (64.kilobytes + 1) 
       t.string :website
-      t.text :description, :size => (64.kilobytes + 1)
-    end
+      t.integer :headshot_id
+      t.integer :thumbnail_id
+  end
     
     
     ContentType.create!(:name => "Student", :group_name => "People")

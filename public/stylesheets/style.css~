@@ -4,7 +4,7 @@
  width: 20%;
 }
 
-.cms #floating_sidebar{
+.cms #sidebar{
  width: 20%;
  position: absolute;
  margin-left: -21.5%;
@@ -257,6 +257,39 @@ div#menu li a .even{
  width: 30px;
  height:23px;
  margin:8px 0 0 12px;
+}
+
+/** The Company **/
+
+.company_container .pager li{
+ display:inline;
+}
+
+.company_container .pager li span{   
+ background-color: #BFBFBF;
+ padding:39px 3px 0;
+}
+
+.company_container .pager img{ 
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.company_container .pager img{ 
+ cursor: pointer;
+}
+
+.company_container .pager .activeSlide img{ 
+  opacity: 1;
+}
+
+.company_container .pager .activeSlide span{
+ background-color: #0098e1
+}
+
+.students .pager a{
+ background-color: grey;
+ opacity: .8; 
 }
 
 /** Faculty Bio **/

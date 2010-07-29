@@ -1,0 +1,25 @@
+<div id='<%=@content_block.name.underscore.gsub(/\s+/, "_")%>'class='student'>
+ <div class='content'>
+  <div class='bio'>
+   <p>
+    <h3><%= @content_block.name %> </h3>
+    <%= "<span class='url website'>#{@content_block.website}</span>" unless @content_block.website.blank? %>
+ <%= @content_block.description %>
+   </p>
+  <% unless @content_block.updates.empty? %>
+    <ul id='bio_updates'>
+     <%  @content_block.updates.each do |update| %>
+      <li><%= render_connectable(update) %></li>        
+     <% end %>
+    </div>  
+  <% end %>
+  </div>
+
+  <div class='image_wrapper'>
+   <%= image_tag(@content_block.headshot.attachment.file_path) %>
+  </div>
+  <input type='hidden' value='<%=@content_block.thumbnail.attachment.file_path%>'
+  class='thumbnail_file_path'/>
+ </div>
+</div>
+
