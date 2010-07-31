@@ -29,6 +29,7 @@ config.action_view.cache_template_loading            = true
 SITE_DOMAIN="184.106.197.222" 
 # This should match the URL for your public CMS site. 
 config.action_view.cache_template_loading = false 
-config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/" config.action_mailer.smtp_settings = {:address => 'mail.yourmailserver.com',  :domain => "#{SITE_DOMAIN}"}
+config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
+config.action_mailer.smtp_settings = {:address => 'mail.yourmailserver.com',  :domain => "#{SITE_DOMAIN}"}
 
 
