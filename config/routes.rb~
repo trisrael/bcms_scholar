@@ -1,9 +1,13 @@
 ActionController::Routing::Routes.draw do |map|
+  map.namespace('cms') {|cms| cms.content_blocks :updates }
+
   map.namespace('cms') {|cms| cms.content_blocks :testimonials }
 
   map.resources :photos
 
   map.namespace('cms') {|cms| cms.content_blocks :students }
+
+  map.namespace('cms') {|cms| cms.content_blocks :faculty_bios }
 
   #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
   def setup_section_routing
@@ -17,17 +21,22 @@ ActionController::Routing::Routes.draw do |map|
 
   map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
 
-  map.namespace('cms') {|cms| cms.content_blocks :bio_updates }
 
  setup_section_routing do
     Section.all(:conditions => {:hidden => false}).each do |section|
        section_path = section.path[1...section.path.size]
-      map.connect section_path, :controller => 'sections'
-      map.connect section_path + '/:tab', :controller => 'sections'
+      map.connect section_path, :controller => 'ddscholar/new_sections'
+      map.connect section_path + '/:tab', :controller => 'ddc/new_sections'
+map.namespace('cms') do |cms|
+      cms.connect section_path, :controller => 'ddscholar/new_sections'
+      cms.connect section_path + '/:tab', :controller => 'ddc/new_sections'
+     end
     end
   end
 
+
   map.routes_for_browser_cms
+
 
  
 

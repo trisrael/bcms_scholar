@@ -25,12 +25,18 @@ ActionController::Routing::Routes.draw do |map|
  setup_section_routing do
     Section.all(:conditions => {:hidden => false}).each do |section|
        section_path = section.path[1...section.path.size]
-      map.connect section_path, :controller => 'sections'
-      map.connect section_path + '/:tab', :controller => 'sections'
+      map.connect section_path, :controller => 'ddc/new_sections'
+      map.connect section_path + '/:tab', :controller => 'ddc/new_sections'
+map.namespace('cms') do |cms|
+      cms.connect section_path, :controller => 'ddscholar/new_sections'
+      cms.connect section_path + '/:tab', :controller => 'ddc/new_sections'
+     end
     end
   end
 
+
   map.routes_for_browser_cms
+
 
  
 
