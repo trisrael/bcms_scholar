@@ -1,23 +1,40 @@
 #############################################################
 #	Application
 #############################################################
-set :application, "ddscholar"
+set :application, "ddcscholar"
 
-
+set :location, "184.106.197.222" 
+role :app, location
+role :web, location
+role :db, location , :primary => true
 
 #############################################################
 #	SCM/Repository
 #############################################################
 
 set :scm, :git
-set :repository,  "git@github.com:trisrael/bcms_scholar.git"
+set :repository,  "git://github.com/trisrael/bcms_scholar.git"
 
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-role :web, "your web-server here"                          # Your HTTP server, Apache/etc
-role :app, "your app-server here"                          # This may be the same as your `Web` server
-role :db,  "your primary db-server here", :primary => true # This is where Rails migrations will run
-role :db,  "your slave db-server here"
+
+#############################################################
+#	Server
+#############################################################
+
+
+#server "184.106.197.222", :app, :web, :db, :primary => true
+set :user, "admin"
+set :deploy_to, "/home/admin/public_html/#{application}"
+set :runner, user
+set :use_sudo, false
+
+
+
+#############################################################
+#	SSH
+#############################################################
+
+set :port, 30000
 
 # If you are using Passenger mod_rails uncomment this:
 # if you're still using the script/reapear helper you will need
@@ -31,7 +48,7 @@ role :db,  "your slave db-server here"
    end
  end
 
-server "184.106.197.222", :app, :web, :db, :primary => true
+
 
 task :link_shared_directories do
   run "ln -s #{shared_path}/uploads #{release_path}/uploads" 
