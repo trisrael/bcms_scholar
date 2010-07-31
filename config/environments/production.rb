@@ -26,8 +26,9 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
-SITE_DOMAIN="localhost:3000"
-config.action_view.cache_template_loading = false
-config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
+SITE_DOMAIN="www.sitedomain.com" 
+# This should match the URL for your public CMS site. 
+config.action_view.cache_template_loading = false 
+config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/" config.action_mailer.smtp_settings = {:address => 'mail.yourmailserver.com',  :domain => "#{SITE_DOMAIN}"}
 
-#Append StyleSheets from database to public/stylesheets/style.css
+

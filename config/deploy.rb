@@ -31,3 +31,11 @@ role :db,  "your slave db-server here"
    end
  end
 
+server "184.106.197.222", :app, :web, :db, :primary => true
+
+task :link_shared_directories do
+  run "ln -s #{shared_path}/uploads #{release_path}/uploads" 
+end 
+
+after "deploy:update_code", :link_shared_directories
+
