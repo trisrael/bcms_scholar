@@ -29,7 +29,7 @@ class Ddc::NewSectionsController < Cms::ContentController
 
   def setup_section_attributes
 
-    path = request.env['REQUEST_PATH']
+    path = request.env['REQUEST_PATH'] || request.env['REQUEST_URI'] || request.env['PATH_INFO']
     
     @section = Section.find_by_path(path)
 
