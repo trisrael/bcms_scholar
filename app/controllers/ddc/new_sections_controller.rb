@@ -30,12 +30,16 @@ class Ddc::NewSectionsController < Cms::ContentController
   def setup_section_attributes
 
     path = request.env['REQUEST_PATH'] || request.env['REQUEST_URI'] || request.env['PATH_INFO']
-    
-    @section = Section.find_by_path(path)
+    #Match for the first part of the path eg: **/section_name/**page_name and the rest (page_name)
+    path.match(/(\/\w+)(\/?\w+)/)
+
+    @section = Section.find_by_path($1)
+    @current_page = Page.find_by_path(path)
 
     unless @section
       #Find the Section through one of its child pages
       @current_page = Page.find_by_path(path)
+      #TODO: better backup attempt, as this method can break.
       @section = @current_page.top_level_section
     end
 
