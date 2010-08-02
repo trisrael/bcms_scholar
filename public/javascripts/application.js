@@ -1,9 +1,11 @@
 jQuery(document).ready(function(){
 
+ //When sidebar is initialized
 if($("#sidebar").children().length == 0){
-  $("#main").css("width","80%");
-  $("#main").css("margin","0 10%");
-  $("#inner_content").css("padding-left", "0");
+ $("#inner_content").css('padding-left', '0px');
+}else{
+ //Move Tab menu from the left side
+
 }
 
 
@@ -18,7 +20,7 @@ var Initializer = {
 setupMenu: function(){
  if(!$('#menu')){return;} // Return if the base element needed to initialize is not available
  jQuery("#menu li.current .link_hover").addClass('focused');
-/**
+
  jQuery("#menu li:not(.current)").hover(
   
  function(){
@@ -29,12 +31,23 @@ setupMenu: function(){
  }
 
  );
-**/
+
 }, 
 
 setupTabs: function() {
  jQuery(".tab_content:not(.current)").hide();
  jQuery(".tab_content.current").show();
+
+jQuery("#tab_menu li:not(.current)").hover(
+  
+ function(){
+  jQuery(this).addClass('focused');
+ },
+ function(){
+  jQuery(this).removeClass('focused');
+ }
+
+ );
  
  jQuery(".tab_header a").click(function(){
 //Switch "current" Tab selected

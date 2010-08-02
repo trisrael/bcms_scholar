@@ -1,8 +1,8 @@
 /* Layout */
 
 #sidebar{
- width: 20%;
- margin-left:-15%;
+ left:-70px;
+ top:-15px;
  position:absolute;
 }
 
@@ -15,8 +15,9 @@
 }
 
 #inner_content{
+ position: relative;
  margin-top: 15px;
- padding-left: 15%;
+ padding-left: 80px;
 }
 
 #inner_content.cms{
@@ -25,15 +26,12 @@
 }
 
 #main{
- margin-top: 3px;
  margin-left: 35px;
- width: 70%;
  margin-bottom: 30px;
 }
 
 .cms #main{
  margin-bottom: 15px;
- width: 80%
 }
 
 .cms_editing #main{
@@ -41,11 +39,11 @@
 }
 
 .cms #testimonial{
- width: 80%
+
 }
 
 #testimonial{
- width: 70%
+
 }
 
 #footer{
@@ -60,6 +58,11 @@ body, html{
  font-size: 12px;
 }
 
+body #content_wrapper{
+ margin-left: 12.5%;
+ width:  936px;
+}
+
 h1, h3, h4, h5, h2{
 margin: 0 0;
 }
@@ -71,6 +74,7 @@ h3{
 a, a:visited, a:link{
   text-decoration: none;
   color: black;
+  border: 0 none;
 }
 
 h3 .odd{
@@ -89,32 +93,37 @@ li{
  margin-top: 20px;
 }
 
+#links > img {
+  border: 0 none;
+}
+
+
+#header{
+  overflow:hidden;
+  position: relative;
+}
+
+#header #links{
+ position: absolute;
+ top: 0px;
+ left: 40px;
+}
+
 
 /* Menu */
 
-#header{
-}
-
-#header .wrapper{
-  margin-left: 10%;
-  overflow-x:hidden;
-  width: 80%;
-  background-color: #0E0E0E;
-}
 
 #content{
- width: 80%;
  margin:0 auto;
 }
 
 div#menu {
- padding:0 18%;
  height: 2.5em; 
 }
 
 div#menu ul {
  margin: 0px;
- padding: 0px;
+ padding-left: 20px;
  font-size: 15px;
  font-weight: bold;
  letter-spacing: -0.5px;
@@ -124,23 +133,13 @@ div#menu ul {
 
 div#menu li {
  display: inline;
+ margin-right:42px;
 }
 
 div#menu li a {
  background-color: white;
- margin:4px 6px 0;
  padding:0 2px;
  text-decoration:none;
-}
-
-div#menu li.current a{
- border-bottom: 2px solid #4FB0FF;
- border-left: 2px solid #4FB0FF;
-}
-
-div#menu li.focused a {
- border-bottom: 2px solid #4FB0FF;
- border-left: 2px solid #4FB0FF;
 }
 
 div#menu li a .even, .odd{
@@ -155,44 +154,35 @@ div#menu li a .even{
 }
 
 .link_hover{
+ height:18px;
+ margin-left:-6px;
+ margin-top:5px;
  position:absolute;
- width: 17px;
- height: 16px;
- z-index:-16;
-}
+ width:4px;
+ }
 
 .link_hover.focused{ 
- margin-top:18px;
  background-color:#4FB0FF;
- line-height:8px;
- margin-left:-11px;
 }
 
 /* Tab Menu */
 
-#tabs_container{
- padding-top:10px;
-}
-
 #tab_menu{
- float: left;
- padding-left: 5%;
- padding-right: 10px;
- font-size: 13px;
+ font-size: 12px;
 }
 
 .tab_header a{
  text-decoration: none;
- border: 1px solid #5F5F5F;
  padding: 2px 3px;
  display: block;
+ text-transform: uppercase;
 }
 
 .tab_header a span{
  margin-right: 0.2em;
 }
 
-.tab_header.current a{
+.tab_header.current a, .tab_header.focused a{
  color: #feffff;
 }
 
@@ -202,9 +192,10 @@ div#menu li a .even{
  color: black;
  text-align: center;
  background-color: #8c8c8c;
+ font-weight: bold;
 }
 
-.tab_header.current{
+.tab_header.current, .tab_header.focused{
  background-color: #323433;
 }
 
@@ -212,7 +203,7 @@ div#menu li a .even{
 /* Customized Section Tab Menus */
 
 .tab_header.the_program{
-  width: 10em;
+  width: 12em;
 }
 
 .tab_header.media{
@@ -227,7 +218,7 @@ div#menu li a .even{
  margin-right: 1px;
 }
 
-.tab_header.the_company.current a span.partial_1{
+.tab_header.the_company.current a span.partial_1, .tab_header.the_company.focused a span.partial_1{
  color: #0098e1;
 }
 
@@ -242,15 +233,8 @@ div#menu li a .even{
 /** Testimonial **/
 
 .testimonial{
-/**
- background-image:url("/images/ddc/testimonial/top_left_corner.png"), url("/images/ddc/testimonial/top_right_corner.png"), url("/images/ddc/testimonial/bottom_left_corner.png") , url("/images/ddc/testimonial/bottom_right_corner.png");
- background-position: left top, right top, bottom left, bottom right;
- background-repeat:no-repeat;
-**/
- border-radius: 6px;
- -moz-border-radius: 6px;
   border: 2px solid;
-  padding:10px 10px;
+  padding:10px 10px 23px 10px;
   margin-bottom: 30px;
   font-size: 110%;
 }
@@ -265,10 +249,14 @@ div#menu li a .even{
  position: absolute;
  width: 30px;
  height:23px;
- margin:8px 0 0 12px;
+ margin:21px 0 0 12px;
 }
 
 /** The Company **/
+
+.company_container .pager{
+ padding:0;
+}
 
 .company_container .pager li{
  display:inline;
@@ -365,7 +353,7 @@ div#menu li a .even{
 
 .carousel_container{
  position: relative;
- margin: 40px 20%;
+ margin-left:90px;
 }
 
 .carousel{
@@ -373,8 +361,9 @@ div#menu li a .even{
 }
 
 #pager{
- position:absolute;
- right:-100px;
+ position:relative;
+ left: 570px;
+ top: 60px;
 }
 
 #pager a{
@@ -395,27 +384,28 @@ div#menu li a .even{
 }
 
 .carousel_page.content{
- height:350px;
- width:500px;
+ height: 420px;
+ width:600px;
  overflow: hidden;
  background-color: black;
 }
+
 .carousel_page a{
 
- height: 350px;
 }
 
 
 .carousel_page .eyecatcher{
  text-align: center;
- width: 330px;
+ width: 430px;
+ height: 420px;
  float: left;
  overflow: hidden;
 }
 
 .carousel_page .descriptive{
  padding: 5px;
- width: 130px;
+ width: 170px;
  overflow: hidden;
 }
 
@@ -427,6 +417,7 @@ div#menu li a .even{
  padding-left: 15px;
  text-indent: -15px;
 }
+
 .carousel_page .descriptive h3 a{
   color: #059EEE; 
   text-transform:uppercase;

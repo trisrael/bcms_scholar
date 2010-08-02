@@ -9,14 +9,15 @@
   </head>
   <body style="margin: 0; padding: 0;">
      <%= cms_toolbar %>
-    <div id='links'>
-	<%= render_portlet("Social Media Headers") %>
-    </div>
-
+<div id='content_wrapper'>
     <div id='header'>
-	<div class='wrapper'>
 	 <%= image_tag 'header.jpg' %>
-	</div>
+
+     <div id='links'>
+	<%= render_portlet("Social Media Headers") %>
+        <a id='contact_us_link' href='/contact_us'>&nbsp</a> 
+     </div>
+          
     </div>
 
     <div id="content" class='<%='cms_editing' if @mode == 'edit' && @section %>'>
@@ -39,5 +40,6 @@
     </div>
     <div id='footer'>
     </div>
+   </div>
   </body>
 </html>
