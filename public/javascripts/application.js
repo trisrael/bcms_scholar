@@ -1,8 +1,9 @@
 jQuery(document).ready(function(){
 
-if($("#floating_sidebar:empty")){
+if($("#sidebar").children().length == 0){
   $("#main").css("width","80%");
   $("#main").css("margin","0 10%");
+  $("#inner_content").css("padding-left", "0");
 }
 
 

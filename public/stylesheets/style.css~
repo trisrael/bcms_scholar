@@ -2,6 +2,8 @@
 
 #sidebar{
  width: 20%;
+ margin-left:-15%;
+ position:absolute;
 }
 
 .cms #sidebar{
@@ -14,6 +16,7 @@
 
 #inner_content{
  margin-top: 15px;
+ padding-left: 15%;
 }
 
 #inner_content.cms{
@@ -23,7 +26,7 @@
 
 #main{
  margin-top: 3px;
- float: left;
+ margin-left: 35px;
  width: 70%;
  margin-bottom: 30px;
 }
@@ -90,11 +93,17 @@ li{
 /* Menu */
 
 #header{
- text-align: center;
+}
+
+#header .wrapper{
+  margin-left: 10%;
+  overflow-x:hidden;
+  width: 80%;
+  background-color: #0E0E0E;
 }
 
 #content{
- width: 90%;
+ width: 80%;
  margin:0 auto;
 }
 
@@ -267,7 +276,7 @@ div#menu li a .even{
 
 .company_container .pager li span{   
  background-color: #BFBFBF;
- padding:39px 3px 0;
+ padding:35px 3px 0;
 }
 
 .company_container .pager img{ 
