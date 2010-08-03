@@ -1,4 +1,13 @@
 
 <li>
+<div class='container'>
+<div class='thumbnail'>
+<%= render_connectable(@content_block.student.thumbnail) %>
+</div>
+</div>
+
+<% end %>
+
 <p><%= @content_block.update_text %></p>
+</li>
 

@@ -19,9 +19,10 @@
  <%= @content_block.description %>
    </p>
   <% unless @content_block.updates.empty? %>
-    <ul id='bio_updates'>
+    <ul class='updates'>
+      <h4>updates:</h4>
      <%  @content_block.updates.each do |update| %>
-      <li><%= render_connectable(update) %></li>        
+      <%= render_connectable(update) %> 
      <% end %>
     </div>  
   <% end %>

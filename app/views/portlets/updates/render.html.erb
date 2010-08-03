@@ -1,0 +1,9 @@
+<div class='updates portlet'>
+<h3><%=h @portlet.name %></h3>
+<ul>
+
+<% @updates.each do |update| %>
+  <%=  render_connectable update %>
+ <% end %>
+</ul>
+</div>
