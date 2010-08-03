@@ -412,9 +412,9 @@ div#menu li a .even{
 }
 
 #pager{
- position:relative;
- left: 570px;
- top: 100px;
+  left:570px;
+  position:absolute;
+  top:-15px;
 }
 
 #pager a{

@@ -5,7 +5,7 @@ class FacultyBio < ActiveRecord::Base
   before_create :set_name
   before_update :set_name
 
-  validates_presence_of :thumbnail_id, :headshot_id, :description, :first_name, :last_name
+  validates_presence_of :first_name, :last_name
   can_tag
   
   def set_name

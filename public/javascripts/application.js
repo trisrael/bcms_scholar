@@ -122,17 +122,22 @@ var visualEditorButton = jQuery('a.sm_button');
 
 //Set content_wrapper height for footer
 var studentHeight =  $('.student:visible').height();
-var calcHeight = $('#main').height() + $('#testimonial').height() + 260;
+var mainHeight = $('#main').height();
+if($('.carousel_container').length > 0){ mainHeight -= 4*(420);}
+var calcHeight =  + $('#testimonial').height() + 260;
 var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
 if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
 $('#content_wrapper').css('height', (contentHeight + 40) + 'px');
+
 
  return false;
  });
 
 //Set content_wrapper height for footer
 var studentHeight =  $('.student:visible').height();
-var calcHeight = $('#main').height() + $('#testimonial').height() + 260;
+var mainHeight = $('#main').height();
+if($('.carousel_container').length > 0){ mainHeight -= 4*(420);}
+var calcHeight =  + $('#testimonial').height() + 260;
 var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
 if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
 $('#content_wrapper').css('height', (contentHeight + 40) + 'px');
