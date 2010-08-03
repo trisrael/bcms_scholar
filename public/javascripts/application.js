@@ -124,7 +124,7 @@ var visualEditorButton = jQuery('a.sm_button');
 var studentHeight =  $('.student:visible').height();
 var mainHeight = $('#main').height();
 if($('.carousel_container').length > 0){ mainHeight -= 4*(420);}
-var calcHeight =  + $('#testimonial').height() + 260;
+var calcHeight = mainHeight  + $('#testimonial').height() + 260;
 var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
 if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
 $('#content_wrapper').css('height', (contentHeight + 40) + 'px');
@@ -137,7 +137,7 @@ $('#content_wrapper').css('height', (contentHeight + 40) + 'px');
 var studentHeight =  $('.student:visible').height();
 var mainHeight = $('#main').height();
 if($('.carousel_container').length > 0){ mainHeight -= 4*(420);}
-var calcHeight =  + $('#testimonial').height() + 260;
+var calcHeight = mainHeight + $('#testimonial').height() + 260;
 var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
 if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
 $('#content_wrapper').css('height', (contentHeight + 40) + 'px');
