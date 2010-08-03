@@ -9,7 +9,6 @@ if($("#sidebar").children().length == 0){
 
 }
 
-
 if($('#tab_menu')){
   Initializer.setupTabs();
 } 
@@ -120,15 +119,25 @@ var visualEditorButton = jQuery('a.sm_button');
  else
  //display our tab fading it in
  jQuery('.tab_content#' + stringref).fadeIn();
+
 //Set content_wrapper height for footer
-$('#content_wrapper').css('height', (window.screen.height + 60) + 'px');
+var studentHeight =  $('.student:visible').height();
+var calcHeight = $('#main').height() + $('#testimonial').height() + 260;
+var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
+if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
+$('#content_wrapper').css('height', (contentHeight + 40) + 'px');
 
  return false;
  });
 
-
 //Set content_wrapper height for footer
-$('#content_wrapper').css('height', (window.screen.height + 60) + 'px');
+var studentHeight =  $('.student:visible').height();
+var calcHeight = $('#main').height() + $('#testimonial').height() + 260;
+var contentHeight = window.screen.height > calcHeight ? window.screen.height : calcHeight;
+if(studentHeight + calcHeight > contentHeight){contentHeight = studentHeight + calcHeight}
+$('#content_wrapper').css('height', (contentHeight + 40) + 'px');
+
+
 }
 
 

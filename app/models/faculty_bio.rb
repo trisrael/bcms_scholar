@@ -1,6 +1,17 @@
 class FacultyBio < ActiveRecord::Base
   acts_as_content_block
   belongs_to_attachment
+
+  before_create :set_name
+  before_update :set_name
+
+  validates_presence_of :thumbnail_id, :headshot_id, :description, :first_name, :last_name
+  can_tag
+  
+  def set_name
+   self.name = first_name + " " + last_name
+   true
+  end
         
         def set_attachment_file_path
           # The default behavior is use /attachments/file.txt for the attachment path,

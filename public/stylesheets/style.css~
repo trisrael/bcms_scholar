@@ -154,6 +154,10 @@ li{
  margin:0 auto;
 }
 
+#navigation_container{
+ position: relative;
+}
+
 div#menu {
  height: 2.5em; 
 }
@@ -297,6 +301,7 @@ div#menu li a .even{
 }
 
 .company_container .pager{
+
  position: relative;
  top: -60px;
  left: -40px;
@@ -339,8 +344,6 @@ div#menu li a .even{
   float: right;
   padding-left: 20px;
 }
-
-
 
 /** Faculty Bio **/
 
