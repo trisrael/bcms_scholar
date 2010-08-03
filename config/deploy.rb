@@ -29,7 +29,6 @@ set :runner, user
 set :use_sudo, false
 
 
-
 #############################################################
 #	SSH
 #############################################################
@@ -47,3 +46,20 @@ set :port, 30000
      run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
    end
  end
+
+ namespace :uploads do
+   task :copy_to_shared do
+        #Force overwrite the shared area
+	run "rm -rf public_html/ddcscholar/shared/uploads"
+	run "cp -R public_html/ddcscholar/current/uploads public_html/ddcscholar/shared/uploads"
+   end
+
+   task :copy_to_current do
+       run "rm -rf public_html/ddcscholar/current/uploads"
+       run "cp -R public_html/ddcscholar/shared/uploads public_html/ddcscholar/current/uploads"
+   end
+  end
+
+before "deploy:update", "uploads:copy_to_shared"
+after "deploy:update", "uploads:copy_to_current"
+
