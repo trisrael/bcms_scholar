@@ -1,5 +1,6 @@
 jQuery(document).ready(function(){
 
+
  //When sidebar is initialized
 if($("#sidebar").children().length == 0){
  $("#inner_content").css('padding-left', '0px');
@@ -14,6 +15,30 @@ if($('#tab_menu')){
 } 
  Initializer.setupMenu(); 
 });
+
+if($('.company_container .pager')){
+
+$('.company_container .pager li .thumbnail').hover(
+
+function(){
+
+ var el = $(this);
+if( !el.hasClass('activeSlide') ){
+  el.css('background-position', '-44px 0')
+}
+},
+
+function(){
+ var el = $(this);
+if( !el.hasClass('activeSlide') ){
+  el.css('background-position', '0 0')
+}
+}
+
+);
+
+
+}
 
 var Initializer = {
 
@@ -38,7 +63,16 @@ setupTabs: function() {
  jQuery(".tab_content:not(.current)").hide();
  jQuery(".tab_content.current").show();
 
-jQuery("#tab_menu li:not(.current)").hover(
+
+//Align TabMenu with first link
+ var firstMenuLink = $('#menu li a')[0];
+ var sidebar = $('#sidebar');
+ var sidebarLeft = sidebar[0].offsetWidth - (firstMenuLink.offsetLeft + firstMenuLink.offsetWidth);
+ sidebar.css("left",  "-" + sidebarLeft + "px");
+ 
+
+
+jQuery("#tab_menu li").hover(
   
  function(){
   jQuery(this).addClass('focused');
@@ -78,10 +112,6 @@ jQuery("#tab_menu li:not(.current)").hover(
  }
  
 var visualEditorButton = jQuery('a.sm_button');
-  if(visualEditorButton.length > 0){
-   debugger;
-  }
-
 
  //IE6 fix.
  if (jQuery.browser.msie && jQuery.browser.version.substr(0,3) == "6.0") {
@@ -90,8 +120,16 @@ var visualEditorButton = jQuery('a.sm_button');
  else
  //display our tab fading it in
  jQuery('.tab_content#' + stringref).fadeIn();
+//Set content_wrapper height for footer
+$('#content_wrapper').css('height', window.screen.height + 40 + 'px');
+
  return false;
  });
+
+
+//Set content_wrapper height for footer
+$('#content_wrapper').css('height', window.screen.height + 40 + 'px');
 }
+
 
 }

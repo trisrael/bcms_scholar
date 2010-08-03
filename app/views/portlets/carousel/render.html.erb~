@@ -25,8 +25,7 @@
  timeout: 8000,
  pager: '#pager', 
  pagerAnchorBuilder: function(idx, slide) { 
-debugger;
-        return '<li><a href="#"><img src="' + slide.title + '" width="50" height="50" /></a></li>'; 
+        return '<li><a href="#">' + slide.title + '</a></li>'; 
     } 
 });
 });

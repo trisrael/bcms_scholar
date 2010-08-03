@@ -11,11 +11,12 @@
      <%= cms_toolbar %>
 <div id='content_wrapper'>
     <div id='header'>
-	 <%= image_tag 'header.jpg' %>
+	 <%= image_tag 'header.jpg'%>
 
      <div id='links'>
 	<%= render_portlet("Social Media Headers") %>
-        <a id='contact_us_link'href='/contact_us'>&nbsp</a> 
+        <a id='contact_us_link' href='/contact_us'>
+        </a> 
      </div>
           
     </div>
@@ -37,9 +38,27 @@
      <div id='testimonial'>
       <%= container :testimonial %>
      </div>
-    </div>
-    <div id='footer'>
-    </div>
+    </div> 
    </div>
+</div>
+</div>
+
+<div style='clear:both'>&nbsp</div>
+
+   <div id='footer'>
+    <span class='links'>
+     <a href='/home'>Home.</a>
+     <a href='/contact_us'>Contact.</a>
+    </span>
+
+     <span class='author'>site design by:
+      <a href='http://www.soniabishop.com/'>sonia bishop</a>
+     </span>
+    </div>
+</div>
+
+
+
+
   </body>
 </html>

@@ -1,6 +1,7 @@
 <% id_partial = @portlet.name.underscore.gsub(/\s+/, "_") %>
 
 <div class='company_container'>
+ <ul id='<%= id_partial%>_pager' class='pager'></ul>
 <div class='students'>
 
  <div class='content'>
@@ -10,8 +11,9 @@
   <%= render_connectable(cp)%>
 <% end %>  
  </div>
- <ul id='<%= id_partial%>_pager' class='pager'/>
+
  </div>
+
 </div>
 
 <% content_for :head do %>
@@ -26,17 +28,33 @@
  speed: 1500,
  pause: true,
  slideExpr: '.student', 
- timeout: 8000,
+ timeout: 0,
  pager: '#<%= id_partial%>_pager', 
  pagerAnchorBuilder: function(idx, slide) { 
          out = [];
- 	 out.push('<li>');
-         out.push('<span class="image_wrapper">');
- 	 out.push('<img src="');
-         out.push($('.thumbnail_file_path', slide)[0].value);
-         out.push('" class="thumbnail"/></span></li>');     
+         out.push('<li>');
+         out.push('<div class="wrapper">');
+         out.push('<div class="thumbnail" ');
+         out.push('style="');
+         out.push('background: url(');
+         out.push("'" + $('.thumbnail_file_path', slide)[0].value + "'");
+         out.push(')"/>');
+         out.push('</li>');
          return out.join('\n');
-    } 
+    }, 
+ updateActivePagerLink: function(pager_id, index, slideClass){
+
+  var prevActiveSlideHtmlEl = $(pager_id + ' li .activeSlide.thumbnail');
+  var prevActiveSlideEl = $(prevActiveSlideHtmlEl);
+  prevActiveSlideEl.removeClass(slideClass);
+  prevActiveSlideEl.css('background-position', "0 0");
+  
+  var pagerHtmlEl =  $(pager_id + ' li .thumbnail')[index];
+  var pagerEl = $(pagerHtmlEl);
+  pagerEl.addClass(slideClass);
+  pagerEl.css('background-position', "-44px 0");
+}
+ 
 });
 });
 

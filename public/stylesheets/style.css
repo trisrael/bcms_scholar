@@ -8,9 +8,9 @@
 
 .cms #sidebar{
  width: 20%;
- position: absolute;
- margin-left: -21.5%;
- margin-top: 8px;
+ left:-70px;
+ top:-15px;
+ position:absolute;
  height: 5%;
 }
 
@@ -47,20 +47,52 @@
 }
 
 #footer{
- height: 30px;
+ margin-left: 12.5%;
+ width:  936px;
+ line-height: 30px;
+ background-color: #323433;
+ position: absolute;
+ bottom: ;
+ padding: 0 20px;
+ color: white;
+}
+
+#footer a,#footer a:visited,#footer a:link {
+ color: white;
+}
+
+#footer .author{
+ position: absolute;
+ right: 20px;
 }
 
 
+
 /* Main */
+
+body{
+ position: relative;
+}
 
 body, html{
  font-family: Arial, Helvetica, sans-serif, Verdana;
  font-size: 12px;
 }
 
+a img{
+ border: 0;
+}
+
+img{ 
+ border: 1px solid black;
+ margin: 0;
+ padding: 0;
+}
+
 body #content_wrapper{
  margin-left: 12.5%;
  width:  936px;
+ min-height: 200px;
 }
 
 h1, h3, h4, h5, h2{
@@ -87,15 +119,20 @@ li{
 
 /** Link **/
 
-#links{
- position: absolute;
- margin-left: 70%;
- margin-top: 20px;
+#contact_us_link{
+  display: block;
+  width: 97px;
+  height: 66px;
+  overflow-x: hidden;
+  background: transparent url('/images/contact_us.png');
 }
 
-#links > img {
-  border: 0 none;
+#contact_us_link:hover{
+  background-position: -97px 0;
+ background-position-x: -97px;
 }
+
+
 
 
 #header{
@@ -105,8 +142,8 @@ li{
 
 #header #links{
  position: absolute;
- top: 0px;
- left: 40px;
+ top:25%;
+ right: 80px;
 }
 
 
@@ -115,6 +152,10 @@ li{
 
 #content{
  margin:0 auto;
+}
+
+#navigation_container{
+ position: relative;
 }
 
 div#menu {
@@ -169,6 +210,7 @@ div#menu li a .even{
 
 #tab_menu{
  font-size: 12px;
+ position:relative;
 }
 
 .tab_header a{
@@ -254,40 +296,55 @@ div#menu li a .even{
 
 /** The Company **/
 
+.company_container{
+  padding-top: 60px;
+}
+
 .company_container .pager{
- padding:0;
+ position: relative;
+ top: -60px;
+ left: -40px;
+ }
+
+.company_container .pager .wrapper{
+ float: left;
+ width: 64px;
 }
 
-.company_container .pager li{
- display:inline;
+.company_container .pager .thumbnail{
+ margin: 2px;
+ width: 44px;
+ height: 44px;  
+ display: block;
+ overflow-x: hidden;
 }
 
-.company_container .pager li span{   
- background-color: #BFBFBF;
- padding:35px 3px 0;
+.company_container .pager div + .company_container .pager .thumbnail{
+ padding-left: 20px
 }
 
-.company_container .pager img{ 
-  display: inline-block;
-  opacity: 0.5;
+.company_container .pager .thumbnail:hover{ 
+ border: 2px solid #0098e1;
+ margin: 0;
 }
 
-.company_container .pager img{ 
- cursor: pointer;
+.company_container .pager .activeSlide.thumbnail{ 
+ border: 2px solid #0098e1;
+ margin: 0;
 }
 
-.company_container .pager .activeSlide img{ 
-  opacity: 1;
+/** Student **/
+
+.student h3{
+ text-transform: uppercase;
 }
 
-.company_container .pager .activeSlide span{
- background-color: #0098e1
+.student .image_wrapper{
+  float: right;
+  padding-left: 20px;
 }
 
-.students .pager a{
- background-color: grey;
- opacity: .8; 
-}
+
 
 /** Faculty Bio **/
 
@@ -313,10 +370,6 @@ div#menu li a .even{
 
 .faculty h3 span.first_name{
  color: #767676
-}
-
-.faculty h3 span.first_name{
-
 }
 
 .faculty img{
@@ -363,7 +416,7 @@ div#menu li a .even{
 #pager{
  position:relative;
  left: 570px;
- top: 60px;
+ top: 100px;
 }
 
 #pager a{
@@ -379,6 +432,7 @@ div#menu li a .even{
 .carousel img{
  border:none;
 }
+
 .carousel_page a, .carousel_page p,.carousel_page h3, .carousel_page div,.carousel_page a:link,.carousel_page a:visited{
  color: white; 
 }
@@ -390,11 +444,6 @@ div#menu li a .even{
  background-color: black;
 }
 
-.carousel_page a{
-
-}
-
-
 .carousel_page .eyecatcher{
  text-align: center;
  width: 430px;
@@ -405,7 +454,6 @@ div#menu li a .even{
 
 .carousel_page .descriptive{
  padding: 5px;
- width: 170px;
  overflow: hidden;
 }
 
@@ -416,11 +464,8 @@ div#menu li a .even{
 .carousel_page .descriptive h3{
  padding-left: 15px;
  text-indent: -15px;
-}
-
-.carousel_page .descriptive h3 a{
-  color: #059EEE; 
-  text-transform:uppercase;
+ color: #059EEE; 
+ text-transform:uppercase;
 }
 
 .jcarousel-list li, .jcarousel-item {
