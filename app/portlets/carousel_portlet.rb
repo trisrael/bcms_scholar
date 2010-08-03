@@ -4,7 +4,7 @@ class CarouselPortlet < Portlet
   enable_template_editor false
      
   def render
-     @carousel_pages  = CarouselPage.all
+     @carousel_pages  = CarouselPage.all(:order => "title DESC")
   end
     
 end
