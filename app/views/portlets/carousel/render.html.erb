@@ -19,7 +19,7 @@
 
 $(".descriptive").each(function(i, el){
   var elObj = $(el);
-  var newHeight = 420 - elObj.height();
+  var newHeight = 420 - elObj.innerHeight();
   elObj.css("top", newHeight); 
 });
 
