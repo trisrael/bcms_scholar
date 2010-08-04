@@ -61,6 +61,10 @@
  color: white;
 }
 
+#footer span + span{
+ margin-left: 40px;
+}
+
 #footer .author{
  position: absolute;
  right: 20px;
@@ -114,7 +118,7 @@ h3 .odd{
 }
 
 li{
- list-style-type: none;
+ list-style-type: none;	
 }
 
 /** Link **/
@@ -146,8 +150,8 @@ li{
 
 #header #links{
  position: absolute;
- top:25%;
- right: 80px;
+ top: 25px;
+ right: 20px;
 }
 
 
@@ -467,9 +471,14 @@ div#menu li a .even{
 }
 
 #pager{
-  left:570px;
+  left:535px;
   position:absolute;
-  top:-15px;
+  top:-13px;
+  font-weight: bold;
+}
+
+#pager li{
+ margin-bottom: 6px;
 }
 
 #pager a{
@@ -492,7 +501,7 @@ div#menu li a .even{
 
 .carousel_page.content{
  height: 420px;
- width:600px;
+ width:570px;
  overflow: hidden;
  background-color: black;
 }
@@ -506,17 +515,29 @@ div#menu li a .even{
 }
 
 .carousel_page .descriptive{
- padding: 5px;
+ padding-left: 5px;
+ padding-bottom: 25px;
  overflow: hidden;
+ padding-right:45px;
+ position: relative;
 }
 
-.carousel_page .descriptive .content{
-
+.carousel_page .descriptive p{
+ font-weight: bold;
+ font-size:13px;
 }
 
-.carousel_page .descriptive h3{
- padding-left: 15px;
- text-indent: -15px;
+.carousel_page .descriptive p.more_info{
+ text-transform: uppercase;
+ text-decoration: underline;
+ color: #059EEE;
+ font-weight: 500;
+ font-size:12px;
+ margin-top: 20px;
+}
+
+
+.carousel_page .descriptive h2{
  color: #059EEE; 
  text-transform:uppercase;
 }

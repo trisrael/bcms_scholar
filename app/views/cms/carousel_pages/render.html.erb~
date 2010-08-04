@@ -21,9 +21,11 @@
 
  <div class='descriptive'>
    <div class='content'>
- <h3><%= @content_block.title %></h3>
+ <h2><%= @content_block.title %></h2>
   <%= @content_block.descriptive_content %>
    </div>
+
+ <p class='more_info'>More Info<p>
  </div>
 
 </div>

@@ -27,7 +27,15 @@
  pagerAnchorBuilder: function(idx, slide) { 
         return '<li><a href="#">' + slide.title + '</a></li>'; 
     } 
+}
+);
+
+$(".descriptive").each(function(i, el){
+  var elObj = $(el);
+  var newHeight = 420 - elObj.height();
+  elObj.css("top", newHeight); 
 });
+
 });
     </script>
 <% end %>
