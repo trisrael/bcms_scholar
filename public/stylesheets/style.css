@@ -172,7 +172,7 @@ div#menu {
 
 div#menu ul {
  margin: 0px;
- padding-left: 20px;
+ padding-left: 60px;
  font-size: 15px;
  font-weight: bold;
  letter-spacing: -0.5px;
@@ -182,7 +182,7 @@ div#menu ul {
 
 div#menu li {
  display: inline;
- margin-right:42px;
+ margin-right:25px;
 }
 
 div#menu li a {
