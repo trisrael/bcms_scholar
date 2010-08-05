@@ -22,8 +22,9 @@
     <ul class='updates'>
       <h4>updates:</h4>
      <%  @content_block.updates.each do |update| %>
-      <li><%= render_connectable(update) %></li>        
+      <%= render_connectable(update) %> 
      <% end %>
+</ul>
     </div>  
   <% end %>
   </div>
