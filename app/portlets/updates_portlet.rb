@@ -4,7 +4,7 @@ class UpdatesPortlet < Portlet
   enable_template_editor false
      
   def render
-    @updates = Update.with_tag(self.tag_list)
+    @updates = Update.with_tag(self.tag_list).find(:all, :order => "created_at ASC")
   end
     
 end
