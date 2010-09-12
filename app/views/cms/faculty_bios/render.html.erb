@@ -6,11 +6,14 @@
   <span class='first_name'><%= @content_block.first_name.upcase %></span>
   <span class='last_name'><%= @content_block.last_name.upcase %></span>
  </h3>
- <p><%= @content_block.description %></p>
+
  <% if @content_block.website %>
  <a href='<%= @content_block.website %>'><%= @content_block.website %></a>
  <% end %>
 
+ <p><%= @content_block.description %></p>
+
  <div class='border_element'>&nbsp</div>
 </div>
+<div style='clear:both'>&nbsp</div>
 

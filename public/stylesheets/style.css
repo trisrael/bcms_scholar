@@ -1,15 +1,15 @@
 /* Layout */
 
 #sidebar{
- left:-70px;
- top:-15px;
+ left:-40px;
+ top:-10px;
  position:absolute;
 }
 
 .cms #sidebar{
  width: 20%;
- left:-70px;
- top:-15px;
+ left:-40px;
+ top:-10px;
  position:absolute;
  height: 5%;
 }
@@ -17,12 +17,12 @@
 #inner_content{
  position: relative;
  margin-top: 15px;
- padding-left: 80px;
+ padding-left: 100px;
 }
 
 #inner_content.cms{
   padding-left: 22%;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 #main{
@@ -154,12 +154,11 @@ li{
  right: 20px;
 }
 
-
 /* Menu */
-
 
 #content{
  margin:0 auto;
+ padding-top: 5px;
 }
 
 #navigation_container{
@@ -172,7 +171,7 @@ div#menu {
 
 div#menu ul {
  margin: 0px;
- padding-left: 60px;
+ padding-left: 45px;
  font-size: 15px;
  font-weight: bold;
  letter-spacing: -0.5px;
@@ -237,7 +236,7 @@ div#menu li a .even{
 }
 
 .tab_header{
- width:12em;
+ width:8em;
  margin-bottom: 6px;
  color: black;
  text-align: center;
@@ -251,18 +250,6 @@ div#menu li a .even{
 
 
 /* Customized Section Tab Menus */
-
-.tab_header.the_program{
-  width: 12em;
-}
-
-.tab_header.media{
-  width: 6em;
-}
-
-.tab_header.the_company{
- width: 8em;
-}
 
 .tab_header.the_company a span{
  margin-right: 1px;
@@ -417,7 +404,7 @@ div#menu li a .even{
 .faculty .image_container{
  float: left;
  padding: 2px 10px 0 0 ;
- height: 160px;
+ height: 162px;
  overflow-y: hidden;
 }
 

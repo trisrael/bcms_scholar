@@ -62,15 +62,6 @@ setupTabs: function() {
  jQuery(".tab_content:not(.current)").hide();
  jQuery(".tab_content.current").show();
 
-
-//Align TabMenu with first link
- var firstMenuLink = $('#menu li a')[0];
- var sidebar = $('#sidebar');
- var sidebarLeft = sidebar[0].offsetWidth - (firstMenuLink.offsetLeft + firstMenuLink.offsetWidth);
- sidebar.css("left",  "-" + sidebarLeft + "px");
- 
-
-
 jQuery("#tab_menu li").hover(
   
  function(){
