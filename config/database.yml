@@ -41,7 +41,7 @@ production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ddcscholar_production
+  database: ddc_scholarship
   pool: 5
   username: root
   socket: /var/run/mysqld/mysqld.sock

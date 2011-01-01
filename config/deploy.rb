@@ -3,7 +3,7 @@
 #############################################################
 set :application, "ddcscholar"
 
-set :location, "184.106.197.222" 
+set :location, "10.179.100.215" 
 role :app, location
 role :web, location
 role :db, location , :primary => true
@@ -23,9 +23,9 @@ set :repository,  "git://github.com/trisrael/bcms_scholar.git"
 
 
 #server "184.106.197.222", :app, :web, :db, :primary => true
-set :user, "admin"
-set :deploy_to, "/home/admin/public_html/#{application}"
-set :runner, user
+set :user, "root"
+set :deploy_to, "/var/www/public_html/#{application}"
+set :runner, root
 set :use_sudo, false
 
 
