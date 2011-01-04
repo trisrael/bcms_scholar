@@ -1,6 +1,0 @@
-<ul class='link_list'>
-<% @page_links.each do |pl| %>
-<li>
-  <%= render_connectable(pl) %>
-<li>
-<% end %>

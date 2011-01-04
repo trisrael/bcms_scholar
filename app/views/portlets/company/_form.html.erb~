@@ -1,7 +1,0 @@
-<%= f.cms_text_field :name %>
-<div class='fields text_fields'>
- <%= f.label "Filter Students by tag:" %>
- <%= f.select :student_filter, Tag.find(:all, :select => "tags.name", :joins => :taggings, :conditions => "taggings.taggable_type = 'Student'").collect{|tag| tag.name} %>
-</div>
-
-

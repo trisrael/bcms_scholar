@@ -1,8 +1,8 @@
 #############################################################
 # Application
 #############################################################
+require 'bcms_content_syncing/cap_tasks'
 set :application, "ddcscholar"
-
 set :location, "184.106.201.79" 
 role :app, location
 role :web, location
@@ -58,8 +58,7 @@ end
        run "cp -R public_html/ddcscholar/shared/uploads public_html/ddcscholar/current/uploads"
    end
   end
-
-
+  
 #These only work after initial install
 before "deploy:update", "uploads:copy_to_shared"
 after "deploy:update", "uploads:copy_to_current"

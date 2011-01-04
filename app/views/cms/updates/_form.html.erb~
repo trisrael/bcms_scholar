@@ -1,4 +1,0 @@
-<%= f.cms_text_field :name %>
-<%= f.label :student %>
-<%= f.select :student_id, Student.all.collect{|st| [st.name, st.id]} %>
-<%= f.cms_text_area :update_text %>
