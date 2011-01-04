@@ -47,15 +47,13 @@ end
 
  namespace :uploads do
    task :copy_to_shared do
-        #Force overwrite the shared area
-        shared_uploads = "public_html/ddcscholar/shared/uploads"
-  run "rm -rf #{shared_uploads}"
-  run "cp -R public_html/ddcscholar/current/uploads #{shared_uploads}"
+    #Force overwrite the shared area
+    shared_uploads = "public_html/ddcscholar/shared/uploads"
+    run "cp -Rf public_html/ddcscholar/current/uploads #{shared_uploads}"
    end
 
    task :copy_to_current do
-       run "rm -rf public_html/ddcscholar/current/uploads"
-       run "cp -R public_html/ddcscholar/shared/uploads public_html/ddcscholar/current/uploads"
+       run "cp -Rf public_html/ddcscholar/shared/uploads public_html/ddcscholar/current/uploads"
    end
   end
   
