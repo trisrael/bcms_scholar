@@ -10,14 +10,19 @@ Rails::Initializer.run do |config|
   config.gem 'browsercms', :version => '3.1.0'
   config.gem 'bcms_fckeditor'
   config.gem 'bcms_content_syncing'
+  config.gem "factory_girl", :lib => false  
   #config.gem 'bcms_lb_photo_gallery', :version => '1.0.0'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
 
   # Add additional load paths for your own custom dirs
-  # config.load_paths += %W( #{RAILS_ROOT}/extras )
-
+  # config.load_paths += %W( #{RAILS_ROOT}/vendor/gems )
+  # config.gem 'bcms_content_syncing'
+  config.load_paths += Dir["#{RAILS_ROOT}/vendor/gems/**"].map do |dir| 
+    File.directory?(lib = "#{dir}/lib") ? lib : dir
+  end
+    
   # Specify gems that this application depends on and have them installed with rake gems:install
   # config.gem "bj"
   # config.gem "hpricot", :version => '0.6', :source => "http://code.whytheluckystiff.net"

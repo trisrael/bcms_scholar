@@ -1,0 +1,1180 @@
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (151.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (107.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (38.9ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.6ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (2.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.8ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (25.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (7.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (12.7ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (3.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (2.0ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (13.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.4ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (2.0ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.4ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (4.7ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.7ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (3.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (1.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.5ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.2ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (1.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.7ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.1ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.2ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.4ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (1.4ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (14.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (1.0ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.3ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.4ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (1.2ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (8.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (11.4ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.5ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (26.6ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (30.2ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.5ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (18.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.4ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (2.7ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (1.7ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.6ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.1ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.1ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.3ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.4ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.2ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (1.3ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (3.8ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.3ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.1ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.5ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.8ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.9ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.6ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.5ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.6ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.6ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.1ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.5ms)[0m   [0mSELECT * FROM `attachments` WHERE (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.5ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (22.0ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '8805617780') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.3ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '8805617780') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '8805617780') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (3.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (1.9ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (2.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mAttachment Load (0.4ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '7605811157') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mAttachment Load (0.1ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '7605811157') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Load (0.1ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '7605811157') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (4.8ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.6ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock::Version Columns (40.7ms)[0m   [0;1mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;35;1mImageBlock Create (60.9ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:07', NULL, 0, NULL, '2011-01-07 20:26:07', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.6ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:07', NULL, 0, NULL, '2011-01-07 20:26:07', 0, 0, 1, NULL, 'Created', 1, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.6ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mConnector Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `connectors`[0m
+  [4;35;1mPage Load Including Associations (13.0ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTagging Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (2.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 1) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.4ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 1 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (104.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock Create (0.4ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:08', NULL, 0, NULL, '2011-01-07 20:26:08', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:08', NULL, 0, NULL, '2011-01-07 20:26:08', 0, 0, 1, NULL, 'Created', 2, NULL)[0m
+  [4;36;1mImageBlock::Version Load (1.2ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (1.0ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.7ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 2) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 2 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (44.2ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.3ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:08', NULL, 0, NULL, '2011-01-07 20:26:08', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.2ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('AÑ,6B', NULL, '2011-01-07 20:26:08', NULL, 0, NULL, '2011-01-07 20:26:08', 0, 0, 1, NULL, 'Created', 3, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 3) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.9ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 3 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.6ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 3) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (2.4ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 3 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.5ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (41.5ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (6.7ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (2.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock::Version Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;35;1mImageBlock Create (0.9ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 1, NULL, 'Created', 4, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 4) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mConnector Columns (3.7ms)[0m   [0;1mSHOW FIELDS FROM `connectors`[0m
+  [4;35;1mPage Load Including Associations (0.7ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 4 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTagging Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 4) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.4ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 4 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (75.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock Create (0.4ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.2ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 1, NULL, 'Created', 5, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 5) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.7ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 5 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.4ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 5) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.2ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 5 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (52.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.3ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.5ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.2ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('@Eqn0u8', NULL, '2011-01-07 20:26:44', NULL, 0, NULL, '2011-01-07 20:26:44', 0, 0, 1, NULL, 'Created', 6, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 6) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.5ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 6 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 6) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.2ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 6 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK TO SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (52.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (2.0ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (16.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (2.6ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.9ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.9ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.8ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.1ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock::Version Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;35;1mImageBlock Create (0.4ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 1, NULL, 'Created', 7, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 7) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mConnector Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `connectors`[0m
+  [4;35;1mPage Load Including Associations (0.9ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 7 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTagging Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (0.5ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 7) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.4ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 7 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (63.6ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/0281228373') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mAttachment Load (0.5ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '0281228373') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (76.9ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock Create (0.4ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.5ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 1, NULL, 'Created', 8, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 8) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.6ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 8 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.4ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 8) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.4ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 8 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/0281228373') AND (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mAttachment Load (0.1ms)[0m   [0;1mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '0281228373') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;35;1mSQL (64.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.3ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.7ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.7ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('ë2q\'', NULL, '2011-01-07 20:50:47', NULL, 0, NULL, '2011-01-07 20:50:47', 0, 0, 1, NULL, 'Created', 9, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.7ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 9) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.9ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 9 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (1.0ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 9) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.6ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 9 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/0281228373') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mAttachment Load (0.2ms)[0m   [0mSELECT * FROM `attachments` WHERE (`attachments`.`name` = '0281228373') AND (attachments.deleted = 0) LIMIT 1[0m
+  [4;36;1mSQL (51.4ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.6ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.7ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock::Version Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;35;1mImageBlock Create (0.3ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:15', NULL, 0, NULL, '2011-01-07 20:54:15', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.3ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:15', NULL, 0, NULL, '2011-01-07 20:54:15', 0, 0, 1, NULL, 'Created', 10, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 10) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mConnector Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `connectors`[0m
+  [4;35;1mPage Load Including Associations (0.6ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 10 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTagging Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (0.9ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 10) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.2ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 10 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/6/5207742641') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (101.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.3ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:16', NULL, 0, NULL, '2011-01-07 20:54:16', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.3ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:16', NULL, 0, NULL, '2011-01-07 20:54:16', 0, 0, 1, NULL, 'Created', 11, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.6ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 11) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.5ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 11 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 11) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.5ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 11 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/6/5207742641') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (41.4ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.4ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:16', NULL, 0, NULL, '2011-01-07 20:54:16', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.6ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('PÅä;Äî', NULL, '2011-01-07 20:54:16', NULL, 0, NULL, '2011-01-07 20:54:16', 0, 0, 1, NULL, 'Created', 12, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.6ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 12) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.8ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 12 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.4ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 12) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.3ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 12 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/6/5207742641') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (44.8ms)[0m   [0mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (4.9ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.8ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mAttachment Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `attachments`[0m
+  [4;36;1mImageBlock Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `file_blocks`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock::Version Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;35;1mImageBlock Create (0.8ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.7ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 1, NULL, 'Created', 13, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.8ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 13) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mConnector Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `connectors`[0m
+  [4;35;1mPage Load Including Associations (1.3ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 13 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTagging Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `taggings`[0m
+  [4;35;1mTag Load (0.7ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 13) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.4ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 13 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/3/2468814304') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (81.1ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (0.3ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.7ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 1, NULL, 'Created', 14, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.7ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 14) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (1.1ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 14 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.8ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 14) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.8ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 14 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.4ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/3/2468814304') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (51.7ms)[0m   [0mROLLBACK[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mImageBlock Create (1.0ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.5ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.2ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('N.0l,', NULL, '2011-01-07 20:55:55', NULL, 0, NULL, '2011-01-07 20:55:55', 0, 0, 1, NULL, 'Created', 15, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 15) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Load Including Associations (0.5ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 15 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTag Load (0.5ms)[0m   [0mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 15) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;36;1mTagging Load (0.6ms)[0m   [0;1mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 15 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/3/2468814304') AND (attachments.deleted = 0) [0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (52.5ms)[0m   [0mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.3ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (14.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (1.2ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (8.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (24.9ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAttachment Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `attachments`[0m
+  [4;35;1mImageBlock Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `file_blocks`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock::Version Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;36;1mImageBlock Create (0.4ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.7ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.4ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 1, NULL, 'Created', 16, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 16) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mConnector Columns (6.1ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mPage Load Including Associations (1.3ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 16 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTagging Columns (4.0ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 16) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.4ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 16 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/1025732308') AND (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (73.5ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock Create (0.3ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.3ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 1, NULL, 'Created', 17, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 17) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.6ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 17 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 17) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.2ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 17 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/1025732308') AND (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (56.2ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock Create (0.3ms)[0m   [0mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.3ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;35;1mImageBlock::Version Create (0.4ms)[0m   [0mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('l\'Å:=', NULL, '2011-01-07 21:01:08', NULL, 0, NULL, '2011-01-07 21:01:08', 0, 0, 1, NULL, 'Created', 18, NULL)[0m
+  [4;36;1mImageBlock::Version Load (0.4ms)[0m   [0;1mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 18) ORDER BY version desc LIMIT 1[0m
+  [4;35;1mPage Load Including Associations (0.6ms)[0m   [0mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 18 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 18) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.5ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 18 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/2/1025732308') AND (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (55.3ms)[0m   [0;1mROLLBACK[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (1.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.6ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (2.3ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAttachment Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `attachments`[0m
+  [4;35;1mImageBlock Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `file_blocks`[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock::Version Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;36;1mImageBlock Create (0.4ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES(';5è\ZJ(', NULL, '2011-01-07 23:59:18', NULL, 0, NULL, '2011-01-07 23:59:18', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.5ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.6ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES(';5è\ZJ(', NULL, '2011-01-07 23:59:18', NULL, 0, NULL, '2011-01-07 23:59:18', 0, 0, 1, NULL, 'Created', 1, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.4ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 1) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mConnector Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mPage Load Including Associations (0.7ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 1 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTagging Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (0.5ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 1) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 1 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSAVEPOINT active_record_1[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT count(*) AS count_all FROM `attachments` WHERE (`attachments`.`file_path` = BINARY '/5/2813783352') AND (attachments.deleted = 0) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mRELEASE SAVEPOINT active_record_1[0m
+  [4;36;1mSQL (63.7ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (2.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (6.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (2.7ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (6.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (8.5ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (1.0ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAttachment Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `attachments`[0m
+  [4;35;1mImageBlock Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `file_blocks`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSAVEPOINT active_record_1[0m
+  [4;35;1mImageBlock::Version Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `file_block_versions`[0m
+  [4;36;1mImageBlock Create (3.8ms)[0m   [0;1mINSERT INTO `file_blocks` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `lock_version`, `archived`, `deleted`, `version`, `type`, `attachment_version`) VALUES('%hÖbá7', NULL, '2011-01-08 00:00:51', NULL, 0, NULL, '2011-01-08 00:00:51', 0, 0, 0, 1, 'ImageBlock', NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.3ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = NULL) [0m
+  [4;36;1mImageBlock::Version Create (0.3ms)[0m   [0;1mINSERT INTO `file_block_versions` (`name`, `updated_by_id`, `created_at`, `attachment_id`, `published`, `created_by_id`, `updated_at`, `archived`, `deleted`, `version`, `type`, `version_comment`, `file_block_id`, `attachment_version`) VALUES('%hÖbá7', NULL, '2011-01-08 00:00:51', NULL, 0, NULL, '2011-01-08 00:00:51', 0, 0, 1, NULL, 'Created', 2, NULL)[0m
+  [4;35;1mImageBlock::Version Load (0.4ms)[0m   [0mSELECT * FROM `file_block_versions` WHERE (`file_block_versions`.file_block_id = 2) ORDER BY version desc LIMIT 1[0m
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mConnector Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `connectors`[0m
+  [4;36;1mPage Load Including Associations (0.6ms)[0m   [0;1mSELECT `pages`.`id` AS t0_r0, `pages`.`version` AS t0_r1, `pages`.`lock_version` AS t0_r2, `pages`.`name` AS t0_r3, `pages`.`title` AS t0_r4, `pages`.`path` AS t0_r5, `pages`.`template_file_name` AS t0_r6, `pages`.`description` AS t0_r7, `pages`.`keywords` AS t0_r8, `pages`.`language` AS t0_r9, `pages`.`cacheable` AS t0_r10, `pages`.`hidden` AS t0_r11, `pages`.`published` AS t0_r12, `pages`.`deleted` AS t0_r13, `pages`.`archived` AS t0_r14, `pages`.`created_by_id` AS t0_r15, `pages`.`updated_by_id` AS t0_r16, `pages`.`created_at` AS t0_r17, `pages`.`updated_at` AS t0_r18, `connectors`.`id` AS t1_r0, `connectors`.`page_id` AS t1_r1, `connectors`.`page_version` AS t1_r2, `connectors`.`connectable_id` AS t1_r3, `connectors`.`connectable_type` AS t1_r4, `connectors`.`connectable_version` AS t1_r5, `connectors`.`container` AS t1_r6, `connectors`.`position` AS t1_r7, `connectors`.`created_at` AS t1_r8, `connectors`.`updated_at` AS t1_r9 FROM `pages` LEFT OUTER JOIN `connectors` ON connectors.page_id = pages.id WHERE ((connectors.connectable_id = 2 and connectors.connectable_type = 'AbstractFileBlock' and connectors.connectable_version = 0) AND (pages.deleted = 0)) [0m
+  [4;35;1mTagging Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `taggings`[0m
+  [4;36;1mTag Load (0.6ms)[0m   [0;1mSELECT `tags`.* FROM `tags` INNER JOIN `taggings` ON `tags`.id = `taggings`.tag_id WHERE ((`taggings`.taggable_id = 2) AND (`taggings`.taggable_type = 'AbstractFileBlock')) ORDER BY tags.name[0m
+  [4;35;1mTagging Load (0.3ms)[0m   [0mSELECT * FROM `taggings` WHERE (`taggings`.taggable_id = 2 AND `taggings`.taggable_type = 'AbstractFileBlock') [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mRELEASE SAVEPOINT active_record_1[0m
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/string.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/hash.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_support/cache/file_store.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/action_view/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/nil.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/errors.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/base.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/active_record/connection_adapters/abstract/schema_statements.rb
+~~ Loading extensions from /home/tristan/.rvm/gems/ruby-1.8.7-p330/gems/browsercms-3.1.0/lib/cms/extensions/integer.rb
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mDynamicView Load (0.2ms)[0m   [0mSELECT * FROM `dynamic_views` WHERE (`dynamic_views`.`deleted` = 0) [0m
+  [4;36;1mSQL (13.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSection Load (0.2ms)[0m   [0mSELECT * FROM `sections` WHERE (`sections`.`hidden` = 0) [0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPageRoute Load (0.1ms)[0m   [0mSELECT * FROM `page_routes` ORDER BY page_routes.name[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mAttachment Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `attachments`[0m
+  [4;35;1mImageBlock Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `file_blocks`[0m
+  [4;36;1mSQL (1.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSAVEPOINT active_record_1[0m
