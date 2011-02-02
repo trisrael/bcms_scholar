@@ -1,17 +1,17 @@
 # Be sure to restart your server when you modify this file
 
 # Specifies gem version of Rails to use when vendor/rails is not present
-# RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
+ RAILS_GEM_VERSION = '2.3.8' unless defined? RAILS_GEM_VERSION
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  config.gem 'browsercms', :version => '3.1.0'
+  config.gem 'browsercms'
   config.gem 'bcms_fckeditor'
   config.gem 'bcms_content_syncing'
   config.gem "factory_girl", :lib => false  
-  #config.gem 'bcms_lb_photo_gallery', :version => '1.0.0'
+  config.gem 'bcms_lb_photo_gallery', :version => '1.0.0'
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.

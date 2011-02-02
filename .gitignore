@@ -2,4 +2,4 @@ log/*
 config/database.yml
 *.rb~
 tmp/uploads/*
-
+.redcar

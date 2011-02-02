@@ -245,6 +245,7 @@ ActiveRecord::Schema.define(:version => 20100727063048) do
     t.integer  "updated_by_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "description"
   end
 
   create_table "group_permissions", :force => true do |t|

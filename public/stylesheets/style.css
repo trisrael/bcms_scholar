@@ -347,6 +347,17 @@ div#menu li a .even{
  color: #009DEA;
 }
 
+li + .timestamp {
+  padding-top: 4px;
+}
+
+.timestamp
+{
+  color: #808080;
+  font-style: italic;
+  padding-right: 2px;  
+}
+
 .updates p{
  font-style: italic;
 }

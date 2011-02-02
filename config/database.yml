@@ -18,7 +18,7 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: ddc_bcms_development
+  database: scholarship
   pool: 5
   username: root
   password: pleasure
