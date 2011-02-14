@@ -21,7 +21,6 @@ ActionController::Routing::Routes.draw do |map|
     map.namespace('cms') {|cms| cms.content_blocks :carousel_pages }
     
     #map.namespace(:cms) {|cms| cms.content_blocks :thumbnailed_images}
-    map.routes_for_bcms_lb_photo_gallery
     
     setup_section_routing do
         Section.all(:conditions => {:hidden => false}).each do |section|

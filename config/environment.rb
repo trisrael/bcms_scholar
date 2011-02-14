@@ -5,15 +5,12 @@
 
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
-
 Rails::Initializer.run do |config|
-  config.gem 'browsercms'  
-  config.gem "bcms_settings"
-  config.gem "bcms_seo_sitemap"
-  config.gem 'bcms_fckeditor'
-  config.gem 'bcms_content_syncing'
-  config.gem "factory_girl", :lib => false  
-  config.gem 'bcms_lb_photo_gallery', :version => '1.0.0'
+  config.gem 'browsercms' 
+  config.gem 'bcms_settings'
+  config.gem 'bcms_seo_sitemap' 
+  config.gem "bcms_fckeditor"
+
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
   # -- all .rb files in that directory are automatically loaded.
