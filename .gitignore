@@ -3,3 +3,4 @@ config/database.yml
 *.rb~
 tmp/uploads/*
 .redcar
+public/cache/*

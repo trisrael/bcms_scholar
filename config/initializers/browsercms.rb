@@ -1,4 +1,5 @@
 Cms.attachment_file_permission = 0640
+Cms::Settings.synchronize
 
 if RAILS_ENV == 'production'  
 	# Uploaded files/images will be written out to this directory 

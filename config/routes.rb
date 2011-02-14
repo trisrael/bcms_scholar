@@ -9,7 +9,7 @@ ActionController::Routing::Routes.draw do |map|
 
     map.namespace('cms') {|cms| cms.content_blocks :faculty_bios }
 
-    #customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
+    #Customize browserCMS, so that Sections get sent to SectionsController with their predefined            #template.
     def setup_section_routing
         yield if Section.table_exists?
     end
@@ -34,13 +34,10 @@ ActionController::Routing::Routes.draw do |map|
             end
         end
     end
+        
     
-    
-
-    map.routes_for_browser_cms
-    
-    
-    
+    map.routes_for_bcms_seo_sitemap
+    map.routes_for_browser_cms  
 
     # The priority is based upon order of creation: first created -> highest priority.
 

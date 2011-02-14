@@ -1,13 +1,16 @@
-class Ddc::NewSectionsController < Cms::ContentController
+module TabbedSections
   include Cms::Acts::ContentPage
-  helper :all
-  before_filter :setup_section_attributes
-  before_filter :cms_properties_setup
+    
+  def self.included(base)
+    base.before_filter :setup_section_attributes
+    base.before_filter :cms_properties_setup
+    base.helper :all
+  end
+  
   caches_page :show
   caches_page :index
   
-
-#Renders 'Section' roots, with sub-menu of children and default tab-selected unless another tab-brought in.
+  #Renders 'Section' roots, with sub-menu of children and default tab-selected unless another tab-brought in.
   def index
     set_page_mode    
     render 'sections/base.html.erb', :layout => 'templates/default'

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100727063048) do
+ActiveRecord::Schema.define(:version => 20101129011429) do
 
   create_table "attachment_versions", :force => true do |t|
     t.integer  "attachment_id"
@@ -99,6 +99,12 @@ ActiveRecord::Schema.define(:version => 20100727063048) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "cms_modules", :force => true do |t|
+    t.string  "name",        :limit => 50
+    t.text    "settings"
+    t.boolean "cms_managed",               :default => true
   end
 
   create_table "connectors", :force => true do |t|

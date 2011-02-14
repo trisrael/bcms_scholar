@@ -7,7 +7,9 @@
 require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
-  config.gem 'browsercms'
+  config.gem 'browsercms'  
+  config.gem "bcms_settings"
+  config.gem "bcms_seo_sitemap"
   config.gem 'bcms_fckeditor'
   config.gem 'bcms_content_syncing'
   config.gem "factory_girl", :lib => false  
