@@ -10,6 +10,8 @@ Rails::Initializer.run do |config|
   config.gem 'bcms_settings'
   config.gem 'bcms_seo_sitemap' 
   config.gem "bcms_fckeditor"
+#Comment out until the gem is installed correctly
+#  config.gem 'bcms_lb_photo_gallery', :version => '1.0.0'
 
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
