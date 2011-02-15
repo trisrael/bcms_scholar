@@ -22,7 +22,7 @@ ActionController::Routing::Routes.draw do |map|
     
 #    map.namespace(:cms) {|cms| cms.content_blocks :thumbnailed_images}
 
-#	map.routes_for_bcms_lb_photo_gallery
+	map.routes_for_bcms_lb_photo_gallery
 
     
     setup_section_routing do
