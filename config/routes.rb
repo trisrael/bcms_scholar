@@ -22,8 +22,7 @@ ActionController::Routing::Routes.draw do |map|
     
 #    map.namespace(:cms) {|cms| cms.content_blocks :thumbnailed_images}
 
-	map.routes_for_bcms_lb_photo_gallery
-
+    map.routes_for_bcms_lb_photo_gallery
     
     setup_section_routing do
         Section.all(:conditions => {:hidden => false}).each do |section|
@@ -35,8 +34,7 @@ ActionController::Routing::Routes.draw do |map|
                 cms.connect section_path + '/:tab', :controller => 'ddc/new_sections'
             end
         end
-    end
-        
+    end        
     
     map.routes_for_bcms_seo_sitemap
     map.routes_for_browser_cms  

@@ -6,7 +6,7 @@ config.cache_classes = true
 
 # Full error reports are disabled and caching is turned on
 config.action_controller.consider_all_requests_local = false
-config.action_controller.perform_caching             = true
+config.action_controller.perform_caching             = true 
 config.action_view.cache_template_loading            = true
 
 # See everything in the log (default is :info)
@@ -30,7 +30,7 @@ SITE_DOMAIN="scholarshipdance.com"
 # This should match the URL for your public CMS site. 
 #config.cache_store = :mem_cache_store, { :namespace => 'storeapp' }
 config.action_view.cache_template_loading = false; 
-config.action_controller.page_cache_directory = RAILS_ROOT + "/public/";
+config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/";
 #config.action_mailer.smtp_settings = {:address => 'mail.yourmailserver.com',  :domain => "#{SITE_DOMAIN}"}
 
 
