@@ -4,7 +4,8 @@ class CompanyPortlet < Portlet
   enable_template_editor false
      
   def render
-    @students = Student.with_tag(self.student_filter).find(:all, :order => 'last_name ASC')
+    @student_filter = self.student_filter
+    @students = Student.with_tag(@student_filter).find(:all, :order => 'last_name ASC')
   end
     
 end
